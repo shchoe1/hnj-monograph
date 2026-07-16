@@ -1,0 +1,67 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1001/jama.2018.12777,30326495,True,,1.000,crossref+pubmed,Prevalence of Burnout Among Physicians: A Systematic Review
+2,10.1111/inm.12606,31132216,True,,1.000,crossref+pubmed,Prevalence of burnout in mental health nurses and related factors: a systematic review and meta-analysis
+3,10.3390/ijerph182111432,34769948,True,,1.000,crossref+pubmed,"Prevalence, Risk Factors and Burnout Levels in Intensive Care Unit Nurses: A Systematic Review and Meta-Analysis"
+4,10.1080/13548506.2023.2208364,37138501,True,,1.000,crossref+pubmed,The prevalence of professional burnout among dentists: a systematic review and meta-analysis
+5,10.1186/s12889-025-25034-8,41194187,True,,1.000,crossref+pubmed,Burnout among doctors in China: a systematic review and meta-analysis
+6,10.1111/jgh.15488,33704827,True,,1.000,crossref+pubmed,"The prevalence of burnout, risk factors, and job-related stressors in gastroenterologists: A systematic review"
+7,10.3390/ijerph17207672,33096682,True,,1.000,crossref+pubmed,"Burnout in Palliative Care Nurses, Prevalence and Risk Factors: A Systematic Review with Meta-Analysis"
+8,10.1038/nn.4087,26404712,True,,1.000,crossref+pubmed,Stress weakens prefrontal networks: molecular insults to higher cognition
+9,10.3390/ijms26072940,40243556,True,,1.000,crossref+pubmed,Chronic Stress-Associated Depressive Disorders: The Impact of HPA Axis Dysregulation and Neuroinflammation on the Hippocampus-A Mini Review
+10,10.1038/s41380-025-03085-y,40610703,True,,1.000,crossref+pubmed,Central-peripheral neuroimmune dynamics in psychological stress and depression: insights from current research
+11,10.1016/j.neubiorev.2023.105378,37643681,True,,1.000,crossref+pubmed,Impact of stress on excitatory and inhibitory markers of adolescent cognitive critical period plasticity
+12,10.1111/nyas.13020,26919273,True,,1.000,crossref+pubmed,"In pursuit of resilience: stress, epigenetics, and brain plasticity"
+13,10.1016/j.psyneuen.2022.105917,36113380,True,,1.000,crossref+pubmed,The association between allostatic load and brain: A systematic review
+14,10.1016/j.psyneuen.2017.05.018,28578301,True,,1.000,crossref+pubmed,Diurnal cortisol slopes and mental and physical health outcomes: A systematic review and meta-analysis
+15,10.1016/j.psyneuen.2021.105625,34920399,True,,1.000,crossref+pubmed,Cortisol and development of depression in adolescence and young adulthood - a systematic review and meta-analysis
+16,10.1016/j.smrv.2022.101588,35091194,True,,1.000,crossref+pubmed,HPA axis activity in patients with chronic insomnia: A systematic review and meta-analysis of case-control studies
+17,10.1016/j.psyneuen.2023.106415,37879237,True,,1.000,crossref+pubmed,Effectiveness of stress management interventions to change cortisol levels: a systematic review and meta-analysis
+18,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+19,10.1053/j.gastro.2020.10.066,33493503,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis: From Motility to Mood
+20,10.1038/s41575-023-00890-0,38355758,True,,1.000,crossref+pubmed,Gastrointestinal and brain barriers: unlocking gates of communication across the microbiota-gut-brain axis
+21,10.1111/jcmm.70099,39300699,True,,1.000,crossref+pubmed,Microbiota-gut-brain axis in health and neurological disease: Interactions between gut microbiota and the nervous system
+22,10.3390/cells13171436,39273008,True,,1.000,crossref+pubmed,"Gut-Brain Axis: Role of Microbiome, Metabolomics, Hormones, and Stress in Mental Health Disorders"
+23,10.1111/cns.70593,40908772,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Connection: A New Horizon in Neurological and Neuropsychiatric Disorders
+24,10.1016/j.mce.2025.112599,40482955,True,,1.000,crossref+pubmed,"From Gut to Brain: The roles of intestinal microbiota, immune system, and hormones in intestinal physiology and gut-brain-axis"
+25,10.1038/s41575-019-0157-3,31123355,True,,1.000,crossref+pubmed,The role of short-chain fatty acids in microbiota-gut-brain communication
+26,10.1021/acschemneuro.2c00803,36868874,True,,1.000,crossref+pubmed,Short-Chain Fatty Acids in the Microbiota-Gut-Brain Axis: Role in Neurodegenerative Disorders and Viral Infections
+27,10.3389/fnins.2018.00049,29467611,True,,1.000,crossref+pubmed,The Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis
+28,10.1016/j.semcdb.2023.02.004,36803834,True,,1.000,crossref+pubmed,The gut-brain axis and cognitive control: A role for the vagus nerve
+29,10.1016/j.neubiorev.2024.105990,39716559,True,,1.000,crossref+pubmed,Vagus nerve stimulation and gut microbiota interactions: A novel therapeutic avenue for neuropsychiatric disorders
+30,10.1038/s42255-024-01108-6,39174768,True,,1.000,crossref+pubmed,Feeding gut microbes to nourish the brain: unravelling the diet-microbiota-gut-brain axis
+31,10.1093/advances/nmaa181,33693453,True,,1.000,crossref+pubmed,Diet and the Microbiota-Gut-Brain Axis: Sowing the Seeds of Good Mental Health
+32,10.1016/j.jad.2020.01.102,32056863,True,,1.000,crossref+pubmed,Gut microbiota and major depressive disorder: A systematic review and meta-analysis
+33,10.1038/s41398-023-02670-5,38065935,True,,1.000,crossref+pubmed,"Gut microbiota composition in depressive disorder: a systematic review, meta-analysis, and meta-regression"
+34,10.1111/cns.12490,26662472,True,,1.000,crossref+pubmed,Stress and the Microbiota-Gut-Brain Axis in Visceral Pain: Relevance to Irritable Bowel Syndrome
+35,10.1080/19490976.2024.2327409,38488630,True,,1.000,crossref+pubmed,Stress in the microbiome-immune crosstalk
+36,10.1016/j.phrs.2021.105840,34450312,True,,1.000,crossref+pubmed,The role of microbiota-gut-brain axis in neuropsychiatric and neurological disorders
+37,10.3390/ijms231911245,36232548,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis in Psychiatric Disorders
+38,10.1002/ptr.6055,29575228,True,,1.000,crossref+pubmed,Herbal medicines in the treatment of psychiatric disorders: 10-year updated review
+39,10.2174/1570159x1304150831122734,26412068,True,,1.000,crossref+pubmed,"Herbal Medicine for Anxiety, Depression and Insomnia"
+40,10.1002/ptr.6033,29464801,True,,1.000,crossref+pubmed,Herbal medicine for depression and anxiety: A systematic review with assessment of potential psycho-oncologic relevance
+41,10.1016/j.phymed.2023.155009,37573807,True,,1.000,crossref+pubmed,Neurovascular glial unit: A target of phytotherapy for cognitive impairments
+42,10.1016/j.phymed.2025.156927,40466510,True,,1.000,crossref+pubmed,Exploring the neuroplasticity hypothesis in depression: The role of traditional Chinese herbal medicine
+43,10.1142/S0192415X25500016,40000385,True,,1.000,crossref+pubmed,Traditional Chinese Medicine for Alzheimer's Disease: A Systematic Review and Meta-Analysis
+44,10.1136/svn-2020-000781,34446530,True,,1.000,crossref+pubmed,Would integrated Western and traditional Chinese medicine have more benefits for stroke rehabilitation? A systematic review and meta-analysis
+45,10.3390/nu13082861,34445021,True,,1.000,crossref+pubmed,Plant Adaptogens-History and Future Perspectives
+46,10.1002/hup.2911,39083548,True,,1.000,crossref+pubmed,Safety and efficacy of Withania somnifera for anxiety and insomnia: Systematic review and meta-analysis
+47,10.1002/ptr.8110,38424688,True,,1.000,crossref+pubmed,New horizons for the study of saffron (Crocus sativus L.) and its active ingredients in the management of neurological and psychiatric disorders: A systematic review of clinical evidence and mechanisms
+48,10.1002/ptr.7252,34449930,True,,1.000,crossref+pubmed,The effects of lemon balm (Melissa officinalis L.) on depression and anxiety in clinical trials: A systematic review and meta-analysis
+49,10.1016/j.phymed.2019.153099,31655395,True,,1.000,crossref+pubmed,Effects of lavender on anxiety: A systematic review and meta-analysis
+50,10.1080/10408398.2021.2021137,34978226,True,,1.000,crossref+pubmed,Plant-derived nootropics and human cognition: A systematic review
+51,10.3390/ijms26188849,41009418,True,,1.000,crossref+pubmed,Plant-Derived Nutraceuticals in Mental Health and Brain Function: Mechanisms of Action and Therapeutic Potential
+52,10.1016/j.jpsychires.2025.09.045,41045767,True,,1.000,crossref+pubmed,Chinese herbal medicine for anxiety disorders and obsessive-compulsive disorder: A systematic review with meta-analysis
+53,10.1111/cns.70535,40708436,True,,1.000,crossref+pubmed,Albiflorin on Neuropsychiatric and Neurodegenerative Disorders: A Systematic Review
+54,10.1016/j.neubiorev.2018.10.022,30395922,True,,1.000,crossref+pubmed,Nutritional interventions and cognitive-related outcomes in patients with late-life cognitive disorders: A systematic review
+55,10.1080/15622975.2021.2013041,35311615,True,,1.000,crossref+pubmed,Clinician guidelines for the treatment of psychiatric disorders with nutraceuticals and phytoceuticals: The World Federation of Societies of Biological Psychiatry (WFSBP) and Canadian Network for Mood and Anxiety Treatments (CANMAT) Taskforce
+56,10.1016/j.neubiorev.2024.105562,38278378,True,,1.000,crossref+pubmed,Fermented foods: Harnessing their potential to modulate the microbiota-gut-brain axis for mental health
+57,10.1093/gerona/glaa090,32300799,True,,1.000,crossref+pubmed,"Probiotic Supplementation Improves Cognitive Function and Mood with Changes in Gut Microbiota in Community-Dwelling Older Adults: A Randomized, Double-Blind, Placebo-Controlled, Multicenter Trial"
+58,10.3390/nu16091352,38732599,True,,1.000,crossref+pubmed,Effectiveness of Psychobiotics in the Treatment of Psychiatric and Cognitive Disorders: A Systematic Review of Randomized Clinical Trials
+59,10.3390/nu17132139,40647242,True,,1.000,crossref+pubmed,"Psychobiotics in Depression: Sources, Metabolites, and Treatment-A Systematic Review"
+60,10.3920/BM2020.0063,33191776,True,,1.000,crossref+pubmed,From probiotics to psychobiotics - the gut-brain axis in psychiatric disorders
+61,10.3390/nu15245116,38140375,True,,1.000,crossref+pubmed,"Improving Cognitive Function with Nutritional Supplements in Aging: A Comprehensive Narrative Review of Clinical Studies Investigating the Effects of Vitamins, Minerals, Antioxidants, and Other Dietary Supplements"
+62,10.3390/nu8080483,27509521,True,,1.000,crossref+pubmed,Effect of Probiotics on Depression: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+63,10.1016/j.neubiorev.2019.03.023,31004628,True,,1.000,crossref+pubmed,Prebiotics and probiotics for depression and anxiety: A systematic review and meta-analysis of controlled clinical trials
+64,10.1038/s41591-025-03846-w,40731089,True,,1.000,crossref+pubmed,Resilience and brain health in global populations
+65,10.3390/ijms232113348,36362131,True,,1.000,crossref+pubmed,Running from Stress: Neurobiological Mechanisms of Exercise-Induced Stress Resilience
+66,10.1111/ejn.14547,31421056,True,,1.000,crossref+pubmed,Neurobiology of resilience in depression: immune and vascular insights from human and animal studies
