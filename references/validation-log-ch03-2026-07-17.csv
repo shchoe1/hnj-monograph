@@ -1,0 +1,81 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.3390/ijms24119471,37298421,True,,1.000,crossref+pubmed,The Aging Enteric Nervous System
+2,10.1053/j.gastro.2016.10.046,27988382,True,,1.000,crossref+pubmed,"The Vagus Nerve in Appetite Regulation, Mood, and Intestinal Inflammation"
+3,10.1016/j.bbi.2024.11.023,39566667,True,,1.000,crossref+pubmed,The vagus nerve: An old but new player in brain-body communication
+4,10.1073/pnas.1102999108,21876150,True,,1.000,crossref+pubmed,Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve
+5,10.1080/19490976.2024.2333483,38532703,True,,1.000,crossref+pubmed,Transplant of microbiota from Crohn's disease patients to germ-free mice results in colitis
+6,10.1016/j.cell.2018.08.041,30193112,True,,1.000,crossref+pubmed,Personalized Gut Mucosal Colonization Resistance to Empiric Probiotics Is Associated with Unique Host and Microbiome Features
+7,10.1016/j.molcel.2020.03.006,32275853,True,,1.000,crossref+pubmed,Toward Understanding Microbiome-Neuronal Signaling
+8,10.3389/fnins.2018.00049,29467611,True,,1.000,crossref+pubmed,The Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis
+9,10.1016/j.semcdb.2023.02.004,36803834,True,,1.000,crossref+pubmed,The gut-brain axis and cognitive control: A role for the vagus nerve
+10,10.1016/j.neubiorev.2024.105990,39716559,True,,1.000,crossref+pubmed,Vagus nerve stimulation and gut microbiota interactions: A novel therapeutic avenue for neuropsychiatric disorders
+11,10.1016/j.xcrm.2025.101982,40054458,True,,1.000,crossref+pubmed,The gut microbiota-immune-brain axis: Therapeutic implications
+12,10.1038/s41423-025-01333-3,40804450,True,,1.000,crossref+pubmed,Beyond the gut: decoding the gut-immune-brain axis in health and disease
+13,10.3389/fcimb.2023.1282431,37868345,True,,1.000,crossref+pubmed,Review of microbiota gut brain axis and innate immunity in inflammatory and infective diseases
+14,10.31083/j.jin2203065,37258450,True,,1.000,crossref+pubmed,"Neuroinflammation, Microbiota-Gut-Brain Axis, and Depression: The Vicious Circle"
+15,10.1016/j.mce.2025.112599,40482955,True,,1.000,crossref+pubmed,"From Gut to Brain: The roles of intestinal microbiota, immune system, and hormones in intestinal physiology and gut-brain-axis"
+16,10.1038/s41380-018-0017-5,29453413,True,,1.000,crossref+pubmed,Depression and obesity: evidence of shared biological mechanisms
+17,10.1038/s41575-019-0157-3,31123355,True,,1.000,crossref+pubmed,The role of short-chain fatty acids in microbiota-gut-brain communication
+18,10.1016/j.mce.2022.111572,35066114,True,,1.000,crossref+pubmed,Short chain fatty acids: Microbial metabolites for gut-brain axis signalling
+19,10.3390/cells12040657,36831324,True,,1.000,crossref+pubmed,Mechanisms of Blood-Brain Barrier Protection by Microbiota-Derived Short-Chain Fatty Acids
+20,10.1186/s12974-025-03454-y,40400035,True,,1.000,crossref+pubmed,Elucidating the specific mechanisms of the gut-brain axis: the short-chain fatty acids-microglia pathway
+21,10.1080/19490976.2019.1638722,31368397,True,,1.000,crossref+pubmed,Gut microbes and metabolites as modulators of blood-brain barrier integrity and brain health
+22,10.1016/j.lfs.2024.122979,39147315,True,,1.000,crossref+pubmed,Short-chain fatty acid on blood-brain barrier and glial function in ischemic stroke
+23,10.3390/nu8010056,26805875,True,,1.000,crossref+pubmed,Influence of Tryptophan and Serotonin on Mood and Cognition with a Possible Role of the Gut-Brain Axis
+24,10.1016/j.chom.2018.05.003,29902437,True,,1.000,crossref+pubmed,Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease
+25,10.1016/j.biocel.2020.105776,32479926,True,,1.000,crossref+pubmed,The ever-changing roles of serotonin
+26,10.1126/science.aaf9794,28751584,True,,1.000,crossref+pubmed,"Kynurenines: Tryptophan's metabolites in exercise, inflammation, and mental health"
+27,10.3390/ijms23158493,35955633,True,,1.000,crossref+pubmed,Tryptophan Metabolism in Depression: A Narrative Review with a Focus on Serotonin and Kynurenine Pathways
+28,10.3390/ijms22062973,33804088,True,,1.000,crossref+pubmed,Tryptophan Metabolism and Gut-Brain Homeostasis
+29,10.3390/cells11152296,35892593,True,,1.000,crossref+pubmed,Gut Microbiota-Derived Tryptophan Metabolites Maintain Gut and Systemic Homeostasis
+30,10.3389/fcimb.2018.00013,29468141,True,,1.000,crossref+pubmed,Impact of the Gut Microbiota on Intestinal Immunity Mediated by Tryptophan Metabolism
+31,10.3390/ijms26031160,39940928,True,,1.000,crossref+pubmed,Interaction of the Vagus Nerve and Serotonin in the Gut-Brain Axis
+32,10.1080/19490976.2024.2371950,39008552,True,,1.000,crossref+pubmed,Implications of microbe-derived ɣ-aminobutyric acid (GABA) in gut and brain barrier integrity and GABAergic signaling in Alzheimer's disease
+33,10.1016/j.tins.2016.09.002,27793434,True,,1.000,crossref+pubmed,Psychobiotics and the Manipulation of Bacteria-Gut-Brain Signals
+34,10.3920/BM2020.0063,33191776,True,,1.000,crossref+pubmed,From probiotics to psychobiotics - the gut-brain axis in psychiatric disorders
+35,10.1080/10408398.2021.1920884,33955288,True,,1.000,crossref+pubmed,Short-chain fatty acids-producing probiotics: A novel source of psychobiotics
+36,10.9758/cpn.2022.20.1.17,35078945,True,,1.000,crossref+pubmed,Psychobiotic Therapy: Method to Reinforce the Immune System
+37,10.1016/j.psyneuen.2021.105640,34942539,True,,1.000,crossref+pubmed,"The gut microbiota-brain axis, psychobiotics and its influence on brain and behaviour: A systematic review"
+38,10.1016/j.pnpbp.2024.111073,38914414,True,,1.000,crossref+pubmed,Exploring the gut-brain Axis: Potential therapeutic impact of Psychobiotics on mental health
+39,10.1038/s41380-022-01456-3,35194166,True,,1.000,crossref+pubmed,"A systematic review of gut microbiota composition in observational studies of major depressive disorder, bipolar disorder and schizophrenia"
+40,10.3390/cells11081362,35456041,True,,1.000,crossref+pubmed,Mechanistic Insights into the Link between Gut Dysbiosis and Major Depression: An Extensive Review
+41,10.1016/j.ebiom.2023.104527,36963238,True,,1.000,crossref+pubmed,Gut microbiota and its metabolites in depression: from pathogenesis to treatment
+42,10.1186/s12888-020-02654-5,32539741,True,,1.000,crossref+pubmed,Effect of fecal microbiota transplant on symptoms of psychiatric disorders: a systematic review
+43,10.1016/j.psyneuen.2018.10.010,30388595,True,,1.000,crossref+pubmed,"Probiotic Lactobacillus Plantarum 299v decreases kynurenine concentration and improves cognitive functions in patients with major depression: A double-blind, randomized, placebo controlled study"
+44,10.3390/nu8080483,27509521,True,,1.000,crossref+pubmed,Effect of Probiotics on Depression: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+45,10.1016/j.neubiorev.2019.03.023,31004628,True,,1.000,crossref+pubmed,Prebiotics and probiotics for depression and anxiety: A systematic review and meta-analysis of controlled clinical trials
+46,10.3390/nu16091352,38732599,True,,1.000,crossref+pubmed,Effectiveness of Psychobiotics in the Treatment of Psychiatric and Cognitive Disorders: A Systematic Review of Randomized Clinical Trials
+47,10.3390/nu17132139,40647242,True,,1.000,crossref+pubmed,"Psychobiotics in Depression: Sources, Metabolites, and Treatment-A Systematic Review"
+48,10.1007/s00406-024-01935-4,39551901,True,,1.000,crossref+pubmed,The efficacy of Lactobacillus and Bifidobacterium in patients with schizophrenia: a meta-analysis
+49,10.1111/jgh.15731,34735024,True,,1.000,crossref+pubmed,An update on fecal microbiota transplantation for the treatment of gastrointestinal diseases
+50,10.3390/ijms25115782,38891970,True,,1.000,crossref+pubmed,Human Gut Microbiota for Diagnosis and Treatment of Depression
+51,10.3390/nu14010037,35010912,True,,1.000,crossref+pubmed,The Role of the Gut Microbiota in the Development and Progression of Major Depressive and Bipolar Disorder
+52,10.1002/jnr.24476,31144383,True,,1.000,crossref+pubmed,The role of inflammation and the gut microbiome in depression and anxiety
+53,10.3390/ijms22041640,33561973,True,,1.000,crossref+pubmed,Inflammatory Depression-Mechanisms and Non-Pharmacological Interventions
+54,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+55,10.1146/annurev-pharmtox-010919-023628,31506009,True,,1.000,crossref+pubmed,Microbiota-Gut-Brain Axis: New Therapeutic Opportunities
+56,10.1053/j.gastro.2020.10.066,33493503,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis: From Motility to Mood
+57,10.1038/s41575-023-00890-0,38355758,True,,1.000,crossref+pubmed,Gastrointestinal and brain barriers: unlocking gates of communication across the microbiota-gut-brain axis
+58,10.1038/s42255-024-01108-6,39174768,True,,1.000,crossref+pubmed,Feeding gut microbes to nourish the brain: unravelling the diet-microbiota-gut-brain axis
+59,10.1038/s41577-025-01188-9,40506470,True,,1.000,crossref+pubmed,A role for microglia in mediating the microbiota-gut-brain axis
+60,10.1016/j.neubiorev.2024.105562,38278378,True,,1.000,crossref+pubmed,Fermented foods: Harnessing their potential to modulate the microbiota-gut-brain axis for mental health
+61,10.1016/j.chom.2023.05.022,37327780,True,,1.000,crossref+pubmed,Effects of vaginal microbiota transfer on the neurodevelopment and microbiome of cesarean-born infants: A blinded randomized controlled trial
+62,10.1038/s41467-025-56829-3,40335465,True,,1.000,crossref+pubmed,Machine learning-based meta-analysis reveals gut microbiome alterations associated with Parkinson's disease
+63,10.1038/s41582-022-00681-2,35750883,True,,1.000,crossref+pubmed,The microbiome-gut-brain axis in Parkinson disease - from basic research to the clinic
+64,10.1186/s40168-016-0225-7,28122648,True,,1.000,crossref+pubmed,Microbiota Transfer Therapy alters gut ecosystem and improves gastrointestinal and autism symptoms: an open-label study
+65,10.3389/fcimb.2022.915701,35937689,True,,1.000,crossref+pubmed,Role of Gut Microbiome in Autism Spectrum Disorder and Its Therapeutic Regulation
+66,10.1016/j.phrs.2020.105314,33246175,True,,1.000,crossref+pubmed,The impact of the microbiota-gut-brain axis on Alzheimer's disease pathophysiology
+67,10.1016/j.lfs.2020.118627,33169684,True,,1.000,crossref+pubmed,"Role of gut-brain axis, gut microbial composition, and probiotic intervention in Alzheimer's disease"
+68,10.3390/nu14010020,35010895,True,,1.000,crossref+pubmed,Probiotics for Alzheimer's Disease: A Systematic Review
+69,10.3389/fnagi.2021.782082,35069178,True,,1.000,crossref+pubmed,The Gut-Brain Axis and Its Relation to Parkinson's Disease: A Review
+70,10.1186/s40168-021-01107-9,34784980,True,,1.000,crossref+pubmed,Fecal microbiota transplantation protects rotenone-induced Parkinson's disease mice via suppressing inflammation mediated by the lipopolysaccharide-TLR4 signaling pathway through the microbiota-gut-brain axis
+71,10.3390/ijms24021001,36674517,True,,1.000,crossref+pubmed,The Role of Fecal Microbiota Transplantation in the Treatment of Neurodegenerative Diseases: A Review
+72,10.1007/s11910-018-0887-6,30251184,True,,1.000,crossref+pubmed,The Gut Microbiota and Dysbiosis in Autism Spectrum Disorders
+73,10.3390/nu12030792,32192218,True,,1.000,crossref+pubmed,Composition of Gut Microbiota in Children with Autism Spectrum Disorder: A Systematic Review and Meta-Analysis
+74,10.3390/ijms20092115,31035684,True,,1.000,crossref+pubmed,The Possible Role of the Microbiota-Gut-Brain-Axis in Autism Spectrum Disorder
+75,10.1093/procel/pwad026,37166201,True,,1.000,crossref+pubmed,The microbiota-gut-brain axis and neurodevelopmental disorders
+76,10.1146/annurev-neuro-110920-023056,35436413,True,,1.000,crossref+pubmed,Microglia and Neurodevelopmental Disorders
+77,10.1126/science.aat0474,30309946,True,,1.000,crossref+pubmed,Microglia and early brain development: An intimate journey
+78,10.1080/19490976.2024.2447822,39773319,True,,1.000,crossref+pubmed,Mouse strain-specific responses along the gut-brain axis upon fecal microbiota transplantation from children with autism
+79,10.1016/j.chom.2025.07.018,40812303,True,,1.000,crossref+pubmed,Lactobacillus acidophilus promotes cognitive function recovery via regulating microglial peroxisomal function in cerebral ischemia
+80,10.3390/ijms26083658,40332186,True,,1.000,crossref+pubmed,Role of Antioxidants in Modulating the Microbiota-Gut-Brain Axis and Their Impact on Neurodegenerative Diseases
