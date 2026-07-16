@@ -1,0 +1,71 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.jgr.2025.03.013,40621085,True,,1.000,crossref+pubmed,Comprehensive understanding and underlying molecular mechanisms of the adaptogenic effects of Panax ginseng
+2,10.3390/nu13082861,34445021,True,,1.000,crossref+pubmed,Plant Adaptogens-History and Future Perspectives
+3,10.1016/j.jgr.2017.01.010,29021708,True,,1.000,crossref+pubmed,"Effects of ginseng on stress-related depression, anxiety, and the hypothalamic-pituitary-adrenal axis"
+4,10.1016/j.jgr.2024.04.005,39872288,True,,1.000,crossref+pubmed,Ginseng as a therapeutic target to alleviate gut and brain diseases via microbiome regulation
+5,10.1016/j.jgr.2020.09.004,33437154,True,,1.000,crossref+pubmed,Adaptogenic effects of Panax ginseng on modulation of immune functions
+6,10.1016/j.jgr.2020.03.001,32617033,True,,1.000,crossref+pubmed,Adaptogenic effects of Panax ginseng on modulation of cardiovascular functions
+7,10.1016/j.jgr.2025.05.003,40843015,True,,1.000,crossref+pubmed,"In vivo metabolism, pharmacokinetics, and pharmacological activities of ginsenosides from ginseng"
+8,10.3390/biom10071028,32664389,True,,1.000,crossref+pubmed,Ginsenoside Compound K: Insights into Recent Studies on Pharmacokinetics and Health-Promoting Activities
+9,10.1039/c6fo01077f,27801453,True,,1.000,crossref+pubmed,Compound K derived from ginseng: neuroprotection and cognitive improvement
+10,10.3390/cells8030204,30823412,True,,1.000,crossref+pubmed,Ginsenoside Rb1 as an Anti-Diabetic Agent and Its Underlying Mechanism Analysis
+11,10.1016/j.phrs.2022.106099,35092819,True,,1.000,crossref+pubmed,Targeting Akt/CREB/BDNF signaling pathway by ginsenosides in neurodegenerative diseases: A mechanistic approach
+12,10.1111/cpr.12696,31599060,True,,1.000,crossref+pubmed,Mechanisms of Panax ginseng action as an antidepressant
+13,10.1155/2022/9299574,35498130,True,,1.000,crossref+pubmed,Oxidative Stress and Ginsenosides: An Update on the Molecular Mechanisms
+14,10.1016/j.intimp.2023.110461,37331298,True,,1.000,crossref+pubmed,Ginsenosides for therapeutically targeting inflammation through modulation of oxidative stress
+15,10.1111/cns.70150,39639753,True,,1.000,crossref+pubmed,Ginsenoside Rg1: A Neuroprotective Natural Dammarane-Type Triterpenoid Saponin With Anti-Depressive Properties
+16,10.1016/j.phymed.2025.157403,41109042,True,,1.000,crossref+pubmed,Systematic review and pharmacological insights of ginsenoside Rf: Current status and future perspectives
+17,10.1016/j.jep.2025.120678,41052692,True,,1.000,crossref+pubmed,"Extraction, preparation, pharmacological activities, and potential applications of ginsenosides Rk1 and Rg5"
+18,10.1016/j.jgr.2021.07.007,35058725,True,,1.000,crossref+pubmed,Effects of Panax ginseng and ginsenosides on oxidative stress and cardiovascular diseases: pharmacological and therapeutic roles
+19,10.3389/fphar.2023.1166898,37188264,True,,1.000,crossref+pubmed,Hypolipidemic effect and molecular mechanism of ginsenosides: a review based on oxidative stress
+20,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+21,10.1016/j.jgr.2017.04.011,29983606,True,,1.000,crossref+pubmed,Gut microbiota-mediated pharmacokinetics of ginseng saponins
+22,10.3389/fcimb.2022.853981,35548468,True,,1.000,crossref+pubmed,Gut Microbiota: Therapeutic Targets of Ginseng Against Multiple Disorders and Ginsenoside Transformation
+23,10.3389/fnut.2023.1301468,38045813,True,,1.000,crossref+pubmed,The interaction between ginseng and gut microbiota
+24,10.3389/fimmu.2024.1353614,38698858,True,,1.000,crossref+pubmed,Pharmacological effects of ginseng and ginsenosides on intestinal inflammation and the immune system
+25,10.3389/fphar.2025.1650565,40949153,True,,1.000,crossref+pubmed,The potential of medicinal food plant Panax ginseng C
+26,10.3390/nu14102111,35631252,True,,1.000,crossref+pubmed,Medicinal Plants and Their Impact on the Gut Microbiome in Mental Health: A Systematic Review
+27,10.1016/j.phrs.2019.04.010,30959159,True,,1.000,crossref+pubmed,Saponins regulate intestinal inflammation in colon cancer and IBD
+28,10.3390/nu18111796,42280440,True,,1.000,crossref+pubmed,"Herbal Neurotherapeutics for Cognitive Disorders: Integrative Mechanisms Linking Neurotransmitter Systems, Neurodegeneration, and the Gut-Brain Axis"
+29,10.1016/j.jep.2024.118205,38641079,True,,1.000,crossref+pubmed,Ginsenoside Rg1 alleviates chronic inflammation-induced neuronal ferroptosis and cognitive impairments via regulation of AIM2 - Nrf2 signaling pathway
+30,10.1016/j.intimp.2025.115071,40836407,True,,1.000,crossref+pubmed,Ginsenoside Rd alleviates LPS-induced neuroinflammation and depressive-like behaviors via regulating TLR4-PI3K-NF-κB-JMJD3 signaling
+31,10.3389/fphar.2025.1528590,40066331,True,,1.000,crossref+pubmed,Ginsenoside Ro ameliorates cognitive impairment and neuroinflammation in APP/PS1 mice via the IBA1/GFAP-MAPK signaling pathway
+32,10.1016/j.jgr.2023.02.003,37397415,True,,1.000,crossref+pubmed,Korean Red Ginseng extract attenuates alcohol-induced addictive responses and cognitive impairments by alleviating neuroinflammation
+33,10.3390/ijms22189668,34575832,True,,1.000,crossref+pubmed,Ginsenoside Prolongs the Lifespan of C
+34,10.1016/j.phrs.2025.107578,39756554,True,,1.000,crossref+pubmed,"Ginsenosides Rg1, Rb1 and rare ginsenosides: Promising candidate agents for Parkinson's disease and Alzheimer's disease and network pharmacology analysis"
+35,10.1016/j.biopha.2020.110832,33059260,True,,1.000,crossref+pubmed,Panax ginseng clinical trials: Current status and future perspectives
+36,10.3346/jkms.2016.31.12.1879,27822924,True,,1.000,crossref+pubmed,Efficacy of Ginseng Supplements on Fatigue and Physical Performance: a Meta-analysis
+37,10.3389/fphar.2020.01031,32765262,True,,1.000,crossref+pubmed,Clinical and Preclinical Systematic Review of Panax ginseng C
+38,10.3390/nu14061185,35334841,True,,1.000,crossref+pubmed,Exploratory Systematic Review and Meta-Analysis of Panax Genus Plant Ingestion Evaluation in Exercise Endurance
+39,10.1097/MD.0000000000029767,35776997,True,,1.000,crossref+pubmed,Efficacy of ginseng supplements on disease-related fatigue: A systematic review and meta-analysis
+40,10.1089/jicm.2022.0532,36730693,True,,1.000,crossref+pubmed,Ginseng and Ginseng Herbal Formulas for Symptomatic Management of Fatigue: A Systematic Review and Meta-Analysis
+41,10.1097/NCC.0000000000001068,35184068,True,,1.000,crossref+pubmed,Effects of Ginseng on Cancer-Related Fatigue: A Systematic Review and Meta-analysis of Randomized Controlled Trials
+42,10.3904/kjim.2023.350,38576235,True,,1.000,crossref+pubmed,"Effectiveness of Korean Red Ginseng on fatigue in patients with rheumatic diseases: a randomized, double-blind, placebo-controlled study"
+43,10.1002/ptr.8359,39474788,True,,1.000,crossref+pubmed,Effects of Ginseng on Cognitive Function: A Systematic Review and Meta-Analysis
+44,10.1159/000547543,40774237,True,,1.000,crossref+pubmed,Cognitive Benefits of Ginseng: A Systematic Review and Meta-Analysis of Changes in Mini-Mental State Examination and Alzheimer's Disease Assessment Scale-Cognitive Subscale Scores
+45,10.2174/1568026615666150813143753,26268331,True,,1.000,crossref+pubmed,Ginseng for Alzheimer's Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+46,10.1016/j.jgr.2017.12.008,30337800,True,,1.000,crossref+pubmed,Panax ginseng as an adjuvant treatment for Alzheimer's disease
+47,10.1016/j.jgr.2025.03.011,40621081,True,,1.000,crossref+pubmed,"Panax ginseng: A modulator of amyloid, tau pathology, and cognitive function in Alzheimer's disease"
+48,10.3390/nu16121952,38931306,True,,1.000,crossref+pubmed,"Efficacy and Safety of Panax ginseng Sprout Extract in Subjective Memory Impairment: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial"
+49,10.1080/1028415X.2025.2555921,41017752,True,,1.000,crossref+pubmed,Effects of American ginseng (Panax quinquefolius) extract on human neurocognitive function: a review
+50,10.1080/1028415X.2024.2325227,38512715,True,,1.000,crossref+pubmed,"Neurocognitive effects a combined polyphenolic-rich herbal extract in healthy middle-aged adults - a randomised, double-blind, placebo-controlled study"
+51,10.1016/j.jgr.2024.05.006,39263306,True,,1.000,crossref+pubmed,Effect of ginseng and ginsenosides on attention deficit hyperactivity disorder: A systematic review
+52,10.3390/nu14122401,35745129,True,,1.000,crossref+pubmed,The Efficacy of Ginseng (Panax) on Human Prediabetes and Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis
+53,10.1002/ptr.8339,39387709,True,,1.000,crossref+pubmed,Effects of Ginseng Consumption on Cardiovascular Health Biomarkers in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+54,10.1186/s12906-025-04936-5,40646515,True,,1.000,crossref+pubmed,Ginseng supplementation and vascular function: a systematic review and meta-analysis of clinical trials
+55,10.2174/0113816128306300240522074056,38877862,True,,1.000,crossref+pubmed,The Effect of Ginseng Supplementation on Lipid Profile: GRADE-assessed Systematic Review and Dose-response Meta-analysis of Randomized Controlled Trials
+56,10.1097/MD.0000000000004914,27661038,True,,1.000,crossref+pubmed,"Ginseng for managing menopausal woman's health: A systematic review of double-blind, randomized, placebo-controlled trials"
+57,10.2174/1570161115666170713092701,28707603,True,,1.000,crossref+pubmed,"Ginseng for Treating Hypertension: A Systematic Review and Meta-Analysis of Double Blind, Randomized, Placebo-Controlled Trials"
+58,10.3390/ijms262110631,41226670,True,,1.000,crossref+pubmed,Natural Products in Alzheimer's Disease: A Systematic Review of Clinical Trials and Underlying Molecular Mechanisms
+59,10.1016/j.jgr.2024.02.003,38707645,True,,1.000,crossref+pubmed,Metabolism and drug interactions of Korean ginseng based on the pharmacokinetic properties of ginsenosides: Current status and future perspectives
+60,10.1016/j.ctcp.2020.101173,32379697,True,,1.000,crossref+pubmed,Benefits and harms of ginseng supplementation on liver function? A systematic review and meta-analysis
+61,10.1016/j.jgr.2021.12.006,35509821,True,,1.000,crossref+pubmed,"Red ginseng (Panax ginseng Meyer) oil: A comprehensive review of extraction technologies, chemical composition, health benefits, molecular mechanisms, and safety"
+62,10.1016/j.phymed.2024.155842,39004031,True,,1.000,crossref+pubmed,"Effects of ginseng berry saponins from panax ginseng on glucose metabolism of patients with prediabetes: A randomized, double-blinded, placebo-controlled, crossover trial"
+63,10.3389/fphar.2022.922029,36386161,True,,1.000,crossref+pubmed,Ginsenosides: Allies of gastrointestinal tumor immunotherapy
+64,10.1002/ptr.6399,31161680,True,,1.000,crossref+pubmed,Effects of ginseng supplementation on selected markers of inflammation: A systematic review and meta-analysis
+65,10.1002/ptr.7893,37216939,True,,1.000,crossref+pubmed,Effects of ginseng consumption on the biomarkers of oxidative stress: A systematic review and meta-analysis
+66,10.1016/j.jgr.2016.03.003,28413314,True,,1.000,crossref+pubmed,Implications of red Panax ginseng in oxidative stress associated chronic diseases
+67,10.1016/j.phrs.2020.105221,33007419,True,,1.000,crossref+pubmed,Biological evidence of gintonin efficacy in memory disorders
+68,10.3390/ijms24054772,36902200,True,,1.000,crossref+pubmed,Depression and Its Phytopharmacotherapy-A Narrative Review
+69,10.3390/ijms26188849,41009418,True,,1.000,crossref+pubmed,Plant-Derived Nutraceuticals in Mental Health and Brain Function: Mechanisms of Action and Therapeutic Potential
+70,10.1007/s11427-016-5007-8,26798041,True,,1.000,crossref+pubmed,Roles and mechanisms of ginsenoside in cardiovascular diseases: progress and perspectives
