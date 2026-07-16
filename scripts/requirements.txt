@@ -1,0 +1,8 @@
+# 힘뇌장 모노그래프 프로젝트 · Python 의존
+requests>=2.31.0
+python-Levenshtein>=0.21.0
+pandas>=2.0.0
+biopython>=1.83   # PubMed E-utilities 고급 사용 시
+beautifulsoup4>=4.12   # 웹 사이트 파싱 (KTKP 등)
+markdown>=3.5
+pyyaml>=6.0

@@ -1,0 +1,1 @@
+﻿[1] Cryan JF et al. The Microbiota-Gut-Brain Axis. Physiological Reviews. 2019;99(4):1877-2013. doi:10.1152/physrev.00018.2018. PMID:31460832. URL: https://doi.org/10.1152/physrev.00018.2018. [DOI-VERIFIED 2026-07-16 ✓]

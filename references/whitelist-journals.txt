@@ -1,0 +1,45 @@
+# Tier 1 · 최상위 저널
+Nature
+Science
+Cell
+New England Journal of Medicine
+Lancet
+JAMA
+BMJ
+PNAS
+Physiological Reviews
+
+# Tier 2 · 분야 최상위
+Gut
+Gastroenterology
+Molecular Psychiatry
+Brain Behavior and Immunity
+Nutrients
+American Journal of Clinical Nutrition
+Journal of Neuroscience
+Neuron
+
+# Tier 3 · Peer-review 확립
+Elsevier
+Springer Nature
+Wiley
+ACS
+Cell Press
+PLOS
+MDPI (peer-reviewed only)
+Frontiers
+Taylor & Francis
+SAGE
+
+# Tier 4 · 국내 학술
+KJIM
+Journal of Ginseng Research
+Korean Journal of Physiology and Pharmacology
+대한한의학회지
+한국식품과학회지
+Journal of Korean Medical Science
+
+# Tier 5 · 시스템 리뷰
+Cochrane Library
+Campbell Collaboration
+JBI Reviews

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Build outputs
+output/*.pdf
+output/*.docx
+output/build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Sensitive
+*.env
+secrets.json
+
+# 대용량 임시
+*.tmp
+*.bak
+figures/raw/  # 원본 고해상도 (별도 관리)
+
+# 검증 캐시
+.cache/
+.crossref_cache/
+.pubmed_cache/

@@ -1,0 +1,39 @@
+# 절대 배제 · 검증 실패 시 즉시 [VERIFY-FAILED]
+
+# 개인 블로그
+blog.naver.com
+tistory.com
+wordpress.com
+brunch.co.kr
+
+# 상품·전자상거래
+amazon.com/dp/
+coupang.com/vp/
+shop.aliexpress.com
+smartstore.naver.com
+
+# 라이프스타일 매체
+webmd.com
+healthline.com
+health.chosun.com
+kormedi.com
+
+# 위키
+wikipedia.org
+namu.wiki
+
+# 기업 홍보
+[각 브랜드 자사몰 및 홍보 페이지]
+
+# 소셜/멀티미디어
+youtube.com/watch
+podcasts.apple.com
+
+# AI 생성물
+chatgpt.com
+gemini.google.com
+claude.ai
+perplexity.ai
+
+# Predatory Journals
+[Beall's List 참조]
