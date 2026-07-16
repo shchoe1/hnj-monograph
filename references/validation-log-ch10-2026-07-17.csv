@@ -1,0 +1,83 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1080/10408398.2015.1016141,26192072,True,,1.000,crossref+pubmed,"L-theanine, unique amino acid of tea, and its metabolism, health effects, and safety"
+2,10.1016/j.biopha.2017.09.024,28938517,True,,1.000,crossref+pubmed,Green tea (Camellia sinensis) and l-theanine: Medicinal values and beneficial applications in humans-A comprehensive review
+3,10.1002/fsn3.70811,40822528,True,,1.000,crossref+pubmed,Pharmaceutical Activities of Theanine: A Phytochemical Nutrient
+4,10.1002/jsfa.70740,42163019,True,,1.000,crossref+pubmed,Theanine: a phytochemical candidate for neural protection
+5,10.1016/j.neuint.2019.104505,31310779,True,,1.000,crossref+pubmed,The role of glutamine in neurogenesis promoted by the green tea amino acid theanine in neural progenitor cells for brain health
+6,10.1016/j.neuint.2020.104895,33144101,True,,1.000,crossref+pubmed,GABA-enriched teas as neuro-nutraceuticals
+7,10.3390/molecules23030512,29495349,True,,1.000,crossref+pubmed,Neuroprotective Effects and Mechanisms of Tea Bioactive Components in Neurodegenerative Diseases
+8,10.1016/j.neuint.2019.104478,31145971,True,,1.000,crossref+pubmed,"Neuroprotective attributes of L-theanine, a bioactive amino acid of tea, and its potential role in Parkinson's disease therapeutics"
+9,10.1007/s00213-017-4743-1,28971241,True,,1.000,crossref+pubmed,"Effects of L-theanine on anxiety-like behavior, cerebrospinal fluid amino acid profile, and hippocampal activity in Wistar Kyoto rats"
+10,10.1523/JNEUROSCI.1050-20.2020,33268546,True,,1.000,crossref+pubmed,l-Theanine Prevents Long-Term Affective and Cognitive Side Effects of Adolescent Δ-9-Tetrahydrocannabinol Exposure and Blocks Associated Molecular and Neuronal Abnormalities in the Mesocorticolimbic Circuitry
+11,10.1016/j.phymed.2025.156457,40023064,True,,1.000,crossref+pubmed,L-theanine ameliorates traumatic-brain-injury-induced hippocampal neuronal death in rats
+12,10.1002/ptr.70048,40682446,True,,1.000,crossref+pubmed,l-Theanine Improves Learning and Memory Through Attenuation of NOX4-Mediated Ferroptosis in Hippocampal Neurons of Sleep-Deprived Mice
+13,10.1021/acschemneuro.5c00351,40504752,True,,1.000,crossref+pubmed,Therapeutic Role of l-Theanine in Mitigating Cognitive Dysfunction and Neuropathology in Scopolamine-Treated Mice
+14,10.1016/j.jphs.2025.08.002,40983455,True,,1.000,crossref+pubmed,Theanine boosts frontal theta and hippocampal beta and gamma oscillations for familiarity in object recognition
+15,10.1016/j.ibneur.2025.05.015,40547867,True,,1.000,crossref+pubmed,Effect of L-theanine on cerebellar granule cell migration related to cognitive disorders
+16,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+17,10.1038/s41564-025-02236-9,41535710,True,,1.000,crossref+pubmed,Gut microbiota-derived L-theanine promotes host branched-chain amino acid catabolism
+18,10.1038/s41538-025-00651-0,41326381,True,,1.000,crossref+pubmed,L-theanine-targeted prefrontal cortex improves CUMS-induced depression via the gut-short-chain fatty acids-brain axis
+19,10.1002/jsfa.12222,36087337,True,,1.000,crossref+pubmed,L-Theanine regulates lipid metabolism by modulating gut microbiota and bile acid metabolism
+20,10.1002/jsfa.13095,37917744,True,,1.000,crossref+pubmed,L-Theanine alleviates heat stress through modulation of gut microbiota and immunity
+21,10.1080/10495398.2021.2013857,34904512,True,,1.000,crossref+pubmed,"Effects of L-theanine on intestinal morphology, barrier function, and MAPK signaling pathways in diquat-challenged piglets"
+22,10.1080/10408398.2022.2048291,35266837,True,,1.000,crossref+pubmed,"Recent advances in the utilization of tea active ingredients to regulate sleep through neuroendocrine pathway, immune system and intestinal microbiota"
+23,10.1017/S0007114525105734,41292298,True,,1.000,crossref+pubmed,Magnesium-L-theanine complex protects against liver and intestinal damage caused by chronic variable stress
+24,10.3390/nu17111943,40507212,True,,1.000,crossref+pubmed,L-Theanine Mitigates Chronic Alcoholic Intestinal Injury by Regulating Intestinal Alcohol and Linoleic-Arachidonic Acid Metabolism in Rats
+25,10.1016/j.phymed.2026.158078,41886951,True,,1.000,crossref+pubmed,Low-dose epigallocatechin gallate combined with L-theanine effectively alleviate obesity and metabolic dysfunction-associated steatotic liver disease by remodeling gut homeostasis and avoiding its hepatotoxicity
+26,10.3390/nu15112488,37299451,True,,1.000,crossref+pubmed,Lactobacillus casei and Its Supplement Alleviate Stress-Induced Depression and Anxiety in Mice by the Regulation of BDNF Expression and NF-κB Activation
+27,10.3390/ijms22010193,33379343,True,,1.000,crossref+pubmed,"Theanine, Antistress Amino Acid in Tea Leaves, Causes Hippocampal Metabolic Changes and Antidepressant Effects in Stress-Loaded Mice"
+28,10.3390/nu10101468,30308973,True,,1.000,crossref+pubmed,Stress-Reducing Function of Matcha Green Tea in Animal Experiments and Clinical Trials
+29,10.3389/fnint.2025.1745274,41695889,True,,1.000,crossref+pubmed,Kiperin Mind Focus supplement mitigates chronic stress-induced neuroinflammation and molecular dysregulation and improves stress-related affective and exploratory behaviors in rats
+30,10.1016/j.phymed.2025.157187,40913986,True,,1.000,crossref+pubmed,Synergistic stress-relieving and cognitive-enhancing effects of walnut peptide and theanine in human brain organoid and mouse stress models
+31,10.3390/ijms26157317,40806449,True,,1.000,crossref+pubmed,Attenuation Effect of Withania somnifera Extract on Restraint Stress-Induced Anxiety-like Behavior and Hippocampal Alterations in Mice
+32,10.1038/s41380-026-03727-9,42410082,True,,1.000,crossref+pubmed,Cognitive and affective effects of L-Theanine: a systematic review and meta-analysis of 31 randomized trials
+33,10.1093/nutrit/nuaf054,40314930,True,,1.000,crossref+pubmed,"Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition, Sleep, and Mood in Healthy Participants: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+34,10.1016/j.smrv.2025.102076,40056718,True,,1.000,crossref+pubmed,The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis
+35,10.1007/s11130-019-00771-5,31758301,True,,1.000,crossref+pubmed,The Effects of Green Tea Amino Acid L-Theanine Consumption on the Ability to Manage Stress and Anxiety Levels: a Systematic Review
+36,10.1080/1028415X.2025.2556925,41176609,True,,1.000,crossref+pubmed,Examining the effect of L-theanine on sleep: a systematic review of dietary supplementation trials
+37,10.1186/s12888-024-06285-y,39633316,True,,1.000,crossref+pubmed,The effects of L-theanine supplementation on the outcomes of patients with mental disorders: a systematic review
+38,10.3390/nu11102362,31623400,True,,1.000,crossref+pubmed,Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial
+39,10.1016/j.jpsychires.2018.12.014,30580081,True,,1.000,crossref+pubmed,"L-theanine in the adjunctive treatment of generalized anxiety disorder: A double-blind, randomised, placebo-controlled trial"
+40,10.3390/nu8010053,26797633,True,,1.000,crossref+pubmed,"Anti-Stress, Behavioural and Magnetoencephalography Effects of an L-Theanine-Based Nutrient Drink: A Randomised, Double-Blind, Placebo-Controlled, Crossover Trial"
+41,10.1007/s40120-024-00624-7,38758503,True,,1.000,crossref+pubmed,"Safety and Efficacy of AlphaWave® L-Theanine Supplementation for 28 Days in Healthy Adults with Moderate Stress: A Randomized, Double-Blind, Placebo-Controlled Trial"
+42,10.1038/s41598-020-70037-7,32753637,True,,1.000,crossref+pubmed,Effects of L-theanine-caffeine combination on sustained attention and inhibitory control among children with ADHD: a proof-of-concept neuroimaging RCT
+43,10.1080/1028415X.2020.1804098,32777998,True,,1.000,crossref+pubmed,"L-theanine improves neurophysiological measures of attention in a dose-dependent manner: a double-blind, placebo-controlled, crossover study"
+44,10.1080/1028415X.2022.2136884,36263942,True,,1.000,crossref+pubmed,"Dose-response effect of L-theanine on psychomotor speed, sustained attention, and inhibitory control: a double-blind, placebo-controlled, crossover study"
+45,10.1080/1028415X.2016.1144845,26869148,True,,1.000,crossref+pubmed,"Acute effects of theanine, caffeine and theanine-caffeine combination on attention"
+46,10.1016/j.nutres.2017.11.002,29420994,True,,1.000,crossref+pubmed,l-Theanine and caffeine improve target-specific attention to visual stimuli by decreasing mind wandering: a human functional magnetic resonance imaging study
+47,10.1017/S0007114525104169,40789769,True,,1.000,crossref+pubmed,"High-dose L-theanine-caffeine combination improves neurobehavioural and neurophysiological measures of selective attention in acutely sleep-deprived young adults: a double-blind, placebo-controlled crossover study"
+48,10.1080/1028415X.2026.2659148,42096377,True,,1.000,crossref+pubmed,"Effects of L-theanine-caffeine combination on selective attention among adolescents with attention-deficit hyperactivity disorder: a double-blind, placebo-controlled, crossover study"
+49,10.1080/1028415X.2024.2383080,39052627,True,,1.000,crossref+pubmed,"Effect of L-theanine on selective attention in a traffic-related reaction task in sleep-deprived young adults: a double-blind placebo-controlled, crossover study"
+50,10.1016/j.jad.2023.04.029,37084960,True,,1.000,crossref+pubmed,"l-theanine adjunct to sertraline for major depressive disorder: A randomized, double-blind, placebo-controlled clinical trial"
+51,10.1007/s00213-023-06458-9,37697164,True,,1.000,crossref+pubmed,"L-Theanine adjunct to risperidone in the treatment of chronic schizophrenia inpatients: a randomized, double-blind, placebo-controlled clinical trial"
+52,10.1111/pcn.13565,37169515,True,,1.000,crossref+pubmed,"L-theanine combination therapy with fluvoxamine in moderate-to-severe obsessive-compulsive disorder: A placebo-controlled, double-blind, randomized trial"
+53,10.3390/nu14030652,35277011,True,,1.000,crossref+pubmed,"Effect of Alpha-S1-Casein Tryptic Hydrolysate and L-Theanine on Poor Sleep Quality: A Double Blind, Randomized Placebo-Controlled Crossover Trial"
+54,10.3390/nu16172907,39275223,True,,1.000,crossref+pubmed,Matcha Does Not Affect Electroencephalography during Sleep but May Enhance Mental Well-Being: A Randomized Placebo-Controlled Clinical Trial
+55,10.1371/journal.pone.0309287,39213264,True,,1.000,crossref+pubmed,Effect of matcha green tea on cognitive functions and sleep quality in older adults with cognitive decline: A randomized controlled study over 12 months
+56,10.1186/s12970-019-0326-3,31771598,True,,1.000,crossref+pubmed,"Effects of acute caffeine, theanine and tyrosine supplementation on mental and physical performance in athletes"
+57,10.1080/10253890.2024.2375588,38975711,True,,1.000,crossref+pubmed,Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill
+58,10.1080/15502783.2023.2267536,37815006,True,,1.000,crossref+pubmed,"Effect of single or combined caffeine and L-Theanine supplementation on shooting and cognitive performance in elite curling athletes: a double-blind, placebo-controlled study"
+59,10.1080/15502783.2025.2564238,40977612,True,,1.000,crossref+pubmed,Performance-enhancing effects of caffeine and L-Theanine among Iranian elite wrestlers: a focus on cognitive and specific physical performance
+60,10.3389/fnut.2025.1751673,41668720,True,,1.000,crossref+pubmed,"Acute effects of combined and isolated caffeine and theanine supplementation on physical and cognitive performance in competitive athletes: a randomized, double-blind, placebo-controlled crossover study"
+62,10.3390/nu14091863,35565828,True,,1.000,crossref+pubmed,"Effect of a Combination of Magnesium, B Vitamins, Rhodiola, and Green Tea (L-Theanine) on Chronically Stressed Healthy Individuals-A Randomized, Placebo-Controlled Study"
+63,10.3177/jnsv.68.540,36596553,True,,1.000,crossref+pubmed,Effect of Combined Ingestion of L-Theanine and L-Arginine for Short-Term Psychological Stress in Young Adults: A Randomized Placebo-Controlled Study
+64,10.26355/eurrev_202601_37647,41636292,True,,1.000,pubmed,Effects of combined GABA and L-theanine supplementation on sleep quality: an exploratory study
+65,10.1016/j.phymed.2017.07.008,28899506,True,,1.000,crossref+pubmed,"Green tea effects on cognition, mood and human brain function: A systematic review"
+66,10.3390/nu9070777,28753943,True,,1.000,crossref+pubmed,Reduced Stress and Improved Sleep Quality Caused by Green Tea Are Associated with a Reduced Caffeine Content
+67,10.1016/j.pnpbp.2018.09.005,30213684,True,,1.000,crossref+pubmed,More than just caffeine: psychopharmacology of methylxanthine interactions with plant-derived phytochemicals
+68,10.1016/j.phrs.2022.106204,35378276,True,,1.000,crossref+pubmed,Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis
+69,10.1136/bmj-2024-083441,41839508,True,,1.000,crossref+pubmed,New and emerging treatments for anxiety disorders
+70,10.1016/j.phrs.2019.104395,31412272,True,,1.000,crossref+pubmed,Psychotropic effects of L-theanine and its clinical properties: From the management of anxiety and stress to a potential use in schizophrenia
+71,10.1080/10495398.2022.2099883,35852117,True,,1.000,crossref+pubmed,Dietary L-theanine supplementation improves lipid metabolism and antioxidant capacity in weaning piglets
+72,10.3390/nu17213496,41228568,True,,1.000,crossref+pubmed,The Emerging Role of Citrulline and Theanine in Health and Disease: A Comprehensive Review
+73,10.1016/j.foodres.2024.115191,39593401,True,,1.000,crossref+pubmed,"Uncovering the effects and mechanisms of tea and its components on depression, anxiety, and sleep disorders: A comprehensive review"
+74,10.3390/nu15102377,37242260,True,,1.000,crossref+pubmed,"Analysis of the Effects of Known Sleep-Support Supplements in Relation to Life Habits, Sleep Conditions, and Sleep Problems"
+75,10.3390/ijms27083607,42074246,True,,1.000,crossref+pubmed,"Phytochemical and Fungal Bioactive Compounds in the ""Brain Health Triad"": A Narrative Review on Neurostimulating, Neurotrophic, and Neuroprotective Synergy"
+76,10.1002/ptr.6277,30632212,True,,1.000,crossref+pubmed,The beneficial health effects of green tea amino acid l-theanine in animal models: Promises and prospects for human trials
+77,10.1016/j.foodres.2022.111540,35840236,True,,1.000,crossref+pubmed,"A comprehensive review on bioavailability, safety and antidepressant potential of natural bioactive components from tea"
+78,10.1002/mnfr.202200825,36815232,True,,1.000,crossref+pubmed,Antarctic Krill Oil Exhibited Synergistic Effects with Nobiletin and Theanine on Regulating Ligand-Specific Receptor-Mediated Transcytosis in Blood-Brain Barrier by Inhibiting Alkaline Phosphatase in SAMP8 Mice
+Al2025,10.3390/nu17091482,40362791,True,,1.000,crossref+pubmed,Efficiency of Different Supplements in Alleviating Symptoms of ADHD with or Without the Use of Stimulants: A Systematic Review
+Rizzo2022,10.3390/nu14040852,35215501,True,,1.000,crossref+pubmed,"Use of Nutritional Supplements Based on L-Theanine and Vitamin B6 in Children with Tourette Syndrome, with Anxiety Disorders: A Pilot Study"
+Innocenti2023,10.3390/ijms24097821,37175525,True,,1.000,crossref+pubmed,The Role of Supplements and Over-the-Counter Products to Improve Sleep in Children: A Systematic Review
+Gong2026,10.1039/d5fo03867g,41531275,True,,1.000,crossref+pubmed,Walnut peptide and theanine combination ameliorates sleep disorders: a multi-species study including a human trial
+GutirrezRomero2024,10.1038/s41598-024-58661-z,38580720,True,,1.000,crossref+pubmed,"Effect of a nutraceutical combination on sleep quality among people with impaired sleep: a randomised, placebo-controlled trial"
