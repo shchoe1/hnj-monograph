@@ -1,0 +1,62 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/S0140-6736(13)60254-8,23499043,True,,1.000,crossref+pubmed,Adverse health consequences of the Iraq War
+2,10.1159/000360060,25273498,True,,1.000,crossref+pubmed,World War I psychoneuroses: hysteria goes to war
+3,10.7205/MILMED-D-13-00452,24594462,True,,1.000,crossref+pubmed,Combat operational stress control in Iraq and Afghanistan: Army occupational therapy
+4,10.1016/j.socscimed.2020.112814,32388075,True,,1.000,crossref+pubmed,Longitudinal associations of psychological resilience with mental health and functioning among military personnel: A meta-analysis of prospective studies
+5,10.1089/acm.2017.0176,28880607,True,,1.000,crossref+pubmed,Mind-Body Therapy for Military Veterans with Post-Traumatic Stress Disorder: A Systematic Review
+6,10.1111/joor.13535,37300526,True,,1.000,crossref+pubmed,"Post-traumatic stress, prevalence of temporomandibular disorders in war veterans: Systematic review with meta-analysis"
+7,10.1053/j.gastro.2022.06.028,35716771,True,,1.000,crossref+pubmed,Risk Factors for Abdominal Pain-Related Disorders of Gut-Brain Interaction in Adults and Children: A Systematic Review
+8,10.1016/S2468-1253(23)00102-4,37211024,True,,1.000,crossref+pubmed,Overlap of disorders of gut-brain interaction: a systematic review and meta-analysis
+9,10.1111/cns.12490,26662472,True,,1.000,crossref+pubmed,Stress and the Microbiota-Gut-Brain Axis in Visceral Pain: Relevance to Irritable Bowel Syndrome
+10,10.1016/j.psyneuen.2019.104501,31715444,True,,1.000,crossref+pubmed,Stress and the brain-gut axis in functional and chronic-inflammatory gastrointestinal diseases: A transdisciplinary challenge
+11,10.1016/j.gtc.2017.08.006,29173525,True,,1.000,crossref+pubmed,The Brain-Gut Axis and Stress in Inflammatory Bowel Disease
+12,10.1126/scisignal.adi4514,37130165,True,,1.000,crossref+pubmed,Stressing the gut-brain axis
+13,10.1136/gutjnl-2021-325985,34725197,True,,1.000,crossref+pubmed,Bidirectional brain-gut axis effects influence mood and prognosis in IBD: a systematic review and meta-analysis
+14,10.5056/jnm22019,37019865,True,,1.000,crossref+pubmed,Heart Rate Variability and Somatization in Adolescents With Irritable Bowel Syndrome
+15,10.3831/KPI.2016.19.002,27280045,True,,1.000,crossref+pubmed,Historical Medical Value of Donguibogam
+16,10.13081/kjmh.2021.30.35,34010848,True,,1.000,crossref+pubmed,Joseon physician Heo Joon's Smallpox Medicine and 'Syndrome differentiation'
+17,10.1016/j.imr.2016.12.003,28664134,True,,0.996,crossref+pubmed,Traditional Indian medicine (TIM) and traditional Korean medicine (TKM): a constitutional-based concept and comparison
+18,10.13081/kjmh.2015.24.355,26394991,True,,1.000,crossref+pubmed,Microhistory and Chinese Medical History: A Review
+19,10.3346/jkms.2016.31.5.770,27134500,True,,1.000,crossref+pubmed,Utilization of Western and Traditional Korean Medicine for Children and Adolescents with Mental Disorders: a Nationwide Population-based Study from 2010 to 2012
+20,10.3389/fpsyt.2024.1302245,38410677,True,,1.000,crossref+pubmed,Systematic review and meta-analysis of cardiac neurosis for development of clinical practice guidelines of Korean medicine
+21,10.3389/fpsyt.2021.637029,34122172,True,,1.000,crossref+pubmed,How Suppressed Anger Can Become an Illness: A Qualitative Systematic Review of the Experiences and Perspectives of Hwabyung Patients in Korea
+22,10.1016/j.ctim.2024.103016,38185401,True,,1.000,crossref+pubmed,Effectiveness of mind-body medicine for Hwa-Byung (a Korean cultural diagnosis of suppressed anger): A systematic review of interventional studies
+23,10.1097/MD.0000000000041315,39928831,True,,1.000,crossref+pubmed,Effectiveness of psychotherapy for Hwa-Byung: A systematic review of interventional studies
+24,10.3390/bs13060509,37366761,True,,1.000,crossref+pubmed,Mediating Effect of Quality of Sleep Moderated by Meaning in Life on the Relationship between Hwabyung and Suicidal Ideation in Middle-Aged Korean Women
+25,10.1093/eurheartj/ehu033,24591550,True,,1.000,crossref+pubmed,Outbursts of anger as a trigger of acute cardiovascular events: a systematic review and meta-analysis
+26,10.1007/7854_2015_408,26695163,True,,1.000,crossref+pubmed,Deconstructing Anger in the Human Brain
+27,10.1016/j.jep.2021.114665,34592339,True,,1.000,crossref+pubmed,Herbal medicine for functional dyspepsia: Network meta-analysis of placebo-controlled randomised trials
+28,10.1111/jgh.15208,32767596,True,,1.000,crossref+pubmed,"Effects of the herbal medicine Rikkunshito, for functional dyspepsia: A systematic review and meta-analysis"
+29,10.1016/j.ctim.2018.11.025,30670250,True,,1.000,crossref+pubmed,Rikkunshito for upper gastrointestinal symptoms: A systematic review and meta-analysis
+30,10.3389/fphar.2021.640576,34168558,True,,0.995,crossref+pubmed,Rikkunshito as a Therapeutic Agent for Functional Dyspepsia and its Prokinetic and Non-Prokinetic Effects
+31,10.3389/fphar.2014.00271,25540621,True,,1.000,crossref+pubmed,"Rikkunshito, a ghrelin potentiator, ameliorates anorexia-cachexia syndrome"
+32,10.3389/fphar.2024.1356899,38933675,True,,1.000,crossref+pubmed,Efficacy and safety of Xiangsha liujunzi decoction for functional dyspepsia: a systematic review and meta-analysis
+33,10.3389/fphar.2025.1657423,41104332,True,,1.000,crossref+pubmed,"Therapeutic potential of modified Yukgunja-tang (Liujunzi Decoction, Rikkunshito) as an adjuvant treatment for lung cancer: a systematic review and meta-analysis"
+34,10.1016/j.jep.2023.116518,37127143,True,,1.000,crossref+pubmed,Safety and effectiveness of traditional herbal medicine Siho-sogan-san in functional dyspepsia: A systematic review and meta-analysis
+35,10.3389/fphar.2023.1114222,37124216,True,,1.000,crossref+pubmed,Safety and efficacy of Xiaoyao-san for the treatment of functional dyspepsia: a systematic review and meta-analysis of randomized controlled trials
+36,10.1016/j.jep.2022.114999,35051605,True,,1.000,crossref+pubmed,Xiaoyao Powder in the treatment of non-alcoholic fatty liver disease: A systematic review and meta-analysis
+37,10.3389/fendo.2023.1241962,37780612,True,,1.000,crossref+pubmed,Effectiveness and potential mechanism of Jiawei-Xiaoyao-San for hyperthyroidism: a systematic review
+38,10.21037/apm-20-860,32434358,True,,1.000,crossref+pubmed,A meta-analysis of Xin kai bitter method in the treatment of functional dyspepsia
+39,10.3390/ijms251910262,39408592,True,,1.000,crossref+pubmed,Sinisan Alleviates Stress-Induced Intestinal Dysfunction and Depressive-like Behaviors in Mice with Irritable Bowel Syndrome by Enhancing the Intestinal Barrier and Modulating Central 5-Hydroxytryptamine
+40,10.1111/cns.14519,37905694,True,,1.000,crossref+pubmed,Zhi Zi Chi decoction (Gardeniae fructus and semen Sojae Praeparatum) attenuates anxious depression via modulating microbiota-gut-brain axis in corticosterone combined with chronic restraint stress-induced mice
+41,10.1016/j.ctim.2025.103243,40967422,True,,1.000,crossref+pubmed,Transcutaneous auricular vagus nerve stimulation for functional dyspepsia: A systematic review and meta-analysis
+42,10.3748/wjg.v18.i7.589,22363129,True,,1.000,crossref+pubmed,Herbal medicines for the management of irritable bowel syndrome: a comprehensive review
+43,10.3748/wjg.v20.i7.1871,24587665,True,,1.000,crossref+pubmed,Effectiveness of acupuncture to treat irritable bowel syndrome: a meta-analysis
+44,10.1016/j.joim.2023.12.001,38199885,True,,1.000,crossref+pubmed,Acupuncture and moxibustion for irritable bowel syndrome: An umbrella systematic review
+45,10.1142/S0192415X24500502,39192678,True,,1.000,crossref+pubmed,Gut Microbiota Regulation by Acupuncture and Moxibustion: A Systematic Review and Meta-Analysis
+46,10.4314/ahs.v24i4.44,40190543,True,,1.000,crossref+pubmed,Meta analysis of clinical efficacy of acupoint application in the treatment of irritable bowel syndrome
+47,10.1186/s12906-020-03176-z,33407405,True,,1.000,crossref+pubmed,Efficacy and safety of Si-Jun-Zi-Tang-based therapies for functional (non-ulcer) dyspepsia: a meta-analysis of randomized controlled trials
+48,10.3389/fphar.2025.1464498,40103588,True,,1.000,crossref+pubmed,The potential of Sijunzi decoction in the fight against gastrointestinal disorders: a review
+49,10.1142/S0192415X25500636,40744713,True,,1.000,crossref+pubmed,"Research Progress on Traditional Uses, Chemical Composition, Pharmacological Actions, and Clinical Applications of Ginseng-Containing Sijunzi Decoction"
+50,10.1016/j.jchromb.2018.04.009,29654982,True,,1.000,crossref+pubmed,Rapid characterization of the chemical constituents of Sijunzi decoction by UHPLC coupled with Fourier transform ion cyclotron resonance mass spectrometry
+51,10.1097/MD.0000000000037648,38669406,True,,1.000,crossref+pubmed,Meta-analysis of modified Sijunzi decoction for the treatment of chronic atrophic gastritis
+52,10.1016/j.jep.2022.116088,36649851,True,,1.000,crossref+pubmed,A mechanism of Sijunzi decoction on improving intestinal injury with spleen deficiency syndrome and the rationality of its compatibility
+53,10.1016/j.jep.2025.121141,41482090,True,,1.000,crossref+pubmed,Oligosaccharides and small molecule components of Sijunzi decoction modulate the gut microbiota-bile acid axis to synergistically alleviate spleen deficiency syndrome
+54,10.1142/S0192415X23500325,36883990,True,,1.000,crossref+pubmed,Ginseng-Containing Sijunzi Decoction Ameliorates Ulcerative Colitis by Orchestrating Gut Homeostasis in Microbial Modulation and Intestinal Barrier Integrity
+55,10.1016/j.phymed.2025.157690,41435605,True,,1.000,crossref+pubmed,Differential and complementary effects of Baizhu and Fuling on spleen deficiency syndrome by regulating microbiota-gut-metabolite axis
+56,10.3390/ijms24021423,36674937,True,,1.000,crossref+pubmed,Poria cocos Polysaccharide Ameliorated Antibiotic-Associated Diarrhea in Mice via Regulating the Homeostasis of the Gut Microbiota and Intestinal Mucosal Barrier
+57,10.3390/ijms262010189,41155481,True,PARSER-ARTIFACT-CORRECTED (author abbrev Koidz.); PubMed PMID+CrossRef DOI+title all confirmed,1.000,crossref+pubmed,Atractylodes macrocephala Koidz
+58,10.1016/j.jchromb.2025.124554,40081219,True,,1.000,crossref+pubmed,Total ginsenosides from wild ginseng improve immune regulation in a rat model of spleen qi deficiency by modulating fecal-bacteria-associated short-chain fatty acids and intestinal barrier integrity
+59,10.1016/j.jgr.2017.04.011,29983606,True,,1.000,crossref+pubmed,Gut microbiota-mediated pharmacokinetics of ginseng saponins
+60,10.1002/ptr.8288,39079711,True,,1.000,crossref+pubmed,Licorice and liver function in patients with primary liver disease: A systematic review and meta-analysis of RCTs
+61,10.1002/ptr.8359,39474788,True,,1.000,crossref+pubmed,Effects of Ginseng on Cognitive Function: A Systematic Review and Meta-Analysis
