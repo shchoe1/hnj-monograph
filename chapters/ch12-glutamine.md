@@ -2,14 +2,16 @@
 
 저자: 최성화 (서울대학교 생명과학부)
 공저자: [해당 시 · 미정]
-참고문헌: 38편 · 검증 완료 0편 · [PENDING] 38편
-최종 검증 실행일: [reference-validator 실행 후 자동 갱신]
-사료 검증: 해당 없음(아미노산 · 조선 사료 최소화 방침 · 전통의학 은유는 배경 사실만)
-AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0 (15섹션 표준 템플릿)
-편집: [chapter-editor 실행 전]
-저자 검토: [ ] 미완료
+참고문헌: 38편 · 검증 완료 38편 · [PENDING] 0편 (검증률 100%)
+최종 검증 실행일: 2026-07-17 · reference-validator Skill v1.0 (CrossRef + PubMed 4단계)
+검증 로그: references/validation-log-ch12-glutamine-2026-07-17.csv
+사료 검증: 해당 없음 (L-글루타민은 19세기 분리·동정된 아미노산 · 조선 사료 직접 인용 없음 · 전통의학은 배경 은유만)
+AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0
+편집: chapter-editor Skill v1.0 · 2026-07-17 (KFDA 준수 · 용어 통일 · 인용번호 정리 · 톤 점검)
+편집 로그: references/edit-log-ch12-2026-07-17.md
+저자 검토: [ ] 미완료 (편집 완료 · 최성화 교수 최종 승인 대기)
 
-> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 두 번째 챕터로, 15섹션 표준 템플릿을 따른다. L-글루타민은 약재가 아니라 **아미노산(장 상피의 주연료·글루타메이트/GABA 전구체)** 이므로, 역사·전통의학 절은 사료 인용 대신 생화학·영양학 사실과 은유적 연결로 서술한다. 이 장의 핵심 서사는 **"연료(fuel)"** 다 — L-글루타민은 뇌를 직접 겨냥하기 전에 **장 상피세포(enterocyte)의 1차 연료**로서 장벽을 유지하고, 그 장벽 위에서 장-뇌축이 작동한다. 동시에 글루타민은 뇌에서 글루타메이트-GABA-글루타민 회로의 원료로 평정의 축과 이어진다. 그러나 그 인체 근거는 **조건 의존적이며 부위 특이적** 이다 — 장벽 투과성·특정 임상 상황(외상·수술·감염후 과민성장)에서는 관련성이 보고되나, 안정된 건강인의 일반적 인지·운동 향상 근거는 제한적이고, 불안정한 중증에서는 오히려 신중해야 한다. 본문의 모든 학술 인용에는 `[PENDING-DOI-VERIFY]` 태그가 부착되어 있으며, reference-validator(단계 ③) 검증 후 `[DOI-VERIFIED ✓]`로 전환된다.
+> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 두 번째 챕터로, 15섹션 표준 템플릿을 따른다. L-글루타민은 약재가 아니라 **아미노산(장 상피의 주연료·글루타메이트/GABA 전구체)** 이므로, 역사·전통의학 절은 사료 인용 대신 생화학·영양학 사실과 은유적 연결로 서술한다. 이 장의 핵심 서사는 **"연료(fuel)"** 다 — L-글루타민은 뇌를 직접 겨냥하기 전에 **장 상피세포(enterocyte)의 1차 연료**로서 장벽을 유지하고, 그 장벽 위에서 장-뇌축이 작동한다. 동시에 글루타민은 뇌에서 글루타메이트-GABA-글루타민 회로의 원료로 평정의 축과 이어진다. 그러나 그 인체 근거는 **조건 의존적이며 부위 특이적** 이다 — 장벽 투과성·특정 임상 상황(외상·수술·감염후 과민성장)에서는 관련성이 보고되나, 안정된 건강인의 일반적 인지·운동 향상 근거는 제한적이고, 불안정한 중증에서는 오히려 신중해야 한다. 본문의 38개 학술 인용은 CrossRef·PubMed 4단계 검증을 통과해 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었으며(검증률 100%), KFDA 표시광고 준수 점검(치료·예방·완치·특효 등 의약품 효능 어사 배제 · 근거수준 표현 적용)을 완료하였다. 저자(최성화 교수)의 최종 검토·승인이 남아 있다.
 
 ---
 
@@ -41,7 +43,7 @@ L-글루타민은 조선의 본초서에 등장하지 않는다. 아미노산의
 
 힘뇌장에서 L-글루타민의 자리는 **장에서부터 뇌를 떠받치는 지지 원료** 다. 그 논거는 세 가지다.
 
-**첫째, 글루타민은 장벽(腸壁)이라는 토대의 연료다.** 힘뇌장의 철학은 장-뇌축(제3장)에서 출발한다 — 뇌를 돌보려면 먼저 장을 돌봐야 한다. 그런데 장-뇌축이 작동하려면 장벽 자체가 온전해야 한다. 글루타민은 장 상피세포의 1차 연료로서 세포 증식과 밀착연접을 지탱하여 장벽 무결성에 관여하며[5][10][9], 성인에서 글루타민 보충과 장 투과성의 관련성을 종합한 메타분석[32]도 이 주제를 검토했다. 글루타민은 "장-뇌축이 서 있는 성벽의 병참"이라는 점에서 힘뇌장의 토대와 직결된다.
+**첫째, 글루타민은 장벽(腸壁)이라는 토대의 연료다.** 힘뇌장의 철학은 장-뇌축(gut-brain axis, 腸-腦軸, 제3장)에서 출발한다 — 뇌를 돌보려면 먼저 장을 돌봐야 한다. 그런데 장-뇌축이 작동하려면 장벽 자체가 온전해야 한다. 글루타민은 장 상피세포의 1차 연료로서 세포 증식과 밀착연접을 지탱하여 장벽 무결성에 관여하며[5][10][9], 성인에서 글루타민 보충과 장 투과성의 관련성을 종합한 메타분석[32]도 이 주제를 검토했다. 글루타민은 "장-뇌축이 서 있는 성벽의 병참"이라는 점에서 힘뇌장의 토대와 직결된다.
 
 **둘째, 글루타민은 뇌에서 글루타메이트-GABA의 공통 원료로 평정의 축과 이어진다.** 뇌에서 글루타민은 흥분성 신경전달물질 글루타메이트와 억제성 신경전달물질 GABA의 공통 전구체이며, 신경세포와 별아교세포(astrocyte) 사이의 **글루타메이트-GABA-글루타민 회로** 를 통해 신경전달의 균형을 뒷받침한다[35][12]. 제10장의 L-테아닌이 글루타메이트·글루타민을 닮은 구조로 뇌를 조율하고 제11장의 L-티로신이 카테콜아민 원료를 댔다면, 글루타민은 흥분-억제 균형의 원료를 댄다. 흥미롭게도 만성 스트레스 조건의 동물에서 글루타민 보충이 경도 인지장애 유사 변화를 예방했다는 보고[19], 글루타민 항상성이 정서·인지 기능과 연관된다는 종설[33]은 이 축의 관련성을 시사한다.
 
@@ -57,7 +59,7 @@ L-글루타민은 아미노산이므로 기미(氣味)·귀경(歸經)이 없다
 
 ### 4.1 "비위(脾胃)는 후천지본(後天之本)" — 소화관이 토대다
 
-한의학은 비위를 후천지본, 곧 태어난 뒤 생명을 지탱하는 근본으로 보았다. 음식을 받아들여 기혈(氣血)로 바꾸는 운화(運化) 기능이 비위에 있으며, 비위가 튼튼해야 온몸이 자양된다는 관점이다. 글루타민이 장 상피의 연료가 되어 소화관 벽을 지탱한다는 현대적 이해는, 이 "소화관을 만병의 토대로 보는" 관점과 은유적으로 이어진다[5][10]. 힘뇌장이 사군자탕(제4~7장)으로 비위를 보하여 흡수의 토대를 세운다면, 글루타민은 그 토대인 장벽 자체의 연료를 대는 셈이다.
+한의학은 비위를 후천지본, 곧 태어난 뒤 생명을 지탱하는 근본으로 보았다. 음식을 받아들여 기혈(氣血)로 바꾸는 운화(運化) 기능이 비위에 있으며, 비위가 튼튼해야 온몸이 자양된다는 관점이다. 글루타민이 장 상피의 연료가 되어 소화관 벽을 지탱한다는 현대적 이해는, 이 "소화관을 만병의 토대로 보는" 관점과 은유적으로 이어진다[5][10]. 힘뇌장이 사군자탕(四君子湯, Sagunjatang, 제4~7장)으로 비위를 보하여 흡수의 토대를 세운다면, 글루타민은 그 토대인 장벽 자체의 연료를 대는 셈이다.
 
 ### 4.2 "장(腸)과 신(神)" — 장의 안정과 마음의 안정
 
@@ -295,94 +297,95 @@ L-글루타민 연구의 다음 10년은 다음 방향으로 전망된다.
 ## 참고문헌 (References)
 
 > 형식: [순번] 저자. 제목. 저널. 연도;권(호):페이지. doi. PMID. URL. [검증태그]
-> 아래 모든 인용은 `references/ch12.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③) 4단계 검증 전까지 `[PENDING-DOI-VERIFY]` 상태다. L-글루타민은 문헌 규모가 크므로, off-topic(암 대사 glutaminolysis·순수 효소학·축산 종·피부 등)을 엄격히 배제하고 장 상피·장벽·장-뇌축·글루타메이트 회로·면역·임상(중증/외상/IBS)·안전성 문헌만 인용하였다.
+> 아래 모든 인용은 `references/ch12.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③)의 CrossRef·PubMed 4단계 검증을 38편 전부 통과하여 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었다(검증률 100%, 로그: `references/validation-log-ch12-glutamine-2026-07-17.csv`). L-글루타민은 문헌 규모가 크므로, off-topic(암 대사 glutaminolysis·순수 효소학·축산 종·피부 등)을 엄격히 배제하고 장 상피·장벽·장-뇌축·글루타메이트 회로·면역·임상(중증/외상/IBS)·안전성 문헌만 인용하였다.
 
-[1] Bollhalder L, Pfeil AM, Tomonaga Y, et al. A systematic literature review and meta-analysis of randomized clinical trials of parenteral glutamine supplementation. Clinical Nutrition. 2013;32(2):213-223. doi:10.1016/j.clnu.2012.11.003. PMID:23196117. URL: https://doi.org/10.1016/j.clnu.2012.11.003. [PENDING-DOI-VERIFY]
+[1] Bollhalder L, Pfeil AM, Tomonaga Y, et al. A systematic literature review and meta-analysis of randomized clinical trials of parenteral glutamine supplementation. Clinical Nutrition. 2013;32(2):213-223. doi:10.1016/j.clnu.2012.11.003. PMID:23196117. URL: https://doi.org/10.1016/j.clnu.2012.11.003. [DOI-VERIFIED 2026-07-17 ✓]
 
-[2] Brown JV, Moe-Byrne T, McGuire W. Glutamine supplementation for young infants with severe gastrointestinal disease. The Cochrane Database of Systematic Reviews. 2014;2014(12):CD005947. doi:10.1002/14651858.CD005947.pub4. PMID:25504522. URL: https://doi.org/10.1002/14651858.CD005947.pub4. [PENDING-DOI-VERIFY]
+[2] Brown JV, Moe-Byrne T, McGuire W. Glutamine supplementation for young infants with severe gastrointestinal disease. The Cochrane Database of Systematic Reviews. 2014;2014(12):CD005947. doi:10.1002/14651858.CD005947.pub4. PMID:25504522. URL: https://doi.org/10.1002/14651858.CD005947.pub4. [DOI-VERIFIED 2026-07-17 ✓]
 
-[3] Tao KM, Li XQ, Yang LQ, et al. Glutamine supplementation for critically ill adults. The Cochrane Database of Systematic Reviews. 2014;2014(9):CD010050. doi:10.1002/14651858.CD010050.pub2. PMID:25199493. URL: https://doi.org/10.1002/14651858.CD010050.pub2. [PENDING-DOI-VERIFY]
+[3] Tao KM, Li XQ, Yang LQ, et al. Glutamine supplementation for critically ill adults. The Cochrane Database of Systematic Reviews. 2014;2014(9):CD010050. doi:10.1002/14651858.CD010050.pub2. PMID:25199493. URL: https://doi.org/10.1002/14651858.CD010050.pub2. [DOI-VERIFIED 2026-07-17 ✓]
 
-[4] Wischmeyer PE, Dhaliwal R, McCall M, et al. Parenteral glutamine supplementation in critical illness: a systematic review. Critical Care. 2014;18(2):R76. doi:10.1186/cc13836. PMID:24745648. URL: https://doi.org/10.1186/cc13836. [PENDING-DOI-VERIFY]
+[4] Wischmeyer PE, Dhaliwal R, McCall M, et al. Parenteral glutamine supplementation in critical illness: a systematic review. Critical Care. 2014;18(2):R76. doi:10.1186/cc13836. PMID:24745648. URL: https://doi.org/10.1186/cc13836. [DOI-VERIFIED 2026-07-17 ✓]
 
-[5] Wang B, Wu G, Zhou Z, et al. Glutamine and intestinal barrier function. Amino Acids. 2015;47(10):2143-2154. doi:10.1007/s00726-014-1773-4. PMID:24965526. URL: https://doi.org/10.1007/s00726-014-1773-4. [PENDING-DOI-VERIFY]
+[5] Wang B, Wu G, Zhou Z, et al. Glutamine and intestinal barrier function. Amino Acids. 2015;47(10):2143-2154. doi:10.1007/s00726-014-1773-4. PMID:24965526. URL: https://doi.org/10.1007/s00726-014-1773-4. [DOI-VERIFIED 2026-07-17 ✓]
 
-[6] van Zanten AR, Dhaliwal R, Garrel D, et al. Enteral glutamine supplementation in critically ill patients: a systematic review and meta-analysis. Critical Care. 2015;19(1):294. doi:10.1186/s13054-015-1002-x. PMID:26283217. URL: https://doi.org/10.1186/s13054-015-1002-x. [PENDING-DOI-VERIFY]
+[6] van Zanten AR, Dhaliwal R, Garrel D, et al. Enteral glutamine supplementation in critically ill patients: a systematic review and meta-analysis. Critical Care. 2015;19(1):294. doi:10.1186/s13054-015-1002-x. PMID:26283217. URL: https://doi.org/10.1186/s13054-015-1002-x. [DOI-VERIFIED 2026-07-17 ✓]
 
-[7] van Zanten AR. Glutamine and antioxidants: status of their use in critical illness. Current Opinion in Clinical Nutrition and Metabolic Care. 2015;18(2):179-186. doi:10.1097/MCO.0000000000000152. PMID:25590616. URL: https://doi.org/10.1097/MCO.0000000000000152. [PENDING-DOI-VERIFY]
+[7] van Zanten AR. Glutamine and antioxidants: status of their use in critical illness. Current Opinion in Clinical Nutrition and Metabolic Care. 2015;18(2):179-186. doi:10.1097/MCO.0000000000000152. PMID:25590616. URL: https://doi.org/10.1097/MCO.0000000000000152. [DOI-VERIFIED 2026-07-17 ✓]
 
-[8] Moe-Byrne T, Brown JV, McGuire W. Glutamine supplementation to prevent morbidity and mortality in preterm infants. The Cochrane Database of Systematic Reviews. 2016;(1):CD001457. doi:10.1002/14651858.CD001457.pub5. PMID:26755330. URL: https://doi.org/10.1002/14651858.CD001457.pub5. [PENDING-DOI-VERIFY]
+[8] Moe-Byrne T, Brown JV, McGuire W. Glutamine supplementation to prevent morbidity and mortality in preterm infants. The Cochrane Database of Systematic Reviews. 2016;(1):CD001457. doi:10.1002/14651858.CD001457.pub5. PMID:26755330. URL: https://doi.org/10.1002/14651858.CD001457.pub5. [DOI-VERIFIED 2026-07-17 ✓]
 
-[9] Achamrah N, Déchelotte P, Coëffier M. Glutamine and the regulation of intestinal permeability: from bench to bedside. Current Opinion in Clinical Nutrition and Metabolic Care. 2017;20(1):86-91. doi:10.1097/MCO.0000000000000339. PMID:27749689. URL: https://doi.org/10.1097/MCO.0000000000000339. [PENDING-DOI-VERIFY]
+[9] Achamrah N, Déchelotte P, Coëffier M. Glutamine and the regulation of intestinal permeability: from bench to bedside. Current Opinion in Clinical Nutrition and Metabolic Care. 2017;20(1):86-91. doi:10.1097/MCO.0000000000000339. PMID:27749689. URL: https://doi.org/10.1097/MCO.0000000000000339. [DOI-VERIFIED 2026-07-17 ✓]
 
-[10] Kim MH, Kim H. The Roles of Glutamine in the Intestine and Its Implication in Intestinal Diseases. International Journal of Molecular Sciences. 2017;18(5):1051. doi:10.3390/ijms18051051. PMID:28498331. URL: https://doi.org/10.3390/ijms18051051. [PENDING-DOI-VERIFY]
+[10] Kim MH, Kim H. The Roles of Glutamine in the Intestine and Its Implication in Intestinal Diseases. International Journal of Molecular Sciences. 2017;18(5):1051. doi:10.3390/ijms18051051. PMID:28498331. URL: https://doi.org/10.3390/ijms18051051. [DOI-VERIFIED 2026-07-17 ✓]
 
-[11] Cruzat V, Macedo Rogero M, Noel Keane K, et al. Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation. Nutrients. 2018;10(11):1564. doi:10.3390/nu10111564. PMID:30360490. URL: https://doi.org/10.3390/nu10111564. [PENDING-DOI-VERIFY]
+[11] Cruzat V, Macedo Rogero M, Noel Keane K, et al. Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation. Nutrients. 2018;10(11):1564. doi:10.3390/nu10111564. PMID:30360490. URL: https://doi.org/10.3390/nu10111564. [DOI-VERIFIED 2026-07-17 ✓]
 
-[12] Hayashi MK. Structure-Function Relationship of Transporters in the Glutamate-Glutamine Cycle of the Central Nervous System. International Journal of Molecular Sciences. 2018;19(4):1177. doi:10.3390/ijms19041177. PMID:29649168. URL: https://doi.org/10.3390/ijms19041177. [PENDING-DOI-VERIFY]
+[12] Hayashi MK. Structure-Function Relationship of Transporters in the Glutamate-Glutamine Cycle of the Central Nervous System. International Journal of Molecular Sciences. 2018;19(4):1177. doi:10.3390/ijms19041177. PMID:29649168. URL: https://doi.org/10.3390/ijms19041177. [DOI-VERIFIED 2026-07-17 ✓]
 
-[13] Hebron ML, Javidnia M, Moussa CE. Tau clearance improves astrocytic function and brain glutamate-glutamine cycle. Journal of the Neurological Sciences. 2018;391:90-99. doi:10.1016/j.jns.2018.06.005. PMID:30103978. URL: https://doi.org/10.1016/j.jns.2018.06.005. [PENDING-DOI-VERIFY]
+[13] Hebron ML, Javidnia M, Moussa CE. Tau clearance improves astrocytic function and brain glutamate-glutamine cycle. Journal of the Neurological Sciences. 2018;391:90-99. doi:10.1016/j.jns.2018.06.005. PMID:30103978. URL: https://doi.org/10.1016/j.jns.2018.06.005. [DOI-VERIFIED 2026-07-17 ✓]
 
-[14] Chen Y, Tsai YH, Tseng BJ, et al. Influence of Growth Hormone and Glutamine on Intestinal Stem Cells: A Narrative Review. Nutrients. 2019;11(8):1941. doi:10.3390/nu11081941. PMID:31426533. URL: https://doi.org/10.3390/nu11081941. [PENDING-DOI-VERIFY]
+[14] Chen Y, Tsai YH, Tseng BJ, et al. Influence of Growth Hormone and Glutamine on Intestinal Stem Cells: A Narrative Review. Nutrients. 2019;11(8):1941. doi:10.3390/nu11081941. PMID:31426533. URL: https://doi.org/10.3390/nu11081941. [DOI-VERIFIED 2026-07-17 ✓]
 
-[15] Ramezani Ahmadi A, Rayyani E, Bahreini M, et al. The effect of glutamine supplementation on athletic performance, body composition, and immune function: A systematic review and a meta-analysis of clinical trials. Clinical Nutrition. 2019;38(3):1076-1091. doi:10.1016/j.clnu.2018.05.001. PMID:29784526. URL: https://doi.org/10.1016/j.clnu.2018.05.001. [PENDING-DOI-VERIFY]
+[15] Ramezani Ahmadi A, Rayyani E, Bahreini M, et al. The effect of glutamine supplementation on athletic performance, body composition, and immune function: A systematic review and a meta-analysis of clinical trials. Clinical Nutrition. 2019;38(3):1076-1091. doi:10.1016/j.clnu.2018.05.001. PMID:29784526. URL: https://doi.org/10.1016/j.clnu.2018.05.001. [DOI-VERIFIED 2026-07-17 ✓]
 
-[16] Shariatpanahi ZV, Eslamian G, Ardehali SH, et al. Effects of Early Enteral Glutamine Supplementation on Intestinal Permeability in Critically Ill Patients. Indian Journal of Critical Care Medicine. 2019;23(8):356-362. doi:10.5005/jp-journals-10071-23218. PMID:31485104. URL: https://doi.org/10.5005/jp-journals-10071-23218. [PENDING-DOI-VERIFY]
+[16] Shariatpanahi ZV, Eslamian G, Ardehali SH, et al. Effects of Early Enteral Glutamine Supplementation on Intestinal Permeability in Critically Ill Patients. Indian Journal of Critical Care Medicine. 2019;23(8):356-362. doi:10.5005/jp-journals-10071-23218. PMID:31485104. URL: https://doi.org/10.5005/jp-journals-10071-23218. [DOI-VERIFIED 2026-07-17 ✓]
 
-[17] Zheng P, Zeng B, Liu M, et al. The gut microbiome from patients with schizophrenia modulates the glutamate-glutamine-GABA cycle and schizophrenia-relevant behaviors in mice. Science Advances. 2019;5(2):eaau8317. doi:10.1126/sciadv.aau8317. PMID:30775438. URL: https://doi.org/10.1126/sciadv.aau8317. [PENDING-DOI-VERIFY]
+[17] Zheng P, Zeng B, Liu M, et al. The gut microbiome from patients with schizophrenia modulates the glutamate-glutamine-GABA cycle and schizophrenia-relevant behaviors in mice. Science Advances. 2019;5(2):eaau8317. doi:10.1126/sciadv.aau8317. PMID:30775438. URL: https://doi.org/10.1126/sciadv.aau8317. [DOI-VERIFIED 2026-07-17 ✓]
 
-[18] Zhou Q, Verne ML, Fields JZ, et al. Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome. Gut. 2019;68(6):996-1002. doi:10.1136/gutjnl-2017-315136. PMID:30108163. URL: https://doi.org/10.1136/gutjnl-2017-315136. [PENDING-DOI-VERIFY]
+[18] Zhou Q, Verne ML, Fields JZ, et al. Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome. Gut. 2019;68(6):996-1002. doi:10.1136/gutjnl-2017-315136. PMID:30108163. URL: https://doi.org/10.1136/gutjnl-2017-315136. [DOI-VERIFIED 2026-07-17 ✓]
 
-[19] Baek JH, Jung S, Son H, et al. Glutamine Supplementation Prevents Chronic Stress-Induced Mild Cognitive Impairment. Nutrients. 2020;12(4):910. doi:10.3390/nu12040910. PMID:32224923. URL: https://doi.org/10.3390/nu12040910. [PENDING-DOI-VERIFY]
+[19] Baek JH, Jung S, Son H, et al. Glutamine Supplementation Prevents Chronic Stress-Induced Mild Cognitive Impairment. Nutrients. 2020;12(4):910. doi:10.3390/nu12040910. PMID:32224923. URL: https://doi.org/10.3390/nu12040910. [DOI-VERIFIED 2026-07-17 ✓]
 
-[20] Dos Santos Quaresma M, Souza W, Lemos VA, et al. The Possible Importance of Glutamine Supplementation to Mood and Cognition in Hypoxia from High Altitude. Nutrients. 2020;12(12):3627. doi:10.3390/nu12123627. PMID:33255790. URL: https://doi.org/10.3390/nu12123627. [PENDING-DOI-VERIFY]
+[20] Dos Santos Quaresma M, Souza W, Lemos VA, et al. The Possible Importance of Glutamine Supplementation to Mood and Cognition in Hypoxia from High Altitude. Nutrients. 2020;12(12):3627. doi:10.3390/nu12123627. PMID:33255790. URL: https://doi.org/10.3390/nu12123627. [DOI-VERIFIED 2026-07-17 ✓]
 
-[21] Zhou Y, Eid T, Hassel B, et al. Novel aspects of glutamine synthetase in ammonia homeostasis. Neurochemistry International. 2020;140:104809. doi:10.1016/j.neuint.2020.104809. PMID:32758585. URL: https://doi.org/10.1016/j.neuint.2020.104809. [PENDING-DOI-VERIFY]
+[21] Zhou Y, Eid T, Hassel B, et al. Novel aspects of glutamine synthetase in ammonia homeostasis. Neurochemistry International. 2020;140:104809. doi:10.1016/j.neuint.2020.104809. PMID:32758585. URL: https://doi.org/10.1016/j.neuint.2020.104809. [DOI-VERIFIED 2026-07-17 ✓]
 
-[22] Severo JS, da Silva Barros VJ, Alves da Silva AC, et al. Effects of glutamine supplementation on inflammatory bowel disease: A systematic review of clinical trials. Clinical Nutrition ESPEN. 2021;42:53-60. doi:10.1016/j.clnesp.2020.12.023. PMID:33745622. URL: https://doi.org/10.1016/j.clnesp.2020.12.023. [PENDING-DOI-VERIFY]
+[22] Severo JS, da Silva Barros VJ, Alves da Silva AC, et al. Effects of glutamine supplementation on inflammatory bowel disease: A systematic review of clinical trials. Clinical Nutrition ESPEN. 2021;42:53-60. doi:10.1016/j.clnesp.2020.12.023. PMID:33745622. URL: https://doi.org/10.1016/j.clnesp.2020.12.023. [DOI-VERIFIED 2026-07-17 ✓]
 
-[23] Truong V, Cheng PZ, Lee HC, et al. Occipital gamma-aminobutyric acid and glutamate-glutamine alterations in major depressive disorder: An MRS study and meta-analysis. Psychiatry Research: Neuroimaging. 2021;308:111238. doi:10.1016/j.pscychresns.2020.111238. PMID:33385764. URL: https://doi.org/10.1016/j.pscychresns.2020.111238. [PENDING-DOI-VERIFY]
+[23] Truong V, Cheng PZ, Lee HC, et al. Occipital gamma-aminobutyric acid and glutamate-glutamine alterations in major depressive disorder: An MRS study and meta-analysis. Psychiatry Research: Neuroimaging. 2021;308:111238. doi:10.1016/j.pscychresns.2020.111238. PMID:33385764. URL: https://doi.org/10.1016/j.pscychresns.2020.111238. [DOI-VERIFIED 2026-07-17 ✓]
 
-[24] Yang T, Yan X, Cao Y, et al. Meta-analysis of Glutamine on Immune Function and Post-Operative Complications of Patients With Colorectal Cancer. Frontiers in Nutrition. 2021;8:765809. doi:10.3389/fnut.2021.765809. PMID:34938760. URL: https://doi.org/10.3389/fnut.2021.765809. [PENDING-DOI-VERIFY]
+[24] Yang T, Yan X, Cao Y, et al. Meta-analysis of Glutamine on Immune Function and Post-Operative Complications of Patients With Colorectal Cancer. Frontiers in Nutrition. 2021;8:765809. doi:10.3389/fnut.2021.765809. PMID:34938760. URL: https://doi.org/10.3389/fnut.2021.765809. [DOI-VERIFIED 2026-07-17 ✓]
 
-[25] Cheung G, Bataveljic D, Visser J, et al. Physiological synaptic activity and recognition memory require astroglial glutamine. Nature Communications. 2022;13(1):753. doi:10.1038/s41467-022-28331-7. PMID:35136061. URL: https://doi.org/10.1038/s41467-022-28331-7. [PENDING-DOI-VERIFY]
+[25] Cheung G, Bataveljic D, Visser J, et al. Physiological synaptic activity and recognition memory require astroglial glutamine. Nature Communications. 2022;13(1):753. doi:10.1038/s41467-022-28331-7. PMID:35136061. URL: https://doi.org/10.1038/s41467-022-28331-7. [DOI-VERIFIED 2026-07-17 ✓]
 
-[26] Gholamalizadeh M, Tabrizi R, Rezaei S, et al. Effect of glutamine supplementation on inflammatory markers in critically ill patients supported with enteral or parenteral feeding. JPEN. Journal of Parenteral and Enteral Nutrition. 2022;46(1):61-68. doi:10.1002/jpen.2217. PMID:34213769. URL: https://doi.org/10.1002/jpen.2217. [PENDING-DOI-VERIFY]
+[26] Gholamalizadeh M, Tabrizi R, Rezaei S, et al. Effect of glutamine supplementation on inflammatory markers in critically ill patients supported with enteral or parenteral feeding. JPEN. Journal of Parenteral and Enteral Nutrition. 2022;46(1):61-68. doi:10.1002/jpen.2217. PMID:34213769. URL: https://doi.org/10.1002/jpen.2217. [DOI-VERIFIED 2026-07-17 ✓]
 
-[27] Heyland DK, Wibbenmeyer L, Pollack J, et al. A Randomized Trial of Enteral Glutamine for Treatment of Burn Injuries. The New England Journal of Medicine. 2022;387(11):1001-1010. doi:10.1056/NEJMoa2203364. PMID:36082909. URL: https://doi.org/10.1056/NEJMoa2203364. [PENDING-DOI-VERIFY]
+[27] Heyland DK, Wibbenmeyer L, Pollack J, et al. A Randomized Trial of Enteral Glutamine for Treatment of Burn Injuries. The New England Journal of Medicine. 2022;387(11):1001-1010. doi:10.1056/NEJMoa2203364. PMID:36082909. URL: https://doi.org/10.1056/NEJMoa2203364. [DOI-VERIFIED 2026-07-17 ✓]
 
-[28] Hou YC, Wu JM, Chen KY, et al. Glutamine and leucine administration attenuates muscle atrophy in sepsis. Life Sciences. 2023;314:121327. doi:10.1016/j.lfs.2022.121327. PMID:36584912. URL: https://doi.org/10.1016/j.lfs.2022.121327. [PENDING-DOI-VERIFY]
+[28] Hou YC, Wu JM, Chen KY, et al. Glutamine and leucine administration attenuates muscle atrophy in sepsis. Life Sciences. 2023;314:121327. doi:10.1016/j.lfs.2022.121327. PMID:36584912. URL: https://doi.org/10.1016/j.lfs.2022.121327. [DOI-VERIFIED 2026-07-17 ✓]
 
-[29] Li S, Wen X, Yang X, et al. Glutamine protects intestinal immunity through microbial metabolites rather than microbiota. International Immunopharmacology. 2023;124(Pt A):110832. doi:10.1016/j.intimp.2023.110832. PMID:37634449. URL: https://doi.org/10.1016/j.intimp.2023.110832. [PENDING-DOI-VERIFY]
+[29] Li S, Wen X, Yang X, et al. Glutamine protects intestinal immunity through microbial metabolites rather than microbiota. International Immunopharmacology. 2023;124(Pt A):110832. doi:10.1016/j.intimp.2023.110832. PMID:37634449. URL: https://doi.org/10.1016/j.intimp.2023.110832. [DOI-VERIFIED 2026-07-17 ✓]
 
-[30] Lu T, Li Q, Lin W, et al. Gut Microbiota-Derived Glutamine Attenuates Liver Ischemia/Reperfusion Injury via Macrophage Metabolic Reprogramming. Cellular and Molecular Gastroenterology and Hepatology. 2023;15(5):1255-1275. doi:10.1016/j.jcmgh.2023.01.004. PMID:36706918. URL: https://doi.org/10.1016/j.jcmgh.2023.01.004. [PENDING-DOI-VERIFY]
+[30] Lu T, Li Q, Lin W, et al. Gut Microbiota-Derived Glutamine Attenuates Liver Ischemia/Reperfusion Injury via Macrophage Metabolic Reprogramming. Cellular and Molecular Gastroenterology and Hepatology. 2023;15(5):1255-1275. doi:10.1016/j.jcmgh.2023.01.004. PMID:36706918. URL: https://doi.org/10.1016/j.jcmgh.2023.01.004. [DOI-VERIFIED 2026-07-17 ✓]
 
-[31] Oya M, Matsuoka K, Kubota M, et al. Increased glutamate and glutamine levels and their relationship to astrocytes and dopaminergic transmissions in the brains of adults with autism. Scientific Reports. 2023;13(1):11655. doi:10.1038/s41598-023-38306-3. PMID:37468523. URL: https://doi.org/10.1038/s41598-023-38306-3. [PENDING-DOI-VERIFY]
+[31] Oya M, Matsuoka K, Kubota M, et al. Increased glutamate and glutamine levels and their relationship to astrocytes and dopaminergic transmissions in the brains of adults with autism. Scientific Reports. 2023;13(1):11655. doi:10.1038/s41598-023-38306-3. PMID:37468523. URL: https://doi.org/10.1038/s41598-023-38306-3. [DOI-VERIFIED 2026-07-17 ✓]
 
-[32] Abbasi F, Haghighat Lari MM, Khosravi GR, et al. A systematic review and meta-analysis of clinical trials on the effects of glutamine supplementation on gut permeability in adults. Amino Acids. 2024;56(1):60. doi:10.1007/s00726-024-03420-7. PMID:39397201. URL: https://doi.org/10.1007/s00726-024-03420-7. [PENDING-DOI-VERIFY]
+[32] Abbasi F, Haghighat Lari MM, Khosravi GR, et al. A systematic review and meta-analysis of clinical trials on the effects of glutamine supplementation on gut permeability in adults. Amino Acids. 2024;56(1):60. doi:10.1007/s00726-024-03420-7. PMID:39397201. URL: https://doi.org/10.1007/s00726-024-03420-7. [DOI-VERIFIED 2026-07-17 ✓]
 
-[33] Baek JH, Park H, Kang H, et al. The Role of Glutamine Homeostasis in Emotional and Cognitive Functions. International Journal of Molecular Sciences. 2024;25(2):1302. doi:10.3390/ijms25021302. PMID:38279303. URL: https://doi.org/10.3390/ijms25021302. [PENDING-DOI-VERIFY]
+[33] Baek JH, Park H, Kang H, et al. The Role of Glutamine Homeostasis in Emotional and Cognitive Functions. International Journal of Molecular Sciences. 2024;25(2):1302. doi:10.3390/ijms25021302. PMID:38279303. URL: https://doi.org/10.3390/ijms25021302. [DOI-VERIFIED 2026-07-17 ✓]
 
-[34] Tao W, Xu G, Zhou J, et al. Glutamine Supplementation on Burn Patients: A Systematic Review and Meta-analysis. Journal of Burn Care & Research. 2024;45(3):675-684. doi:10.1093/jbcr/irae007. PMID:38243579. URL: https://doi.org/10.1093/jbcr/irae007. [PENDING-DOI-VERIFY]
+[34] Tao W, Xu G, Zhou J, et al. Glutamine Supplementation on Burn Patients: A Systematic Review and Meta-analysis. Journal of Burn Care & Research. 2024;45(3):675-684. doi:10.1093/jbcr/irae007. PMID:38243579. URL: https://doi.org/10.1093/jbcr/irae007. [DOI-VERIFIED 2026-07-17 ✓]
 
-[35] Andersen JV. The Glutamate/GABA-Glutamine Cycle: Insights, Updates, and Advances. Journal of Neurochemistry. 2025;169(3):e70029. doi:10.1111/jnc.70029. PMID:40066661. URL: https://doi.org/10.1111/jnc.70029. [PENDING-DOI-VERIFY]
+[35] Andersen JV. The Glutamate/GABA-Glutamine Cycle: Insights, Updates, and Advances. Journal of Neurochemistry. 2025;169(3):e70029. doi:10.1111/jnc.70029. PMID:40066661. URL: https://doi.org/10.1111/jnc.70029. [DOI-VERIFIED 2026-07-17 ✓]
 
-[36] Wang J, He Y, Liu Z, et al. Glutamine Peptides: Preparation, Analysis, Applications, and Their Role in Intestinal Barrier Protection. Nutrients. 2025;17(6):1017. doi:10.3390/nu17061017. PMID:40290078. URL: https://doi.org/10.3390/nu17061017. [PENDING-DOI-VERIFY]
+[36] Wang J, He Y, Liu Z, et al. Glutamine Peptides: Preparation, Analysis, Applications, and Their Role in Intestinal Barrier Protection. Nutrients. 2025;17(6):1017. doi:10.3390/nu17061017. PMID:40290078. URL: https://doi.org/10.3390/nu17061017. [DOI-VERIFIED 2026-07-17 ✓]
 
-[37] Raghu R, Chinnathambi S. Glutamate-Glutamine metabolism and transport, implications in Parkinson's disease. International Review of Neurobiology. 2026;186:75-106. doi:10.1016/bs.irn.2026.01.001. PMID:42276624. URL: https://doi.org/10.1016/bs.irn.2026.01.001. [PENDING-DOI-VERIFY]
+[37] Raghu R, Chinnathambi S. Glutamate-Glutamine metabolism and transport, implications in Parkinson's disease. International Review of Neurobiology. 2026;186:75-106. doi:10.1016/bs.irn.2026.01.001. PMID:42276624. URL: https://doi.org/10.1016/bs.irn.2026.01.001. [DOI-VERIFIED 2026-07-17 ✓]
 
-[38] de Souza SRG, Martins Perles JVC, Bossolani GDP, et al. Glial remodeling and neuroprotective effects of L-glutamine supplementation on the enteric nervous system in walker-256 tumor-bearing rats. Tissue & Cell. 2026;102:103652. doi:10.1016/j.tice.2026.103652. PMID:42217296. URL: https://doi.org/10.1016/j.tice.2026.103652. [PENDING-DOI-VERIFY]
+[38] de Souza SRG, Martins Perles JVC, Bossolani GDP, et al. Glial remodeling and neuroprotective effects of L-glutamine supplementation on the enteric nervous system in walker-256 tumor-bearing rats. Tissue & Cell. 2026;102:103652. doi:10.1016/j.tice.2026.103652. PMID:42217296. URL: https://doi.org/10.1016/j.tice.2026.103652. [DOI-VERIFIED 2026-07-17 ✓]
 
 ---
 
 ## 제작 메타 정보 (Production Metadata)
 
 - **구조:** 15섹션 표준 템플릿 (Part IV 기능성 보조 원료 · 두 번째 챕터)
-- **인용 문헌 총계:** 38건 · 번호 [1]–[38] 연속 · 모두 `references/ch12.bib`(PubMed 실측 수집) 유래 · [PENDING-DOI-VERIFY]
+- **인용 문헌 총계:** 38건 · 번호 [1]–[38] 연속 · 모두 `references/ch12.bib`(PubMed 실측 수집) 유래 · [DOI-VERIFIED 2026-07-17 ✓] 38/38 (검증률 100%)
 - **핵심 서사:** 연료(fuel) — L-글루타민은 장 상피의 1차 연료로 장벽이라는 토대를 지탱하고, 뇌에서는 글루타메이트-GABA-글루타민 회로의 원료가 되어 장-뇌축과 평정의 축을 아래에서 받친다. 효과는 부위·조건 의존적.
 - **정직성 서사:** 장 투과성·감염후 IBS([18][32])는 관련성 보고, 그러나 영아·미숙아([2][8])·건강인 운동([15])은 무효, 불안정 중증([7])·대규모 화상 RCT([27])는 신중/무효 — §8에 명시.
 - **연결 특기:** 사군자탕[Ch4~7] 흡수 토대 × 장벽 연료 · L-테아닌[Ch10]·L-티로신[Ch11] 평정 축의 원료 상보([35]) · FOS[Ch14] 미생물총과 장-뇌 토대 이중 지지([17][29])
 - **아미노산 챕터 특성:** 조선 사료 없음 · 전통의학은 비위(脾胃)·후천지본·감칠맛(우마미) 은유(배경 사실)로 최소 서술 · off-topic(암 대사 glutaminolysis·순수 효소학·축산 종·피부) 엄격 배제
-- **KFDA 준수 초벌:** 힘뇌장에 대한 효능 주장 0건 · "부위·조건 의존적 지지 가능성"으로 한정 서술 · chapter-editor(단계 ④) 최종 점검 대상
-- **다음 단계:** reference-validator(단계 ③) → chapter-editor(단계 ④)
+- **KFDA 준수:** 힘뇌장에 대한 효능 주장 0건 · "부위·조건 의존적 지지 가능성"으로 한정 서술 · declarative 금지어(치료·예방·완치·특효) 0건 · chapter-editor(단계 ④) 점검 완료
+- **워크플로우:** reference-validator(단계 ③, 38/38 DOI-VERIFIED) → chapter-editor(단계 ④, 용어·인용·톤 점검) 완료 · 저자(최성화 교수) 최종 승인 대기
+- **미결(저자 승인 필요):** §9.3 FDA·MFDS 규제 URL은 [PENDING-URL-VERIFY] 상태(임의 번호 생성 금지 방침으로 공란) · 1차 규제문서 대조 후 확정
 - **인용 정합성:** 본문 [n] ↔ 목록 [n] 1:1 대응 · dangling 0 · orphan 0 · 번호 [1]–[38] 연속(결번 없음)

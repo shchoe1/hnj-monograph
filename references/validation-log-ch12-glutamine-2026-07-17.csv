@@ -1,0 +1,39 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.clnu.2012.11.003,23196117,True,,1.000,crossref+pubmed,A systematic literature review and meta-analysis of randomized clinical trials of parenteral glutamine supplementation
+2,10.1002/14651858.CD005947.pub4,25504522,True,,1.000,crossref+pubmed,Glutamine supplementation for young infants with severe gastrointestinal disease
+3,10.1002/14651858.CD010050.pub2,25199493,True,,1.000,crossref+pubmed,Glutamine supplementation for critically ill adults
+4,10.1186/cc13836,24745648,True,,1.000,crossref+pubmed,Parenteral glutamine supplementation in critical illness: a systematic review
+5,10.1007/s00726-014-1773-4,24965526,True,,1.000,crossref+pubmed,Glutamine and intestinal barrier function
+6,10.1186/s13054-015-1002-x,26283217,True,,1.000,crossref+pubmed,Enteral glutamine supplementation in critically ill patients: a systematic review and meta-analysis
+7,10.1097/MCO.0000000000000152,25590616,True,,1.000,crossref+pubmed,Glutamine and antioxidants: status of their use in critical illness
+8,10.1002/14651858.CD001457.pub5,26755330,True,,1.000,crossref+pubmed,Glutamine supplementation to prevent morbidity and mortality in preterm infants
+9,10.1097/MCO.0000000000000339,27749689,True,,1.000,crossref+pubmed,Glutamine and the regulation of intestinal permeability: from bench to bedside
+10,10.3390/ijms18051051,28498331,True,,1.000,crossref+pubmed,The Roles of Glutamine in the Intestine and Its Implication in Intestinal Diseases
+11,10.3390/nu10111564,30360490,True,,1.000,crossref+pubmed,"Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation"
+12,10.3390/ijms19041177,29649168,True,,1.000,crossref+pubmed,Structure-Function Relationship of Transporters in the Glutamate-Glutamine Cycle of the Central Nervous System
+13,10.1016/j.jns.2018.06.005,30103978,True,,1.000,crossref+pubmed,Tau clearance improves astrocytic function and brain glutamate-glutamine cycle
+14,10.3390/nu11081941,31426533,True,,1.000,crossref+pubmed,Influence of Growth Hormone and Glutamine on Intestinal Stem Cells: A Narrative Review
+15,10.1016/j.clnu.2018.05.001,29784526,True,,1.000,crossref+pubmed,"The effect of glutamine supplementation on athletic performance, body composition, and immune function: A systematic review and a meta-analysis of clinical trials"
+16,10.5005/jp-journals-10071-23218,31485104,True,,1.000,crossref+pubmed,Effects of Early Enteral Glutamine Supplementation on Intestinal Permeability in Critically Ill Patients
+17,10.1126/sciadv.aau8317,30775438,True,,1.000,crossref+pubmed,The gut microbiome from patients with schizophrenia modulates the glutamate-glutamine-GABA cycle and schizophrenia-relevant behaviors in mice
+18,10.1136/gutjnl-2017-315136,30108163,True,,1.000,crossref+pubmed,Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome
+19,10.3390/nu12040910,32224923,True,,1.000,crossref+pubmed,Glutamine Supplementation Prevents Chronic Stress-Induced Mild Cognitive Impairment
+20,10.3390/nu12123627,33255790,True,,1.000,crossref+pubmed,The Possible Importance of Glutamine Supplementation to Mood and Cognition in Hypoxia from High Altitude
+21,10.1016/j.neuint.2020.104809,32758585,True,,1.000,crossref+pubmed,Novel aspects of glutamine synthetase in ammonia homeostasis
+22,10.1016/j.clnesp.2020.12.023,33745622,True,,1.000,crossref+pubmed,Effects of glutamine supplementation on inflammatory bowel disease: A systematic review of clinical trials
+23,10.1016/j.pscychresns.2020.111238,33385764,True,,1.000,crossref+pubmed,Occipital gamma-aminobutyric acid and glutamate-glutamine alterations in major depressive disorder: An MRS study and meta-analysis
+24,10.3389/fnut.2021.765809,34938760,True,,1.000,crossref+pubmed,Meta-analysis of Glutamine on Immune Function and Post-Operative Complications of Patients With Colorectal Cancer
+25,10.1038/s41467-022-28331-7,35136061,True,,1.000,crossref+pubmed,Physiological synaptic activity and recognition memory require astroglial glutamine
+26,10.1002/jpen.2217,34213769,True,,1.000,crossref+pubmed,Effect of glutamine supplementation on inflammatory markers in critically ill patients supported with enteral or parenteral feeding
+27,10.1056/NEJMoa2203364,36082909,True,,1.000,crossref+pubmed,A Randomized Trial of Enteral Glutamine for Treatment of Burn Injuries
+28,10.1016/j.lfs.2022.121327,36584912,True,,1.000,crossref+pubmed,Glutamine and leucine administration attenuates muscle atrophy in sepsis
+29,10.1016/j.intimp.2023.110832,37634449,True,,1.000,crossref+pubmed,Glutamine protects intestinal immunity through microbial metabolites rather than microbiota
+30,10.1016/j.jcmgh.2023.01.004,36706918,True,,1.000,crossref+pubmed,Gut Microbiota-Derived Glutamine Attenuates Liver Ischemia/Reperfusion Injury via Macrophage Metabolic Reprogramming
+31,10.1038/s41598-023-38306-3,37468523,True,,1.000,crossref+pubmed,Increased glutamate and glutamine levels and their relationship to astrocytes and dopaminergic transmissions in the brains of adults with autism
+32,10.1007/s00726-024-03420-7,39397201,True,,1.000,crossref+pubmed,A systematic review and meta-analysis of clinical trials on the effects of glutamine supplementation on gut permeability in adults
+33,10.3390/ijms25021302,38279303,True,,1.000,crossref+pubmed,The Role of Glutamine Homeostasis in Emotional and Cognitive Functions
+34,10.1093/jbcr/irae007,38243579,True,,1.000,crossref+pubmed,Glutamine Supplementation on Burn Patients: A Systematic Review and Meta-analysis
+35,10.1111/jnc.70029,40066661,True,,1.000,crossref+pubmed,"The Glutamate/GABA-Glutamine Cycle: Insights, Updates, and Advances"
+36,10.3390/nu17061017,40290078,True,,1.000,crossref+pubmed,"Glutamine Peptides: Preparation, Analysis, Applications, and Their Role in Intestinal Barrier Protection"
+37,10.1016/bs.irn.2026.01.001,42276624,True,,1.000,crossref+pubmed,"Glutamate-Glutamine metabolism and transport, implications in Parkinson's disease"
+38,10.1016/j.tice.2026.103652,42217296,True,,1.000,crossref+pubmed,Glial remodeling and neuroprotective effects of L-glutamine supplementation on the enteric nervous system in walker-256 tumor-bearing rats
