@@ -1,0 +1,45 @@
+{
+  "target": 40,
+  "header_title": "Chapter 15 · 종장 — 힘뇌장 배합의 통합·시너지·미래",
+  "header_scope": "종합: 영양정신의학·사이코바이오틱스·다표적 복합 개입·장-뇌 회복탄력성·미생물 대사산물·정밀영양 · 2013-2026",
+  "title_gate": ["gut-brain", "microbiota-gut-brain", "psychobiotic", "nutritional psychiatry", "microbiome", "gut microbiota", "fermented", "prebiotic", "probiotic", "resilience", "nutraceutical", "short-chain fatty acid", "polyphenol", "mediterranean", "dietary pattern"],
+  "note": "종장(종합 챕터)용 종합 수준 문헌. 개별 원료가 아니라 힘뇌장 설계 철학(다표적 장-뇌 조율)을 뒷받침하는 리뷰·메타·프레임워크 문헌 중심. 축산/양식·순수 미생물학·식품가공은 배제. 최종 수동 정리로 종합서사에 맞는 34~40편 확정.",
+  "tiers": {
+    "nature": 9, "science": 9, "cell": 9, "lancet": 9, "physiological reviews": 9, "new england": 9,
+    "nature reviews neuroscience": 9, "nature reviews gastroenterology": 9, "molecular psychiatry": 9,
+    "world psychiatry": 9, "lancet psychiatry": 9, "brain behavior and immunity": 8, "gut": 8,
+    "the american journal of psychiatry": 8, "biological psychiatry": 8, "nature communications": 8,
+    "cell metabolism": 8, "gut microbes": 8, "trends in": 8, "annual review": 8, "nature mental health": 8,
+    "american journal of clinical nutrition": 8, "advances in nutrition": 8, "nutrition reviews": 7,
+    "neuroscience and biobehavioral reviews": 7, "journal of affective disorders": 7, "psychological medicine": 7,
+    "the british journal of nutrition": 6, "nutrients": 6, "nutritional neuroscience": 6, "psychoneuroendocrinology": 7,
+    "european journal of nutrition": 6, "molecular nutrition & food research": 7, "frontiers in": 5,
+    "international journal of molecular sciences": 5, "critical reviews in food science": 7, "clinical nutrition": 7,
+    "npj science of food": 6, "translational psychiatry": 7, "bmc medicine": 7, "cochrane": 6
+  },
+  "buckets": {
+    "nutripsych": ["nutritional psychiatry", "nutraceutical", "phytoceutical", "psychiatry", "mental health", "psychiatric"],
+    "psychobiotic": ["psychobiotic", "probiotic", "prebiotic", "synbiotic", "fermented"],
+    "gutbrain": ["gut-brain", "microbiota-gut-brain", "gut microbiota", "microbiome", "gut bacteria"],
+    "mood": ["depression", "depressive", "anxiety", "mood", "affective", "stress"],
+    "cognition": ["cognit", "memory", "brain", "neuroprotect", "aging", "dementia", "neurodegener"],
+    "scfa": ["short-chain fatty acid", "scfa", "butyrate", "microbial metabolite", "metabolite"],
+    "diet": ["diet", "dietary pattern", "mediterranean", "fermented food", "nutrition", "food"],
+    "resilience": ["resilience", "stress", "hpa", "allostasis", "coping"],
+    "multi": ["multinutrient", "multi-nutrient", "combination", "polyphenol", "multi-target", "polypharmacology", "synerg"],
+    "review": ["review", "meta-analysis", "systematic", "umbrella"]
+  },
+  "quotas": [
+    ["nutripsych", 8], ["psychobiotic", 9], ["gutbrain", 10], ["mood", 8], ["cognition", 7],
+    ["scfa", 5], ["diet", 6], ["resilience", 5], ["multi", 5], ["review", 12]
+  ],
+  "core_buckets": ["nutripsych", "psychobiotic", "gutbrain", "mood", "cognition", "scfa", "resilience"],
+  "exclude_hard": [
+    "broiler", "poultry", "piglet", "weaning pig", "aquaculture", "shrimp", "fish", "cancer cell",
+    "tumor", "tumour", "soil", "wastewater", "c-fos", "fos protein", "in vitro fermentation model"
+  ],
+  "exclude_soft": [
+    "in silico", "docking", "extraction optimization", "encapsulation", "food packaging",
+    "structural characterization", "green synthesis", "bioreactor", "spray drying", "purification"
+  ]
+}

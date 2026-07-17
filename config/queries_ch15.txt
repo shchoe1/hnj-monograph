@@ -1,0 +1,15 @@
+# Chapter 15 · 종장(Epilogue) · PubMed 쿼리 (collect_pubmed.py --queries)
+# 한 줄에 쿼리 하나 · #주석/빈 줄 무시 · mindate 2013 maxdate 2026
+# 종합 챕터: 영양정신의학·사이코바이오틱스·다표적/복합 개입·장-뇌 회복탄력성·미생물 대사산물
+("nutritional psychiatry")[Title/Abstract] AND (review OR depression OR "mental health" OR diet OR nutrient)
+("psychobiotic" OR "psychobiotics")[Title] AND (review OR depression OR anxiety OR cognition OR "systematic review")
+("gut-brain axis" OR "microbiota-gut-brain axis")[Title] AND (review OR stress OR resilience OR "mental health" OR depression OR cognition)
+("fermented food" OR "fermented foods" OR "dietary pattern" OR "mediterranean diet")[Title/Abstract] AND ("mental health" OR depression OR cognition OR "gut microbiota")
+("multinutrient" OR "multi-nutrient" OR "combination" OR "polyphenol" OR "nutraceutical")[Title/Abstract] AND (cognition OR mood OR depression OR "randomized controlled")
+("resilience" OR "stress resilience")[Title] AND (brain OR "gut microbiota" OR neurobiology OR stress OR microbiome)
+("short-chain fatty acid" OR "short-chain fatty acids")[Title] AND (brain OR "gut-brain" OR behavior OR cognition OR microbiota-gut-brain)
+("probiotic" OR "probiotics")[Title] AND (depression OR anxiety OR cognition OR "mental health") AND (meta-analysis OR "systematic review")
+("herbal" OR "traditional medicine" OR "botanical")[Title/Abstract] AND ("gut microbiota" OR "gut-brain" OR depression OR "microbiota-gut-brain")
+("diet" OR "dietary")[Title] AND ("gut microbiota" OR microbiome) AND (brain OR cognition OR "mental health" OR mood)
+("microbiome" OR "gut microbiota")[Title] AND (aging OR "healthy aging" OR longevity OR cognition) AND (review OR "systematic")
+("nutritional psychiatry" OR "psychobiotic" OR "gut-brain")[Title/Abstract] AND ("clinical trial" OR "randomized" OR "future" OR "precision")
