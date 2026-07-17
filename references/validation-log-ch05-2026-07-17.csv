@@ -1,0 +1,52 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.jep.2018.08.023,30130541,True,,1.000,crossref+pubmed,"The traditional uses, phytochemistry, and pharmacology of Atractylodes macrocephala Koidz.: A review"
+2,10.3389/fphar.2021.727154,34803677,True,,1.000,crossref+pubmed,"A Review of the Ethnopharmacology, Phytochemistry, Pharmacology, Application, Quality Control, Processing, Toxicology, and Pharmacokinetics of the Dried Rhizome of Atractylodes macrocephala"
+3,10.1016/j.jep.2020.113415,32987126,True,,1.000,crossref+pubmed,"Atractylodis Rhizoma: A review of its traditional uses, phytochemistry, pharmacology, toxicology and quality control"
+4,10.1016/j.phymed.2024.155739,38797027,True,,1.000,crossref+pubmed,The traditional Chinese medicine processing change chemical composition and pharmacological effectiveness: Taking Atractylodes macrocephala Koidz
+5,10.1016/j.phymed.2025.157690,41435605,True,,1.000,crossref+pubmed,Differential and complementary effects of Baizhu and Fuling on spleen deficiency syndrome by regulating microbiota-gut-metabolite axis
+6,10.3390/nu17233722,41374013,True,,1.000,crossref+pubmed,Polysaccharides from Atractylodes macrocephala: A Review of Mechanistic and Therapeutic Insights into Intestinal Disorders
+7,10.3389/fphar.2025.1543194,40144663,True,,1.000,crossref+pubmed,Effect of Bojanggunbi-tang and its primary constituent herbs on the gastrointestinal tract: a scoping review
+8,10.1016/j.biopha.2022.113699,36116253,True,,1.000,crossref+pubmed,The antitumor properties of atractylenolides: Molecular mechanisms and signaling pathways
+9,10.3390/molecules31020246,41599296,True,,1.000,crossref+pubmed,"Anticancer Potential of Atractylenolides I-III: Efficacy, Mechanisms, Pharmacokinetics, and Safety"
+10,10.1021/acs.jafc.4c11976,40364748,True,,1.000,crossref+pubmed,Atractylenolide-1 Alleviates Ulcerative Colitis via Restraining RhoA/ROCK/MLC Pathway-Mediated Intestinal Barrier Dysfunction
+11,10.1002/ptr.8045,37857401,True,,1.000,crossref+pubmed,Atractylenolide I improves behaviors in mice with depression-like phenotype by modulating neurotransmitter balance via 5-HT2A
+12,10.1016/j.neulet.2021.136050,34126179,True,,1.000,crossref+pubmed,Atractylenolide III reduces depressive- and anxiogenic-like behaviors in rat depression models
+13,10.1016/j.jep.2022.115506,35760256,True,,1.000,crossref+pubmed,"Isolation, structure and bioactivity of polysaccharides from Atractylodes macrocephala: A review"
+14,10.3389/fphar.2022.952061,36091757,True,,1.000,crossref+pubmed,The chemistry and efficacy benefits of polysaccharides from Atractylodes macrocephala Koidz
+15,10.1016/j.jep.2014.10.059,25446597,True,,1.000,crossref+pubmed,Atractylodes macrocephala Koidz stimulates intestinal epithelial cell migration through a polyamine dependent mechanism
+16,10.1016/j.jep.2025.120760,41110732,True,,1.000,crossref+pubmed,The mechanisms and therapeutic potential of Atractylodes macrocephala Koidz in chronic liver disease management
+17,10.7150/ijms.116169,40765567,True,,1.000,crossref+pubmed,Atractylodes macrocephala Koidzumi modulates human colonic motility via ICCs pacemaker suppression and cAMP/ATP-sensitive K⁺ channel pathways
+18,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+19,10.1111/nmo.14875,39077771,True,,1.000,crossref+pubmed,Polysaccharide extracted from Atractylodes macrocephala improves the spleen deficiency constipation in mice by regulating the gut microbiota to affect the 5-HT synthesis
+20,10.1016/j.jep.2025.119884,40288662,True,,1.000,crossref+pubmed,Rhizome of Atractylodes macrocephala alleviates spleen-deficiency constipation in rats by modulating gut microbiota and bile acid metabolism
+21,10.1016/j.phymed.2025.156977,40554896,True,,1.000,crossref+pubmed,Study on the effects of the atractylodes macrocephala koidz-raphanus sativus l herb pair in alleviating senile constipation via the gut microbiota-SCFAs-5-HT axis
+22,10.3390/ijms262010189,41155481,True,,1.000,crossref+pubmed,Atractylodes macrocephala Koidz
+23,10.1016/j.ijbiomac.2026.151754,41932472,True,,1.000,crossref+pubmed,Atractylodes macrocephala polysaccharide AMP1-1 ameliorates weightless-induced cognitive dysfunction via the microbiota-gut-brain axis
+24,10.1016/j.phymed.2025.157654,41385953,True,,1.000,crossref+pubmed,Shenling Baizhu Powder attenuates cognitive impairment via the gut-brain axis in diet-induced obese mice
+25,10.3389/fcimb.2023.1298392,38145049,True,,1.000,crossref+pubmed,"Impact of Baizhu, Daqingye, and Hehuanhua extracts on the human gut microbiome"
+26,10.3389/fendo.2022.1102605,36760814,True,,1.000,crossref+pubmed,Effects of Atractylodes Macrocephala Rhizoma polysaccharide on intestinal microbiota composition in rats with mammary gland hyperplasia
+27,10.1016/j.phymed.2023.155163,37924689,True,,1.000,crossref+pubmed,Baizhu shaoyao decoction restores the intestinal barrier and brain-gut axis balance to alleviate diarrhea-predominant irritable bowel syndrome via FoxO1/FoxO3a
+28,10.3390/nu16223837,39599623,True,,1.000,crossref+pubmed,PAMK Ameliorates Non-Alcoholic Steatohepatitis and Associated Anxiety/Depression-like Behaviors Through Restoring Gut Microbiota and Metabolites in Mice
+29,10.1111/cns.13839,35403332,True,,1.000,crossref+pubmed,Atractylenolide III ameliorates spinal cord injury in rats by modulating microglial/macrophage polarization
+30,10.1016/j.jphs.2023.04.007,37169480,True,,1.000,crossref+pubmed,"Paeoniflorin, ferulic acid, and atractylenolide III improved LPS-induced neuroinflammation of BV2 microglia cells by enhancing autophagy"
+31,10.1038/s41598-025-19492-8,41073487,True,,1.000,crossref+pubmed,Atractylodes macrocephala compounds attenuate pediatric epilepsy neuroinflammation through multitarget regulation of the NF-κB pathway
+32,10.1016/j.jep.2024.117971,38403003,True,,1.000,crossref+pubmed,The rhizomes of Atractylodes macrocephala Koidz improve gastrointestinal health and pregnancy outcomes in pregnant mice via modulating intestinal barrier and water-fluid metabolism
+33,10.1177/15347354221081214,35635135,True,,1.000,crossref+pubmed,Herbal Formula Shenling Baizhu San for Chronic Diarrhea in Adults: A Systematic Review and Meta-analysis
+34,10.3748/wjg.v28.i33.4890,36156925,True,,1.000,crossref+pubmed,Chinese herbal formula shen-ling-bai-zhu-san to treat chronic gastritis: Clinical evidence and potential mechanisms
+35,10.3389/fphar.2022.978558,36160392,True,,1.000,crossref+pubmed,Traditional Chinese medicine prescription Shenling BaiZhu powder to treat ulcerative colitis: Clinical evidence and potential mechanisms
+36,10.3389/fphar.2025.1575903,40510424,True,,1.000,crossref+pubmed,"Clinical application, potential pharmacological targets and quality marker prediction of a TCM formulation used (Shenling Baizhu San) in the treatment of respiratory diseases"
+37,10.1111/jocd.14165,33877745,True,,1.000,crossref+pubmed,Efficacy and safety of Chinese herbal medicine Jianpi formulas for atopic dermatitis: Evidence from 11 randomized controlled trials
+38,10.1016/j.jep.2024.117735,38211824,True,,1.000,crossref+pubmed,Efficacy and safety of traditional plant-based medicines for preventing chronic oxaliplatin-induced peripheral neurotoxicity in patients with colorectal cancer: A systematic review and meta-analysis with core herb contribution
+39,10.3389/fonc.2024.1431381,39479020,True,,1.000,crossref+pubmed,Efficacy and safety of Atractylodes macrocephala-containing traditional Chinese medicine combined with neoadjuvant chemotherapy in the treatment of advanced gastric cancer: a systematic evaluation and meta-analysis
+40,10.3389/fonc.2021.629132,33869014,True,,1.000,crossref+pubmed,Efficacy of Herbal Medicines Intervention for Colorectal Cancer Patients With Chemotherapy-Induced Gastrointestinal Toxicity - a Systematic Review and Meta-Analysis
+41,10.1016/j.ijbiomac.2023.126860,37716665,True,,1.000,crossref+pubmed,Effects of in vitro fermentation of Atractylodes chinensis (DC.) Koidz
+42,10.3389/fphar.2024.1398294,38860174,True,,1.000,crossref+pubmed,Molecular targets associated with ulcerative colitis and the benefits of atractylenolides-based therapy
+43,10.1016/j.psj.2025.105160,40267565,True,,1.000,crossref+pubmed,Protective effects of polysaccharide of Atractylodes macrocephala Koidz and Jiawei Si-jun-zi Decoction on gut health and immune function in cyclophosphamide-treated chicks
+44,10.3390/molecules22111886,29099789,True,,1.000,crossref+pubmed,"Atractylenolide II Inhibits Proliferation, Motility and Induces Apoptosis in Human Gastric Carcinoma Cell Lines HGC-27 and AGS"
+45,10.1016/j.jep.2024.118599,39043352,True,,1.000,crossref+pubmed,Shenling Baizhu Decoction treats ulcerative colitis of spleen-deficiency and dampness obstruction types by targeting 'gut microbiota and galactose metabolism-bone marrow' axis
+46,10.1016/j.carbpol.2025.124863,41617265,True,,1.000,crossref+pubmed,Structural characterization of Atractylodes macrocephala polysaccharide 1 and its gut microbiota-mediated alleviation of ulcerative colitis
+47,10.1016/j.carbpol.2025.124764,41475736,True,,1.000,crossref+pubmed,A novel fructan from Atractylodes macrocephala ameliorates ulcerative colitis through gut microbiota-mediated PI3K/Akt signaling
+48,10.1016/j.ijbiomac.2025.142512,40157659,True,,1.000,crossref+pubmed,Polysaccharide from Atractylodes macrocephala Koidz
+49,10.1016/j.jep.2025.120971,41317806,True,,1.000,crossref+pubmed,"Atractylodes macrocephala polysaccharide alleviates DSS-induced colitis through coordinated regulation of lipid metabolism, the bile acid-cAMP-JNK axis, and intestinal barrier function"
+50,10.3389/fphar.2022.797805,35846998,True,,1.000,crossref+pubmed,Atractylenolide III Attenuates Angiogenesis in Gastric Precancerous Lesions Through the Downregulation of Delta-Like Ligand 4
+51,10.1016/j.jep.2021.114892,34883219,True,,1.000,crossref+pubmed,Database mining and animal experiment-based validation of the efficacy and mechanism of Radix Astragali (Huangqi) and Rhizoma Atractylodis Macrocephalae (Baizhu) as core drugs of Traditional Chinese medicine in cancer-related fatigue
