@@ -1,0 +1,15 @@
+# Chapter 13 · Curcumin (커큐민·울금) · PubMed 쿼리 (collect_pubmed.py --queries)
+# 한 줄에 쿼리 하나 · #주석/빈 줄 무시 · mindate 2013 maxdate 2026 로 수집
+# 서사 축: 항염(anti-inflammation) → 신경염증 → 장-뇌축 · "항염의 국제 시민" · 생체이용률 정직성
+("curcumin")[Title] AND (neuroinflammation OR microglia OR "brain inflammation" OR neuroprotection OR neurodegeneration)
+("curcumin")[Title] AND (depression OR depressive OR mood OR antidepressant OR anxiety OR "major depressive")
+("curcumin")[Title] AND (cognition OR cognitive OR memory OR Alzheimer OR "cognitive function")
+("curcumin" OR "turmeric")[Title/Abstract] AND ("gut-brain" OR "microbiota-gut-brain" OR "gut microbiota" OR microbiome)
+("curcumin")[Title] AND (intestinal OR gut OR colitis OR "inflammatory bowel" OR "intestinal barrier" OR permeability)
+("curcumin")[Title] AND (inflammation OR "C-reactive protein" OR "IL-6" OR "TNF-alpha" OR cytokine OR "oxidative stress")
+("curcumin")[Title] AND (bioavailability OR pharmacokinetic OR absorption OR formulation OR piperine OR nanoparticle)
+("curcumin")[Title] AND (randomized OR "clinical trial" OR "double-blind" OR "placebo-controlled")
+("curcumin")[Title] AND (safety OR tolerability OR "adverse effects" OR toxicity)
+("curcumin")[Title] AND (antioxidant OR "NF-kB" OR "Nrf2" OR "anti-inflammatory")
+("curcumin" OR "turmeric" OR "Curcuma longa")[Title] AND (review OR meta-analysis OR "systematic review")
+("curcumin")[Title/Abstract] AND ("HPA axis" OR stress OR BDNF OR "brain-derived neurotrophic")

@@ -1,0 +1,51 @@
+{
+  "target": 46,
+  "header_title": "Chapter 13 · 커큐민 (Curcumin, 울금)",
+  "header_scope": "항염·신경염증·장뇌축·기분(MDD)·인지·생체이용률·안전성 · 2013-2026",
+  "title_gate": ["curcumin", "curcuma", "turmeric"],
+  "note": "title_gate로 제목에 curcumin/curcuma/turmeric 필수. 암세포·종양·치의학·소재/센서/나노공학·축산은 exclude_hard/soft로 감점. 커큐민은 문헌이 방대하고 PAINS(범분석간섭)·생체이용률 이슈가 크므로, 신경염증·기분·인지·장-뇌·항염·생체이용률·안전성 문헌만 남기도록 최종 수동 정리(PIPELINE.md 1-b).",
+  "tiers": {
+    "nature": 9, "science": 9, "cell": 9, "lancet": 9, "physiological reviews": 9, "new england": 9,
+    "molecular psychiatry": 9, "brain behavior and immunity": 9, "journal of neuroinflammation": 8,
+    "gut": 8, "pnas": 8, "nature communications": 8, "cell metabolism": 8, "gut microbes": 8,
+    "american journal of clinical nutrition": 8, "advances in nutrition": 8, "nutrition reviews": 7,
+    "critical reviews in food science": 7, "molecular nutrition & food research": 7, "phytotherapy research": 7,
+    "journal of neurochemistry": 7, "neuropharmacology": 7, "british journal of pharmacology": 7,
+    "journal of psychiatric research": 7, "journal of affective disorders": 7, "psychopharmacology": 6,
+    "antioxidants": 6, "nutrients": 6, "clinical nutrition": 7, "european journal of nutrition": 6,
+    "british journal of nutrition": 6, "food & function": 6, "journal of nutritional biochemistry": 6,
+    "biofactors": 6, "frontiers in pharmacology": 5, "frontiers in": 5, "nutritional neuroscience": 6,
+    "international journal of molecular sciences": 5, "scientific reports": 5, "molecules": 4,
+    "cochrane": 6, "phytomedicine": 6, "journal of ethnopharmacology": 6, "pharmacological research": 7
+  },
+  "buckets": {
+    "neuroinflam": ["neuroinflamm", "microglia", "brain inflammation", "astrocyte", "neuroinflammation", "central inflammation"],
+    "mood": ["depression", "depressive", "mood", "antidepressant", "major depressive", "anxiety", "anxiolytic", "mdd"],
+    "cognition": ["cognit", "memory", "alzheimer", "neuroprotect", "neurodegener", "brain", "hippocamp", "learning", "dementia"],
+    "gutbrain": ["gut-brain", "microbiota-gut-brain", "gut microbiota", "microbiome", "gut bacteria", "microbial"],
+    "gut": ["intestin", "gut", "colitis", "inflammatory bowel", "barrier", "permeability", "ibd", "mucosa"],
+    "inflammation": ["inflammat", "cytokine", "c-reactive", "interleukin", "tnf", "il-6", "oxidative stress", "nf-kb", "nrf2", "antioxidant"],
+    "bioavail": ["bioavailability", "pharmacokinetic", "absorption", "formulation", "piperine", "nanoparticle", "phospholipid", "curcuminoid", "delivery", "nanocurcumin"],
+    "clinical": ["randomized", "clinical trial", "double-blind", "placebo", "randomised", "controlled trial"],
+    "safety": ["safety", "tolerability", "adverse", "toxicity", "dose-escalation"],
+    "review": ["review", "meta-analysis", "systematic"]
+  },
+  "quotas": [
+    ["neuroinflam", 8], ["mood", 8], ["cognition", 8], ["inflammation", 9], ["bioavail", 8],
+    ["gut", 6], ["gutbrain", 6], ["clinical", 10], ["safety", 6], ["review", 10]
+  ],
+  "core_buckets": ["neuroinflam", "mood", "cognition", "gutbrain", "gut", "inflammation", "bioavail", "safety"],
+  "exclude_hard": [
+    "cancer cell", "tumor", "tumour", "carcinoma", "glioma", "glioblastoma", "melanoma", "leukemia",
+    "leukaemia", "anticancer", "antitumor", "antitumour", "chemotherap", "xenograft", "oncolog",
+    "metasta", "dental", "periodont", "orthodont", "wound healing", "photocatal", "dye-sensitized",
+    "solar cell", "corrosion inhibitor", "photodynamic therapy", "osteosarcoma", "cervical cancer",
+    "breast cancer", "lung cancer", "colorectal cancer", "prostate cancer", "hepatocellular"
+  ],
+  "exclude_soft": [
+    "in silico", "docking", "nanocomposite", "electrochemical", "colorimetric", "sensor",
+    "detection of", "aquaculture", "broiler", "poultry", "fish", "shrimp", "crystal structure",
+    "green synthesis", "quantum dot", "hydrogel", "food packaging", "textile", "adsorption",
+    "membrane fabrication", "photoluminescence", "nanofiber", "3d printing"
+  ]
+}
