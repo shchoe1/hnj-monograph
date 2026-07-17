@@ -1,0 +1,52 @@
+{
+  "target": 46,
+  "header_title": "Chapter 11 · L-티로신 (L-Tyrosine)",
+  "header_scope": "인지수행·스트레스·카테콜아민(도파민/NE)전구체·보충·기분·장뇌축(방향족아미노산)·안전성 · 2013-2026",
+  "title_gate": ["tyrosine"],
+  "note": "title_gate로 제목에 'tyrosine' 필수. 이후 raw에서 tyrosine kinase/조영제/항암제 PK 등은 exclude_hard/soft로 감점. 최종 32편은 curate 출력 뒤 off-topic 5~11건을 수동 제거하여 확정함(PIPELINE.md 단계 1-b 참고).",
+  "tiers": {
+    "nature": 9, "science": 9, "cell": 9, "lancet": 9, "physiological reviews": 9, "new england": 9,
+    "pnas": 8, "proceedings of the national academy": 8, "nature communications": 8, "nature metabolism": 8,
+    "molecular psychiatry": 8, "american journal of clinical nutrition": 8, "gut": 8, "brain behavior and immunity": 7,
+    "nutrients": 6, "journal of nutrition": 7, "clinical nutrition": 7, "neuroscience and biobehavioral": 7,
+    "psychopharmacology": 6, "journal of neuroscience": 7, "neuropsychopharmacology": 7, "biological psychiatry": 7,
+    "journal of neurochemistry": 6, "journal of neural transmission": 6, "neurochemistry international": 6,
+    "clinical pharmacokinetics": 6, "international journal of molecular sciences": 5, "scientific reports": 5,
+    "frontiers in": 5, "nutritional neuroscience": 6, "amino acids": 6, "physiology & behavior": 5,
+    "european journal of nutrition": 6, "british journal of nutrition": 6, "cochrane": 6,
+    "medicine and science in sports": 5, "journal of sports sciences": 5, "european journal of sport": 5,
+    "neuroimage": 6, "european heart journal": 7, "microbiome": 7, "stress": 5
+  },
+  "buckets": {
+    "cognition": ["cognit", "memory", "working memory", "attention", "executive", "cognitive flexibility", "learning", "task-switch", "psychomotor", "vigilance", "mental"],
+    "stress": ["stress", "cold", "sleep deprivation", "fatigue", "military", "multitask", "acute stress", "demanding", "hypoxia", "stressor"],
+    "catechol": ["dopamine", "norepinephrine", "noradrenaline", "catecholamine", "tyrosine hydroxylase", "precursor", "dopaminergic", "neurotransmitter"],
+    "mood": ["depression", "mood", "depressive", "motivation", "anhedonia", "reward", "apathy", "emotion"],
+    "gutbrain": ["gut microbiota", "microbiome", "aromatic amino acid", "amino acid metabolism", "tyramine", "gut-brain", "gut bacteria", "microbial metabol", "intestinal"],
+    "supp": ["supplementation", "supplement", "dietary tyrosine", "intake", "ingestion", "depletion", "aptd", "large neutral amino acid", "administration"],
+    "exercise": ["exercise", "physical performance", "endurance", "thermoregulat", "sport", "athlete"],
+    "safety": ["safety", "pharmacokinetic", "plasma tyrosine", "brain uptake", "blood-brain barrier", "tolerability", "adverse", "metabolism of tyrosine"],
+    "aging": ["aging", "ageing", "elderly", "older adults", "neurodegener", "parkinson", "phenylketonuria", "pku"],
+    "review": ["review", "meta-analysis", "systematic"]
+  },
+  "quotas": [
+    ["cognition", 14], ["stress", 10], ["catechol", 12], ["supp", 10], ["mood", 8],
+    ["gutbrain", 7], ["exercise", 6], ["safety", 7], ["aging", 6], ["review", 10]
+  ],
+  "core_buckets": ["cognition", "stress", "catechol", "mood", "supp", "exercise", "safety", "gutbrain", "aging"],
+  "exclude_hard": [
+    "tyrosine kinase", "kinase inhibitor", "receptor tyrosine", "phosphoryl", "phospho-tyrosine",
+    "phosphatase", "nitrotyrosine", "nitration", "tyrosinase", "sulfotyrosine", "sulfation",
+    "egfr", "vegf", "pdgf", "jak", "syk", "btk", "kinase domain", "crystal structure",
+    "protein tyrosine", "phosphotyrosine", "kinase activity", "bosutinib", "trastuzumab",
+    "deruxtecan", "ribociclib", "tucatinib", "chemoembolization", "imatinib", "nilotinib",
+    "dasatinib", "sunitinib", "sorafenib", "gefitinib", "erlotinib", "lapatinib", "osimertinib"
+  ],
+  "exclude_soft": [
+    "in silico", "docking only", "fingerprint", "genome", "transcriptome", "crystalliz",
+    "biosensor", "electrochemical detection", "determination of tyrosine", "fluorescent probe",
+    "fluoroethyl", "ammonia-lyase", "trna", "escherichia coli", "production of aromatic",
+    "nanoregulator", "biomimetic", "off-targets of histone", "emotional experiences of parents",
+    "chir99021", "conditional ko mice", "pink1 regulates", "does not have enzymatic activity"
+  ]
+}
