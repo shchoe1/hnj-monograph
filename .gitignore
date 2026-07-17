@@ -6,9 +6,10 @@ __pycache__/
 venv/
 
 # Build outputs
+# 참고: output/*.docx (원료 챕터 워드 산출물)은 검토용으로 Git에 포함한다.
 output/*.pdf
-output/*.docx
 output/build/
+output/~$*        # MS Word 임시 잠금파일 (~$파일명)
 
 # OS
 .DS_Store
