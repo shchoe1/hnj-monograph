@@ -1,0 +1,41 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.tins.2013.01.005,23384445,True,,1.000,crossref+pubmed,Gut-brain axis: how the microbiome influences anxiety and depression
+2,10.1016/j.tins.2016.09.002,27793434,True,,1.000,crossref+pubmed,Psychobiotics and the Manipulation of Bacteria-Gut-Brain Signals
+3,10.1016/j.biopsych.2016.12.031,28242013,True,,1.000,crossref+pubmed,Targeting the Microbiota-Gut-Brain Axis: Prebiotics Have Anxiolytic and Antidepressant-like Effects and Reverse the Impact of Chronic Stress in Mice
+4,10.1038/s41575-019-0157-3,31123355,True,,1.000,crossref+pubmed,The role of short-chain fatty acids in microbiota-gut-brain communication
+5,10.1016/j.psyneuen.2018.10.010,30388595,True,,1.000,crossref+pubmed,"Probiotic Lactobacillus Plantarum 299v decreases kynurenine concentration and improves cognitive functions in patients with major depression: A double-blind, randomized, placebo controlled study"
+6,10.1038/s41575-020-0341-5,32855515,True,,1.000,crossref+pubmed,Brain-gut-microbiome interactions in obesity and food addiction
+7,10.1016/j.jad.2020.01.102,32056863,True,,1.000,crossref+pubmed,Gut microbiota and major depressive disorder: A systematic review and meta-analysis
+8,10.3389/fendo.2020.00025,32082260,True,,1.000,crossref+pubmed,The Role of Short-Chain Fatty Acids From Gut Microbiota in Gut-Brain Communication
+9,10.3920/BM2020.0063,33191776,True,,1.000,crossref+pubmed,From probiotics to psychobiotics - the gut-brain axis in psychiatric disorders
+10,10.1093/advances/nmaa181,33693453,True,,1.000,crossref+pubmed,Diet and the Microbiota-Gut-Brain Axis: Sowing the Seeds of Good Mental Health
+11,10.1016/j.lfs.2020.118627,33169684,True,,1.000,crossref+pubmed,"Role of gut-brain axis, gut microbial composition, and probiotic intervention in Alzheimer's disease"
+12,10.1093/gerona/glaa090,32300799,True,,1.000,crossref+pubmed,"Probiotic Supplementation Improves Cognitive Function and Mood with Changes in Gut Microbiota in Community-Dwelling Older Adults: A Randomized, Double-Blind, Placebo-Controlled, Multicenter Trial"
+13,10.1016/j.pnpbp.2020.110187,33271210,True,,1.000,crossref+pubmed,A systematic review of microbiome changes and impact of probiotic supplementation in children and adolescents with neuropsychiatric disorders
+14,10.1080/1028415X.2019.1625222,31397223,True,,1.000,crossref+pubmed,Nutrient and genetic biomarkers of nutraceutical treatment response in mood and psychotic disorders: a systematic review
+15,10.1016/j.clnu.2022.09.012,36228569,True,,1.000,crossref+pubmed,"The gut microbiome, mild cognitive impairment, and probiotics: A randomized clinical trial in middle-aged and older adults"
+16,10.3390/ijms23094494,35562885,True,,1.000,crossref+pubmed,"The Gut Microbiome in Depression and Potential Benefit of Prebiotics, Probiotics and Synbiotics: A Systematic Review of Clinical Trials and Observational Studies"
+17,10.1016/j.psyneuen.2021.105640,34942539,True,,1.000,crossref+pubmed,"The gut microbiota-brain axis, psychobiotics and its influence on brain and behaviour: A systematic review"
+18,10.3390/ijms231911245,36232548,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis in Psychiatric Disorders
+19,10.1038/s41380-022-01456-3,35194166,True,,1.000,crossref+pubmed,"A systematic review of gut microbiota composition in observational studies of major depressive disorder, bipolar disorder and schizophrenia"
+20,10.1016/j.mce.2022.111572,35066114,True,,1.000,crossref+pubmed,Short chain fatty acids: Microbial metabolites for gut-brain axis signalling
+21,10.3389/fncel.2022.867267,35634468,True,,1.000,crossref+pubmed,The Microbiome and Gut Endocannabinoid System in the Regulation of Stress Responses and Metabolism
+22,10.1038/s41380-022-01817-y,36289300,True,,1.000,crossref+pubmed,Feed your microbes to deal with stress: a psychobiotic diet impacts microbial stability and perceived stress in a healthy adult population
+23,10.1080/10408398.2022.2099808,35838146,True,,1.000,crossref+pubmed,Polyphenols in edible herbal medicine: targeting gut-brain interactions in depression-associated neuroinflammation
+24,10.3390/nu15204391,37892465,True,,1.000,crossref+pubmed,The Gut-Brain Axis in Schizophrenia: The Implications of the Gut Microbiome and SCFA Production
+25,10.31083/j.jin2203065,37258450,True,,1.000,crossref+pubmed,"Neuroinflammation, Microbiota-Gut-Brain Axis, and Depression: The Vicious Circle"
+26,10.1016/j.neubiorev.2024.105562,38278378,True,,1.000,crossref+pubmed,Fermented foods: Harnessing their potential to modulate the microbiota-gut-brain axis for mental health
+27,10.1016/j.pnpbp.2024.111073,38914414,True,,1.000,crossref+pubmed,Exploring the gut-brain Axis: Potential therapeutic impact of Psychobiotics on mental health
+28,10.1152/physrev.00042.2023,38483288,True,,1.000,crossref+pubmed,Neurobiology and systems biology of stress resilience
+29,10.1038/s41467-024-55015-1,39737960,True,,1.000,crossref+pubmed,"A microbiota-derived metabolite, 3-phenyllactic acid, prolongs healthspan by enhancing mitochondrial function and stress resilience via SKN-1/ATFS-1 in C"
+30,10.1016/j.clnu.2024.05.036,38878554,True,,1.000,crossref+pubmed,Modulation of gut microbiome in the treatment of neurodegenerative diseases: A systematic review
+31,10.1038/s41467-024-46116-y,38424099,True,,1.000,crossref+pubmed,Effect of gut microbiome modulation on muscle function and cognition: the PROMOTe randomised controlled trial
+32,10.1016/j.neubiorev.2024.105561,38280441,True,,1.000,crossref+pubmed,"Probiotic, prebiotic, synbiotic and fermented food supplementation in psychiatric disorders: A systematic review of clinical trials"
+33,10.1038/s42255-024-01108-6,39174768,True,,1.000,crossref+pubmed,Feeding gut microbes to nourish the brain: unravelling the diet-microbiota-gut-brain axis
+34,10.1111/cns.14519,37905694,True,,1.000,crossref+pubmed,Zhi Zi Chi decoction (Gardeniae fructus and semen Sojae Praeparatum) attenuates anxious depression via modulating microbiota-gut-brain axis in corticosterone combined with chronic restraint stress-induced mice
+35,10.3390/ijms25063340,38542314,True,,1.000,crossref+pubmed,"Mind, Mood and Microbiota-Gut-Brain Axis in Psychiatric Disorders"
+36,10.1016/j.clnu.2024.03.028,38613906,True,,1.000,crossref+pubmed,Adherence to the ultra-processed dietary pattern and risk of depressive outcomes: Findings from the NutriNet Brasil cohort study and an updated systematic review and meta-analysis
+37,10.1016/j.advnut.2024.100184,38311314,True,,1.000,crossref+pubmed,The Mediterranean-Dietary Approaches to Stop Hypertension Intervention for Neurodegenerative Delay (MIND) Diet for the Aging Brain: A Systematic Review
+38,10.14814/phy2.70541,40930836,True,,1.000,crossref+pubmed,Effects of fermentable fiber and polyphenol supplementation on mood and cognition in adults during hypobaric hypoxia exposure
+39,10.1093/nutrit/nuad176,38219230,True,,1.000,crossref+pubmed,The impact of the Mediterranean diet on alleviating depressive symptoms in adults: a systematic review and meta-analysis of randomized controlled trials
+40,10.1093/nutrit/nuae053,38758659,True,,1.000,crossref+pubmed,Mediterranean Diet and Mental Health in Children and Adolescents: A Systematic Review
