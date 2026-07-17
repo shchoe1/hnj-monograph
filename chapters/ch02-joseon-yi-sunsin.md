@@ -5,7 +5,7 @@
 참고문헌: 61편 · 검증 완료 61편 · [PENDING] 0편 (검증률 100%)
 최종 검증 실행일: 2026-07-17 · reference-validator Skill v1.0 (CrossRef + PubMed 4단계)
 검증 로그: references/validation-log-ch02-2026-07-17.csv
-사료 검증: **부분 · 최소화 방침** — 조선 사료(난중일기·동의보감·조선왕조실록)는 논쟁의 여지 없는 사실(존재·저자·연대)만 배경으로 언급하며, 특정 일자·구절·페이지의 확정 인용은 하지 않는다. 심층 사료 인용이 필요한 경우 `[HISTORICAL-VERIFY-PENDING]`으로 표시하고 historical-verifier 전용 패스에서 확정한다. 소설·드라마 인용 0.
+사료 검증: **부분 · 최소화 방침** — 조선 사료(난중일기·동의보감·조선왕조실록)는 논쟁의 여지 없는 사실(존재·저자·연대)만 배경으로 언급하며, 특정 일자·구절·페이지의 확정 인용은 하지 않는다. **historical-verifier 패스 2026-07-17 실행** — [H]태그 인용 0건·소설/드라마 오인용 0건 확인, 배경 서지 사실 [확립], 원문 확정 인용은 [미완, 수동 대조]로 이월(리포트: `references/historical-verification-2026-07-17.md`, 부록 A). 소설·드라마 인용 0.
 AI 초안 도구: Claude Opus 4.8 · 서장 맞춤 구조(9부)
 편집: chapter-editor Skill v1.0 · 2026-07-17 (KFDA 준수 · 용어 일관 · 헤더 갱신)
 편집 로그: references/edit-log-ch02-2026-07-17.md

@@ -105,4 +105,5 @@ git push origin main
 - 완료: 서문(ch00-preface, 기획·감수 최성화/작성 Claude) + Ch1~15 전권 (검증 100%·편집 완료·저자 승인 대기)
 - 저자 승인 체크리스트: `references/AUTHOR-APPROVAL-CHECKLIST-2026-07-17.md` (40항목·필수 24)
 - 부록 착수: `appendices/appendix-A-historical-sources.md`(사료 검증 워크리스트)·`appendix-B-patent-claims.md`(특허 템플릿) — 원문/청구항은 저자·historical-verifier 확정 대상
-- 남은 작업: 저자 최종 승인 · 규제 URL 확정 · 부록 A/B 원문 채우기 · (선택)historical-verifier 패스
+- historical-verifier 패스 실행(2026-07-17): [H]태그 0·소설/드라마 0 확인 · 배경 서지 [확립] · 원문은 [미완, 수동] (리포트: references/historical-verification-2026-07-17.md)
+- 남은 작업: 저자 최종 승인 · 규제 URL 확정 · 부록 A 원문/부록 B 청구항 채우기(수동)
