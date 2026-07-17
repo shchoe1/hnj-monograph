@@ -1,0 +1,63 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.jep.2019.112417,31765761,True,,1.000,crossref+pubmed,A review on the phytopharmacological studies of the genus Polygala
+2,10.3389/fphar.2024.1450733,39359244,True,,1.000,crossref+pubmed,"A review of the botany, metabolites, pharmacology, toxicity, industrial applications, and processing of Polygalae Radix: the ""key medicine for nourishing life"""
+3,10.1007/s12035-018-0908-0,29417476,True,,1.000,crossref+pubmed,Qi Fu Yin-a Ming Dynasty Prescription for the Treatment of Dementia
+4,10.1016/j.phymed.2022.154483,36260972,True,,1.000,crossref+pubmed,Therapeutic potential of Polygala saponins in neurological diseases
+5,10.3389/fnins.2019.01421,32009890,True,,1.000,crossref+pubmed,"Kaixinsan, a Well-Known Chinese Herbal Prescription, for Alzheimer's Disease and Depression: A Preclinical Systematic Review"
+6,10.3389/fphar.2024.1431894,39050746,True,,1.000,crossref+pubmed,Saponin components in Polygala tenuifolia as potential candidate drugs for treating dementia
+7,10.1016/j.neulet.2019.04.045,31039426,True,,1.000,crossref+pubmed,Protective effect of Tenuifolin against Alzheimer's disease
+8,10.1039/c9fo00994a,31664284,True,,1.000,crossref+pubmed,Protective effects of tenuifolin isolated from Polygala tenuifolia Willd roots on neuronal apoptosis and learning and memory deficits in mice with Alzheimer's disease
+9,10.1002/ptr.7402,35129236,True,,1.000,crossref+pubmed,Tenuifolin ameliorates chronic restraint stress-induced cognitive impairment in C57BL/6J mice
+10,10.1002/ptr.7627,36608695,True,,1.000,crossref+pubmed,Tenuifolin ameliorates the sleep deprivation-induced cognitive deficits
+11,10.1002/ptr.7930,37364988,True,,1.000,crossref+pubmed,"Tenuifolin in the prevention of Alzheimer's disease-like phenotypes: Investigation of the mechanisms from the perspectives of calpain system, ferroptosis, and apoptosis"
+12,10.3389/fphar.2022.937333,35924058,True,,1.000,crossref+pubmed,"Neuroprotective Effects and Mechanisms of Senegenin, an Effective Compound Originated From the Roots of Polygala Tenuifolia"
+13,10.1016/j.jep.2026.121396,41707815,True,,1.000,crossref+pubmed,Senegenin attenuates LPS-induced neuroinflammation and microglial cell death via Akt phosphorylation and suppression of cGAS-STING-NLRP3 signaling: Network pharmacology and experimental validation
+14,10.1016/j.freeradbiomed.2021.12.263,34933095,True,,1.000,crossref+pubmed,Polygala saponins inhibit NLRP3 inflammasome-mediated neuroinflammation via SHP-2-Mediated mitophagy
+15,10.1016/j.jep.2020.113317,32861821,True,,1.000,crossref+pubmed,Radix Polygalae extract exerts antidepressant effects in behavioral despair mice and chronic restraint stress-induced rats probably by promoting autophagy and inhibiting neuroinflammation
+16,10.1016/j.jphs.2021.06.010,34384566,True,,1.000,crossref+pubmed,Polygalaxanthone III downregulates inflammation in the lipopolysaccharide-stimulated RAW264.7 macrophages: A quantibody array analysis
+17,10.1016/j.ijbiomac.2021.11.097,34801584,True,,1.000,crossref+pubmed,"PTP70-2, a novel polysaccharide from Polygala tenuifolia, prevents neuroinflammation and protects neurons by suppressing the TLR4-mediated MyD88/NF-κB signaling pathway"
+18,10.1016/j.jep.2023.117564,38081400,True,,1.000,crossref+pubmed,Polysaccharide from Polygala tenuifolia alleviates cognitive decline in Alzheimer's disease mice by alleviating Aβ damage and targeting the ERK pathway
+19,10.1111/cns.14581,38421141,True,,1.000,crossref+pubmed,Polygalacic acid attenuates cognitive impairment by regulating inflammation through PPARγ/NF-κB signaling pathway
+20,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+21,10.3390/ijms241813877,37762181,True,,1.000,crossref+pubmed,Polygalae Radix Oligosaccharide Esters May Relieve Depressive-like Behavior in Rats with Chronic Unpredictable Mild Stress via Modulation of Gut Microbiota
+22,10.1186/s13020-026-01436-7,42260668,True,,1.000,crossref+pubmed,"Polygala oligosaccharide esters improve memory disorder by restoring gut microbiota homeostasis through the regulation of the ""gut-brain"" axis"
+23,10.1016/j.phrs.2021.105697,34062240,True,,1.000,crossref+pubmed,Saponins isolated from Radix polygalae extent lifespan by modulating complement C3 and gut microbiota
+24,10.3389/fphar.2025.1483883,40351411,True,,1.000,crossref+pubmed,KaiXinSan-JiaWei ameliorates cognitive dysfunction in APP/PS1 mice by intervening in gut microbiota and its metabolites
+25,10.1016/j.isci.2025.112817,40599314,True,,1.000,crossref+pubmed,Metabolomic and microbial insights: Kai-Xin-San's impact on Alzheimer's disease pathology
+26,10.1016/j.fitote.2026.107162,41796868,True,,1.000,crossref+pubmed,Exploring the effect of Kaixin San on Alzheimer's disease by regulating the Keap1/Nrf2/GPX4 signaling pathway to inhibit ferroptosis based on metabolomics and gut microbiota analysis
+27,10.1016/j.jep.2025.120484,40882788,True,,1.000,crossref+pubmed,"Kai-Xin-San, an ancient herbal mixture for anti-depression, mitigates the fluoxetine-induced gut dysbiosis and intestinal damage in chronic unpredictable mild stressed mice"
+28,10.1016/j.jep.2026.121440,41763619,True,,1.000,crossref+pubmed,Exploring the intervention mechanism of Acori Tatarinowii Rhizoma-Polygalae Radix herb pair on post-stroke depression based on multi-omics analysis
+29,10.1016/j.jep.2024.118255,38670402,True,,1.000,crossref+pubmed,The therapeutic potential of Ziziphi Spinosae Semen and Polygalae Radix in insomnia management: Insights from gut microbiota and serum metabolomics techniques
+30,10.1016/j.phymed.2015.12.009,26926176,True,,1.000,crossref+pubmed,Neuroprotective effects of polygalacic acid on scopolamine-induced memory deficits in mice
+31,10.1038/aps.2016.17,27180981,True,,1.000,crossref+pubmed,"Polygalasaponin XXXII, a triterpenoid saponin from Polygalae Radix, attenuates scopolamine-induced cognitive impairments in mice"
+32,10.1631/jzus.B1500321,27381727,True,,1.000,crossref+pubmed,Cognitive-enhancing effects of hydrolysate of polygalasaponin in SAMP8 mice
+33,10.1007/s12035-021-02626-0,35303280,True,,1.000,crossref+pubmed,Kai-Xin-San Inhibits Tau Pathology and Neuronal Apoptosis in Aged SAMP8 Mice
+34,10.1016/j.phymed.2024.156170,39520951,True,,1.000,crossref+pubmed,Kaixinsan regulates neuronal mitochondrial homeostasis to improve the cognitive function of Alzheimer's disease by activating CaMKKβ-AMPK-PGC-1α signaling axis
+35,10.1016/j.jep.2020.113625,33248184,True,,1.000,crossref+pubmed,The antidepressant-like effects of the water extract of Panax ginseng and Polygala tenuifolia are mediated via the BDNF-TrkB signaling pathway and neurogenesis in the hippocampus
+36,10.1016/j.phymed.2016.10.015,27912882,True,,1.000,crossref+pubmed,"Tenuifolin, a saponin derived from Radix Polygalae, exhibits sleep-enhancing effects in mice"
+37,10.1016/j.jep.2023.117618,38141791,True,,1.000,crossref+pubmed,Sedative and hypnotic effects of Polygala tenuifolia willd
+38,10.1111/cns.70588,40873250,True,,1.000,crossref+pubmed,Tenuifolin Attenuates Methamphetamine-Induced Reinstatement in Mice by Regulating Hippocampal Postsynaptic BDNF Signaling
+39,10.1016/j.jep.2025.119878,40287113,True,,1.000,crossref+pubmed,Aqueous Polygalae Radix extract (PRE) prolongs the lifespan of C
+40,10.1016/j.phymed.2021.153467,33516143,True,,1.000,crossref+pubmed,"The effects of KaiXinSan on depression and its association with lipid profiles: A randomized, double-blinded, placebo-controlled trial"
+41,10.1097/MD.0000000000036719,38181245,True,,1.000,crossref+pubmed,A meta-analysis of the efficacy and safety of the traditional Chinese medicine formula Kaixinsan decoction for depression
+42,10.3389/fnbeh.2022.1061877,36560929,True,,1.000,crossref+pubmed,Systematic review of Kaixinsan in treating depression: Efficacy and pharmacological mechanisms
+43,10.3389/fphar.2023.1268000,38283842,True,,1.000,crossref+pubmed,Polygala tenuifolia and Acorus tatarinowii in the treatment of Alzheimer's disease: a systematic review and meta-analysis
+44,10.3389/fphar.2024.1341074,38425647,True,,1.000,crossref+pubmed,The efficacy and safety of Chinese herbal medicine for mild cognitive impairment: a systematic review and meta-analysis of randomized placebo-controlled trials
+45,10.1016/j.jep.2018.12.031,30576772,True,,1.000,crossref+pubmed,Study on the safety of Polygala tenuifolia Willdenow root extract powder (BT-11) in young person aged from 9 to 19 years old
+46,10.1016/j.jep.2025.119661,40120702,True,,1.000,crossref+pubmed,Crude Polygalae Radix after boiling with licorice decoction alleviates intestinal mucosal barrier injury of rats by regulating TLR4/NF-κB signaling pathway
+47,10.3389/fphar.2026.1782000,42244862,True,,1.000,crossref+pubmed,Intestinal toxicity evaluation of polygala total saponins in mice according to toxicological evidence chain (TEC) concept
+48,10.3389/fphar.2024.1338024,38362144,True,,1.000,crossref+pubmed,"Constituents, pharmacological activities, pharmacokinetic studies, clinical applications, and safety profile on the classical prescription Kaixinsan"
+49,10.1016/j.jep.2025.119484,39947370,True,,1.000,crossref+pubmed,"Acori Tatarinowii Rhizoma regulates OCT3/OATP2 and P-gp/MRP1 to ""guide medicines upwards"" in Kai-Xin-San to treat Alzheimer's disease"
+50,10.3389/fphar.2020.00381,32317964,True,,1.000,crossref+pubmed,Systems Pharmacology Approach to Investigate the Mechanism of Kai-Xin-San in Alzheimer's Disease
+51,10.1186/s13020-023-00722-y,36918872,True,,1.000,crossref+pubmed,Kai-Xin-San protects against mitochondrial dysfunction in Alzheimer's disease through SIRT3/NLRP3 pathway
+52,10.1016/j.jep.2025.120423,40816580,True,,1.000,crossref+pubmed,Antidepressant effects of total phenols and total saponins of Kai-Xin-San mediated by synaptic plasticity induced by BDNF/TrkB/Akt pathway
+53,10.1016/j.jep.2023.117492,38012974,True,,1.000,crossref+pubmed,Efficacy of Chinese herbal formula Kai-Xin-San on rodent models of depression: A systematic review and meta-analysis
+54,10.1016/j.jep.2025.120011,40446976,True,,1.000,crossref+pubmed,Kai-Xin-San ameliorates fluoxetine-resistant depressive-like behaviors by modulating tryptophan-kynurenine metabolic homeostasis in a rodent model
+55,10.1515/revneuro-2014-0058,25719303,True,,1.000,crossref+pubmed,Plant-derived natural medicines for the management of depression: an overview of mechanisms of action
+56,10.3389/fphar.2016.00337,27729863,True,,1.000,crossref+pubmed,Synergistic Neuroprotective Effects of Two Herbal Ingredients via CREB-Dependent Pathway
+57,10.1155/2021/5590745,34306310,True,,1.000,crossref+pubmed,Mitochondrial Protection and Against Glutamate Neurotoxicity via Shh/Ptch1 Signaling Pathway to Ameliorate Cognitive Dysfunction by Kaixin San in Multi-Infarct Dementia Rats
+58,10.1007/s12035-023-03707-y,37874481,True,,1.000,crossref+pubmed,Classic Famous Prescription Kai-Xin-San Ameliorates Alzheimer's Disease via the Wnt/β-Catenin Signaling Pathway
+59,10.1016/j.jep.2022.116034,36529245,True,,1.000,crossref+pubmed,Chinese traditional formula Kaixin San suppressed ferroptosis of hippocampal neurons and cardiomyocytes in mice with paradoxical sleep deprivation
+60,10.1016/j.phymed.2026.158102,41931996,True,,1.000,crossref+pubmed,Modified Kai-Xin-San ameliorates cognitive impairment in Alzheimer's disease model mice by regulating neuroinflammation and synaptic dysfunction
+61,10.3389/fphar.2023.1079400,36865910,True,,1.000,crossref+pubmed,Kaixin-San improves Aβ-induced synaptic plasticity inhibition by affecting the expression of regulation proteins associated with postsynaptic AMPAR expression
+62,10.1016/j.jep.2025.120721,41067322,True,,1.000,crossref+pubmed,Kai-Xin-San improves aging and associated neuroinflammation through mitochondrial autophagy
