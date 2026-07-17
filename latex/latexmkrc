@@ -1,0 +1,4 @@
+# Overleaf/latexmk 컴파일러 고정 — XeLaTeX (한글 kotex/fontspec)
+# 이 파일이 프로젝트 루트에 있으면 Overleaf가 자동으로 XeLaTeX로 컴파일한다.
+$pdf_mode = 5;                       # 5 = xelatex
+$xelatex  = 'xelatex -interaction=nonstopmode -synctex=1 %O %S';
