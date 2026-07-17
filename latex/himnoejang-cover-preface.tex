@@ -30,12 +30,22 @@
 \setsansfont{TeX Gyre Heros}           % 라틴 산세리프(Helvetica 계열)
 \setmainhangulfont{NanumMyeongjo}      % 한글 본문 — 명조
 \setsanshangulfont{NanumGothic}        % 한글 제목/표지 — 고딕
+\setmainhanjafont{NanumMyeongjo}       % ★ 한자(漢字) 본문 — 없으면 한자가 안 보임
+\setsanshanjafont{NanumGothic}         % ★ 한자 제목/표지
 
-% (윈도우 로컬용 — 위 4줄을 주석 처리하고 아래를 사용)
+% (윈도우 로컬용 — 위 6줄을 주석 처리하고 아래를 사용)
 % \setmainfont{Times New Roman}
 % \setsansfont{Arial}
 % \setmainhangulfont{Batang}           % 바탕(명조)
 % \setsanshangulfont{Malgun Gothic}    % 맑은 고딕
+% \setmainhanjafont{Batang}            % 한자 — 바탕
+% \setsanshanjafont{Malgun Gothic}     % 한자 — 맑은 고딕
+
+% (만약 위 Nanum 설정으로도 한자가 안 보이면 → 아래 Noto 로 교체: 한자 완전 지원)
+% \setmainhangulfont{Noto Serif CJK KR}
+% \setsanshangulfont{Noto Sans CJK KR}
+% \setmainhanjafont{Noto Serif CJK KR}
+% \setsanshanjafont{Noto Sans CJK KR}
 
 % =====================================================================
 %  팔레트 — 청자(靑瓷) 정체성
