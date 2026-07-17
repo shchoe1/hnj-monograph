@@ -1,0 +1,48 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1142/S0192415X22500161,35300566,True,,1.000,crossref+pubmed,"The Traditional Usages, Chemical Components and Pharmacological Activities of Wolfiporia cocos: A Review"
+2,10.3389/fphar.2020.505249,33071776,True,,1.000,crossref+pubmed,Phytochemistry and Pharmacological Activities of Wolfiporia cocos (F.A
+3,10.1016/j.jep.2025.119869,40280371,True,,1.000,crossref+pubmed,"A multidimensional perspective on Poria cocos, an ancient fungal traditional Chinese medicine"
+4,10.1016/j.phymed.2025.157690,41435605,True,,1.000,crossref+pubmed,Differential and complementary effects of Baizhu and Fuling on spleen deficiency syndrome by regulating microbiota-gut-metabolite axis
+5,10.3390/molecules30061193,40141970,True,,1.000,crossref+pubmed,The Role of Wolfiporia cocos (F
+6,10.1016/j.ijbiomac.2022.07.070,35843404,True,,1.000,crossref+pubmed,A review on the advances in the extraction methods and structure elucidation of Poria cocos polysaccharide and its pharmacological activities and drug carrier applications
+7,10.1016/j.ijbiomac.2023.123925,36871682,True,,1.000,crossref+pubmed,The differences between the water- and alkaline-soluble Poria cocos polysaccharide: A review
+8,10.1016/j.ijbiomac.2024.129555,38278384,True,,1.000,crossref+pubmed,"Chemical structures, extraction and analysis technologies, and bioactivities of edible fungal polysaccharides from Poria cocos: An updated review"
+9,10.1111/jcmm.13564,30444050,True,,1.000,crossref+pubmed,Molecular basis for Poria cocos mushroom polysaccharide used as an antitumour drug in China
+10,10.1016/j.phymed.2020.153232,32460034,True,,1.000,crossref+pubmed,Poricoic acid A activates AMPK to attenuate fibroblast activation and abnormal extracellular matrix remodelling in renal fibrosis
+11,10.1016/j.phymed.2020.153323,32920287,True,,1.000,crossref+pubmed,Novel poricoic acids attenuate renal fibrosis through regulating redox signalling and aryl hydrocarbon receptor activation
+12,10.1177/09636897231218382,38314688,True,,1.000,crossref+pubmed,RNA-Seq Analysis Reveals Potential Neuroprotective Mechanisms of Pachymic Acid Toward Iron-Induced Oxidative Stress and Cell Death
+13,10.1002/fsn3.3534,37831733,True,,1.000,crossref+pubmed,Preclinical study of pachyman inducing ferroptosis against ovarian cancer: Biological targets and underlying mechanisms
+14,10.3389/fphar.2025.1521235,40098611,True,,1.000,crossref+pubmed,"Progress in the study of bioactivity, chemical composition and pharmacological mechanism of action in Wolfiporia cocos (F.A"
+15,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+16,10.1016/j.ijbiomac.2023.125953,37517750,True,,1.000,crossref+pubmed,Poria cocos polysaccharide improves intestinal barrier function and maintains intestinal homeostasis in mice
+17,10.3390/ijms24021423,36674937,True,,1.000,crossref+pubmed,Poria cocos Polysaccharide Ameliorated Antibiotic-Associated Diarrhea in Mice via Regulating the Homeostasis of the Gut Microbiota and Intestinal Mucosal Barrier
+18,10.1038/s41538-025-00416-9,40263347,True,,1.000,crossref+pubmed,Regulatory effects of Poria cocos polysaccharides on gut microbiota and metabolites: evaluation of prebiotic potential
+19,10.12938/bmfh.2022-089,37791344,True,,1.000,crossref+pubmed,Effect of plant polysaccharides (Poria cocos and Astragalus polysaccharides) on immune responses and intestinal microbiota of Dabry's sturgeons
+20,10.1002/jsfa.70037,40637338,True,,1.000,crossref+pubmed,The sulfated modification of polysaccharide from Poria cocos and its prebiotic effects on gut microbiota
+21,10.3390/molecules29092154,38731645,True,,1.000,crossref+pubmed,Poria cocos Attenuated DSS-Induced Ulcerative Colitis via NF-κB Signaling Pathway and Regulating Gut Microbiota
+22,10.1016/j.ijbiomac.2024.137450,39522895,True,,1.000,crossref+pubmed,Poria cocos polysaccharide alleviates dextran sulphate sodium-induced ulcerative colitis in mice by modulating intestinal inflammatory responses and microbial dysbiosis
+23,10.1016/j.ijbiomac.2025.144477,40419041,True,,1.000,crossref+pubmed,Poria cocos polysaccharides ameliorate AOM/DSS-induced colorectal cancer in mice by remodeling intestinal microbiota composition and enhancing intestinal barrier function
+24,10.1016/j.ijbiomac.2025.148202,41075893,True,,1.000,crossref+pubmed,Water-soluble Poria cocos polysaccharide improves alcoholic liver disease via modulation of gut microbiota-mediated intestinal bile acids-farnesoid X receptor
+25,10.1016/j.jep.2026.121802,42128077,True,,1.000,crossref+pubmed,Poria cocos polysaccharides alleviate colitis via the tryptophan metabolism-AhR-redox axis
+26,10.1039/d2fo00811d,35642970,True,,1.000,crossref+pubmed,"Poria cocos water-soluble polysaccharide modulates anxiety-like behavior induced by sleep deprivation by regulating the gut dysbiosis, metabolic disorders and TNF-α/NF-κB signaling pathway"
+27,10.1016/j.phymed.2022.154300,35841662,True,,1.000,crossref+pubmed,"Integrated 16S rDNA, metabolomics, and TNF-α/NF-κB signaling pathway analyses to explain the modulatory effect of Poria cocos aqueous extract on anxiety-like behavior"
+28,10.1021/acs.jafc.5c01042,40254847,True,,1.000,crossref+pubmed,Poria cocos Polysaccharide Reshapes Gut Microbiota to Regulate Short-Chain Fatty Acids and Alleviate Neuroinflammation-Related Cognitive Impairment in Alzheimer's Disease
+29,10.1016/j.phymed.2021.153875,34911003,True,,1.000,crossref+pubmed,"Extracts of Poria cocos improve functional dyspepsia via regulating brain-gut peptides, immunity and repairing of gastrointestinal mucosa"
+30,10.1016/j.jep.2020.113722,33352240,True,,1.000,crossref+pubmed,Protective effects of Poria cocos and its components against cisplatin-induced intestinal injury
+31,10.1142/S0192415X25500697,40769943,True,,1.000,crossref+pubmed,Poria cocos Polysaccharides Attenuate Cardiac Injury by Inhibiting CaMKII-Mediated P38/NF-κB/NLRP3 Signaling Pathway to Reduce Sepsis-Induced Apoptosis and Inflammation
+32,10.1016/j.ijbiomac.2025.146626,40774496,True,,1.000,crossref+pubmed,Water-soluble polysaccharides derived from Poria cocos protect against LPS-induced renal injury through inhibiting the NF-κB-NOX4 signaling pathway
+33,10.1002/fsn3.4048,38873452,True,,1.000,crossref+pubmed,"Effects of a combination of Poria Cocos, Ziziphus spinose, and gamma-aminobutyric acid (GABA) on sleep quality and skin health: A randomized double-blind placebo-controlled clinical trial"
+34,10.1371/journal.pone.0291254,37699014,True,,1.000,crossref+pubmed,"Rapid increase in immune surveillance and expression of NKT and γδT cell activation markers after consuming a nutraceutical supplement containing Aloe vera gel, extracts of Poria cocos and rosemary"
+35,10.1371/journal.pone.0278536,36455062,True,,1.000,crossref+pubmed,Benefits of herbal formulae containing Poria cocos (Fuling) for type 2 diabetes mellitus: A systematic review and meta-analysis
+36,10.3389/fphar.2024.1327030,38783937,True,,1.000,crossref+pubmed,Efficacy and safety of traditional Chinese medicine decoction as an adjuvant treatment for diabetic nephropathy: a systematic review and meta-analysis of randomized controlled trials
+37,10.1016/j.jep.2024.117735,38211824,True,,1.000,crossref+pubmed,Efficacy and safety of traditional plant-based medicines for preventing chronic oxaliplatin-induced peripheral neurotoxicity in patients with colorectal cancer: A systematic review and meta-analysis with core herb contribution
+38,10.1016/j.phymed.2024.155942,39173279,True,,1.000,crossref+pubmed,Lingguizhugan decoction ameliorates cognitive impairment in AD-like mice by influencing the microbiome-gut-brain axis mediated by SCFAs
+39,10.1016/j.jep.2022.116034,36529245,True,,1.000,crossref+pubmed,Chinese traditional formula Kaixin San suppressed ferroptosis of hippocampal neurons and cardiomyocytes in mice with paradoxical sleep deprivation
+40,10.3389/fphar.2024.1338024,38362144,True,,1.000,crossref+pubmed,"Constituents, pharmacological activities, pharmacokinetic studies, clinical applications, and safety profile on the classical prescription Kaixinsan"
+41,10.1016/j.jep.2021.114598,34492320,True,,1.000,crossref+pubmed,Qisheng Wan formula ameliorates cognitive impairment of Alzheimer's disease rat via inflammation inhibition and intestinal microbiota regulation
+42,10.1016/j.ijbiomac.2025.143030,40216133,True,,1.000,crossref+pubmed,Carboxymethyl Poria cocos polysaccharides protect against septic kidney injury by regulating the Nrf2-NF-κB signaling pathway
+43,10.1002/ptr.70409,42312878,True,,1.000,crossref+pubmed,Poria cocos Polysaccharides Protect Against Contrast-Induced Renal Injury Through Activating CaMKK2/AMPK/PGC-1α Signaling Pathway
+44,10.1007/s11130-025-01356-1,40299114,True,,1.000,crossref+pubmed,Poricoic Acid A Protects Against High-Salt-Diet Induced Renal Fibrosis by Modulating Gut Microbiota and SCFA Metabolism
+45,10.5114/aoms/207509,41403619,True,,1.000,crossref+pubmed,Gut microbiota and insomnia: Mendelian randomization and network pharmacology to predict potential intervention with traditional Chinese medicine
+46,10.1016/j.jep.2015.04.011,25914040,True,,1.000,crossref+pubmed,Wuling San protects kidney dysfunction by inhibiting renal TLR4/MyD88 signaling and NLRP3 inflammasome activation in high fructose-induced hyperuricemic mice
+47,10.1016/j.jep.2023.117262,37788785,True,,1.000,crossref+pubmed,Fuling-Zexie formula attenuates hyperuricemia-induced nephropathy and inhibits JAK2/STAT3 signaling and NLRP3 inflammasome activation in mice
