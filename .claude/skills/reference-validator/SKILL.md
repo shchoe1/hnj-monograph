@@ -103,12 +103,22 @@ Cochrane Library · Campbell Collaboration · JBI Reviews · PROSPERO 등록
 
 ## 실행 명령 (Python 스크립트 호출)
 
+정본 검증기는 `scripts/validate_chapter.py` 다 — **표준 라이브러리 전용**(외부 패키지 불필요),
+참고문헌 라인(`^[N] … [PENDING-DOI-VERIFY]$`)만 라인 단위로 매칭·치환하므로 본문 인용번호나
+산문 언급을 오캡처하지 않는다. (구 `verify_doi.py`는 정규식이 본문 `[n]`·산문 태그까지
+캡처해 태그를 오정렬 손상시키는 버그가 있어 폐기되었다. 사용 금지.)
+
 ```bash
-python scripts/verify_doi.py \
-    --file chapters/ch10-theanine.md \
-    --output references/validation-log-ch10.csv \
-    --update-in-place
+# 검증 + 태그 치환 + 로그 생성 (기본 로그 경로: references/validation-log-<chap>-<date>.csv)
+python scripts/validate_chapter.py --file chapters/ch10-theanine.md --date 2026-07-17
+
+# 파일 미수정 · 검증만 먼저 확인
+python scripts/validate_chapter.py --file chapters/ch10-theanine.md --dry-run
 ```
+
+- 통과 시 본문 `[PENDING-DOI-VERIFY]` → `[DOI-VERIFIED YYYY-MM-DD ✓]` 치환.
+- 실패 시 `[VERIFY-FAILED - 사유]` 표시 후 요약에 나열.
+- 4단계: DOI 존재(CrossRef) → 제목 일치(≥0.90·substring 보정) → 저자/연도 → PMID·DOI 교차(efetch).
 
 또는 자연어:
 ```

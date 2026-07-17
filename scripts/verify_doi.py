@@ -1,239 +1,187 @@
 #!/usr/bin/env python3
 """
-verify_doi.py · 참고문헌 DOI 4단계 검증 스크립트
-힘뇌장 모노그래프 프로젝트 · reference-validator Skill용
+verify_doi.py · 참고문헌 DOI 4단계 검증 (보정판 · requests/Levenshtein 기반)
+힘뇌장 모노그래프 · reference-validator Skill 보조 도구
+
+※ 정본 검증기는 `scripts/validate_chapter.py`(표준 라이브러리 전용)다. 신규 챕터는 그것을 쓴다.
+  이 스크립트는 requests/Levenshtein 환경에서의 대체·교차확인용으로 유지된다.
+
+구(舊) 버전 버그 수정 이력(2026-07-17):
+  - [FIXED] 과거 정규식이 본문 인용번호(`[7]` 등)와 산문의 `[PENDING-DOI-VERIFY]` 언급까지
+    캡처해, 전역 순차 치환으로 태그를 '오정렬'시켜 원고를 손상시켰다.
+  - 이제 `[N] ... doi:... [PENDING-DOI-VERIFY]` 형태의 '참고문헌 라인'만 라인 단위로 매칭하고,
+    DOI를 `doi:` 필드에서 직접 추출하며, 제목은 CrossRef 정식 제목의 정규화 부분일치로 검증한다
+    ("L. johnsonii ..." 같은 약어 마침표 거짓음성 제거). 치환은 해당 라인 내부에서만 수행한다.
 
 사용법:
-    python scripts/verify_doi.py --file chapters/ch10-theanine.md \
-        --output references/validation-log-ch10.csv --update-in-place
-
-의존:
-    pip install requests python-Levenshtein
+    python scripts/verify_doi.py --file chapters/ch11-tyrosine.md \
+        --output references/validation-log-ch11.csv --update-in-place
 """
-
-import argparse
-import csv
-import re
-import sys
-import time
+import argparse, csv, re, sys, time, unicodedata
 from datetime import datetime
 from pathlib import Path
 
 try:
     import requests
 except ImportError:
-    print("ERROR: requests 라이브러리 필요. `pip install requests` 실행")
-    sys.exit(1)
+    print("ERROR: requests 필요. pip install requests"); sys.exit(1)
 
 try:
     import Levenshtein
-    def similarity(a, b):
-        return Levenshtein.ratio(a.lower().strip(), b.lower().strip())
+    def ratio(a, b): return Levenshtein.ratio(a, b)
 except ImportError:
-    def similarity(a, b):
-        # Fallback: simple 문자 매칭
-        a, b = a.lower().strip(), b.lower().strip()
+    def ratio(a, b):
         if a == b: return 1.0
-        matches = sum(1 for x, y in zip(a, b) if x == y)
-        return matches / max(len(a), len(b))
+        m = sum(1 for x, y in zip(a, b) if x == y)
+        return m / max(len(a), len(b), 1)
 
-CROSSREF_API = "https://api.crossref.org/works/"
-PUBMED_API = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+CROSSREF = "https://api.crossref.org/works/"
+PUBMED = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+HEADERS = {"User-Agent": "HIMNOEJANG-Monograph/2.0 (mailto:choe.sunghwa@gmail.com)"}
 
-# Blacklist URLs (즉시 배제)
-BLACKLIST_DOMAINS = [
-    "blog.naver.com", "tistory.com", "wordpress.com",
-    "webmd.com", "healthline.com", "health.chosun.com",
-    "amazon.com/dp/", "coupang.com/vp/",
-    "wikipedia.org", "namu.wiki",
-    "youtube.com/watch", "podcasts.apple.com"
-]
+# '참고문헌 라인' 전용: 줄 시작 [N], 중간에 doi:, 끝에 [PENDING-DOI-VERIFY]
+REF_LINE = re.compile(r'^\[(\d+)\]\s+(.*?doi:\s*(10\.\S+?)\.?\s.*?)\[PENDING-DOI-VERIFY\]', re.MULTILINE)
 
-# Whitelist journals (Tier 1)
-WHITELIST_JOURNALS = [
-    "Nature", "Science", "Cell", "New England Journal of Medicine",
-    "Lancet", "JAMA", "BMJ", "PNAS",
-    "Physiological Reviews", "Nature Reviews", "Annual Review",
-    "Gut", "Gastroenterology", "Molecular Psychiatry",
-    "Brain Behavior and Immunity", "Nutrients", "American Journal of Clinical Nutrition"
-]
 
-CITATION_PATTERN = re.compile(
-    r'\[(\d+)\]\s*(.+?)\s*doi:([^\s\.]+(?:\.[^\s\.]+)*)\s*(?:PMID:(\d+))?',
-    re.DOTALL
-)
+def norm(s):
+    s = unicodedata.normalize("NFKD", s or "").lower()
+    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    return re.sub(r'\s+', ' ', s).strip()
 
-def extract_doi(citation_text):
-    """DOI 정규식 추출"""
-    doi_match = re.search(r'10\.\d{4,}/[^\s]+', citation_text)
-    return doi_match.group(0).rstrip('.,;)]') if doi_match else None
 
-def check_blacklist(citation_text):
-    """Blacklist URL 검사"""
-    for domain in BLACKLIST_DOMAINS:
-        if domain in citation_text.lower():
-            return f"BLACKLISTED_SOURCE: {domain}"
-    return None
-
-def crossref_verify(doi):
-    """CrossRef API로 DOI 존재 확인 · 논문 메타데이터 반환"""
+def crossref(doi):
     try:
-        r = requests.get(CROSSREF_API + doi, timeout=10,
-                         headers={"User-Agent": "HIMNOEJANG-Monograph/1.0 (mailto:choe.sunghwa@gmail.com)"})
+        r = requests.get(CROSSREF + doi, headers=HEADERS, timeout=15)
         if r.status_code == 404:
             return None, "DOI_NOT_FOUND"
-        elif r.status_code != 200:
-            return None, f"CROSSREF_ERROR_{r.status_code}"
+        if r.status_code != 200:
+            return None, f"CROSSREF_HTTP_{r.status_code}"
         return r.json().get("message"), None
     except Exception as e:
-        return None, f"CROSSREF_EXCEPTION: {e}"
+        return None, f"CROSSREF_EXC:{e}"
 
-def pubmed_search(title):
-    """PubMed E-utilities로 제목 검색 · PMID 반환"""
+
+def pubmed_pmid(title):
     try:
-        params = {"db": "pubmed", "term": title, "retmode": "json", "retmax": 5}
-        r = requests.get(PUBMED_API + "esearch.fcgi", params=params, timeout=10)
+        r = requests.get(PUBMED, params={"db": "pubmed", "term": title,
+                         "retmode": "json", "retmax": 1}, timeout=15)
         if r.status_code != 200:
             return None
-        data = r.json()
-        pmids = data.get("esearchresult", {}).get("idlist", [])
-        return pmids[0] if pmids else None
+        ids = r.json().get("esearchresult", {}).get("idlist", [])
+        return ids[0] if ids else None
     except Exception:
         return None
 
-def verify_citation(citation_id, citation_text):
-    """단일 인용 4단계 검증"""
-    result = {
-        "id": citation_id,
-        "raw": citation_text[:200],
-        "doi": None,
-        "verified": False,
-        "reason": None,
-        "timestamp": datetime.now().isoformat()
-    }
 
-    # Stage 0: Blacklist 검사
-    bl = check_blacklist(citation_text)
-    if bl:
-        result["reason"] = bl
-        return result
+def verify(cid, citation, doi):
+    res = {"id": cid, "doi": doi, "verified": False, "reason": "",
+           "title_sim": "", "journal": "", "year": "", "pmid": "",
+           "cited_pmid": "", "timestamp": datetime.now().isoformat()}
+    cite_norm = norm(citation)
 
-    # DOI 추출
-    doi = extract_doi(citation_text)
-    if not doi:
-        result["reason"] = "NO_DOI_FOUND"
-        return result
-    result["doi"] = doi
-
-    # Stage 1: CrossRef DOI 존재 확인
-    paper, err = crossref_verify(doi)
+    # Stage 1: DOI 존재
+    paper, err = crossref(doi)
     if err:
-        result["reason"] = err
-        return result
+        res["reason"] = err
+        return res
 
-    # Stage 2: 제목 일치 (★ Anti-Hallucination 핵심)
-    cited_title = extract_title(citation_text)
-    paper_title = paper.get("title", [""])[0] if paper.get("title") else ""
-    sim = similarity(cited_title, paper_title)
-    if sim < 0.85:  # 85% 미만 시 실패 (완화 기준)
-        result["reason"] = f"TITLE_MISMATCH (sim={sim:.2f}): cited='{cited_title[:60]}' vs actual='{paper_title[:60]}'"
-        return result
-    result["title_sim"] = sim
+    # Stage 2: 제목 일치 — CrossRef 정식 제목이 인용문에 (정규화) 부분일치하는가
+    ptitle = (paper.get("title") or [""])[0]
+    pt_norm = norm(ptitle)
+    if pt_norm and pt_norm in cite_norm:
+        sim = 1.0
+    else:
+        # 부분일치 실패 시 토큰 커버리지로 유사도 근사
+        pt_tokens = pt_norm.split()
+        covered = sum(1 for t in pt_tokens if t in cite_norm.split())
+        sim = covered / max(len(pt_tokens), 1)
+    res["title_sim"] = round(sim, 3)
+    if sim < 0.85:
+        res["reason"] = f"TITLE_MISMATCH(sim={sim:.2f}): actual='{ptitle[:70]}'"
+        return res
 
-    # Stage 3: 저자·저널·연도 (약식)
-    journal = paper.get("container-title", [""])[0] if paper.get("container-title") else ""
-    year = None
-    if paper.get("issued", {}).get("date-parts"):
-        year = paper["issued"]["date-parts"][0][0]
+    # Stage 3: 저널·연도
+    res["journal"] = (paper.get("container-title") or [""])[0]
+    dp = paper.get("issued", {}).get("date-parts") or [[None]]
+    res["year"] = dp[0][0]
 
-    # Stage 4: PubMed 교차 확인 (의학 논문)
-    pmid = pubmed_search(paper_title)
-    if pmid:
-        result["pmid"] = pmid
+    # Stage 4: PubMed 교차 — cited PMID과 esearch 결과 대조 (있을 때만 경고)
+    m = re.search(r'PMID:\s*(\d+)', citation)
+    res["cited_pmid"] = m.group(1) if m else ""
+    pmid = pubmed_pmid(ptitle)
+    res["pmid"] = pmid or ""
+    if res["cited_pmid"] and pmid and res["cited_pmid"] != pmid:
+        # 불일치는 실패로 처리하지 않고 검증 리포트에만 경고 기록(동명이인/개정판 가능)
+        res["reason"] = f"PMID_WARN(cited={res['cited_pmid']},pubmed={pmid})"
 
-    result["verified"] = True
-    result["journal"] = journal
-    result["year"] = year
-    return result
+    res["verified"] = True
+    return res
 
-def extract_title(citation_text):
-    """인용 문자열에서 제목 추출 (약식)"""
-    # 저자 뒤 첫 번째 마침표 이후, 저널 이름 앞까지
-    # 예: "Cryan JF et al. The Microbiota-Gut-Brain Axis. Physiological Reviews..."
-    parts = re.split(r'\.\s+', citation_text)
-    if len(parts) >= 2:
-        # 두 번째 파트가 대개 제목
-        return parts[1].strip()
-    return ""
 
-def process_file(file_path, output_csv=None, update_in_place=False):
-    """파일 내 모든 인용 검증"""
-    path = Path(file_path)
-    content = path.read_text(encoding="utf-8")
-
-    # PENDING-DOI-VERIFY 태그 인용 찾기
-    pattern = re.compile(r'\[(\d+)\](.+?)\[PENDING-DOI-VERIFY\]', re.DOTALL)
-    matches = pattern.findall(content)
-
-    print(f"검증 대상: {len(matches)}개 인용")
+def process(path, out_csv, update):
+    p = Path(path)
+    content = p.read_text(encoding="utf-8")
+    matches = list(REF_LINE.finditer(content))
+    print(f"검증 대상(참고문헌 라인): {len(matches)}개")
     results = []
-
-    for i, (cid, ctext) in enumerate(matches, 1):
-        print(f"  [{i}/{len(matches)}] {cid}: 검증 중...", end=" ", flush=True)
-        result = verify_citation(cid, ctext)
-
-        if result["verified"]:
-            print(f"✓ VERIFIED (sim={result.get('title_sim', 0):.2f})")
-            # In-place 태그 교체
-            if update_in_place:
-                today = datetime.now().strftime("%Y-%m-%d")
-                content = content.replace(
-                    f"[PENDING-DOI-VERIFY]",
-                    f"[DOI-VERIFIED {today} ✓]",
-                    1
-                )
+    for i, mt in enumerate(matches, 1):
+        cid, citation, doi = mt.group(1), mt.group(2), mt.group(3).rstrip('.,;)')
+        print(f"  [{i}/{len(matches)}] ref[{cid}] doi:{doi} ...", end=" ", flush=True)
+        r = verify(cid, citation, doi)
+        results.append(r)
+        if r["verified"]:
+            note = f" ({r['reason']})" if r["reason"] else ""
+            print(f"OK sim={r['title_sim']}{note}")
         else:
-            print(f"✗ FAILED: {result['reason']}")
-            if update_in_place:
-                content = content.replace(
-                    f"[PENDING-DOI-VERIFY]",
-                    f"[VERIFY-FAILED: {result['reason']}]",
-                    1
-                )
+            print(f"FAIL {r['reason']}")
+        time.sleep(0.4)
 
-        results.append(result)
-        time.sleep(0.5)  # API rate limit 준수
+    if update:
+        today = datetime.now().strftime("%Y-%m-%d")
+        # 라인 단위로 각 참고문헌의 PENDING 태그만 교체 (오정렬 방지)
+        by_id = {r["id"]: r for r in results}
 
-    # 파일 업데이트
-    if update_in_place:
-        path.write_text(content, encoding="utf-8")
-        print(f"\n원고 업데이트: {path}")
+        def repl(mt):
+            cid = mt.group(1)
+            r = by_id.get(cid)
+            whole = mt.group(0)
+            if r and r["verified"]:
+                tag = f"[DOI-VERIFIED {today} ✓]"
+            elif r:
+                tag = f"[VERIFY-FAILED: {r['reason']}]"
+            else:
+                return whole
+            return whole.replace("[PENDING-DOI-VERIFY]", tag)
+        content = REF_LINE.sub(repl, content)
+        p.write_text(content, encoding="utf-8")
+        print(f"\n원고 업데이트: {p}")
 
-    # CSV 리포트
-    if output_csv:
-        with open(output_csv, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["id","doi","verified","reason","title_sim","journal","year","pmid","timestamp","raw"])
-            writer.writeheader()
+    if out_csv:
+        Path(out_csv).parent.mkdir(parents=True, exist_ok=True)
+        with open(out_csv, "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.DictWriter(f, fieldnames=["id", "doi", "verified", "reason",
+                "title_sim", "journal", "year", "pmid", "cited_pmid", "timestamp"])
+            w.writeheader()
             for r in results:
-                writer.writerow({k: r.get(k, "") for k in writer.fieldnames})
-        print(f"검증 리포트: {output_csv}")
+                w.writerow(r)
+        print(f"검증 리포트: {out_csv}")
 
-    # 요약
-    verified = sum(1 for r in results if r["verified"])
+    ok = sum(1 for r in results if r["verified"])
+    warn = sum(1 for r in results if r["verified"] and r["reason"])
     print(f"\n=== 검증 요약 ===")
-    print(f"검증 완료: {verified}/{len(results)} ({100*verified/max(len(results),1):.1f}%)")
-    print(f"검증 실패: {len(results)-verified}")
-
+    print(f"검증 완료: {ok}/{len(results)} ({100*ok/max(len(results),1):.1f}%)  경고(PMID): {warn}")
+    fails = [r for r in results if not r["verified"]]
+    if fails:
+        print("실패 목록:")
+        for r in fails:
+            print(f"  [{r['id']}] {r['reason']}")
     return results
 
-def main():
-    parser = argparse.ArgumentParser(description="힘뇌장 모노그래프 · 참고문헌 DOI 검증")
-    parser.add_argument("--file", required=True, help="검증할 원고 Markdown 파일")
-    parser.add_argument("--output", help="검증 리포트 CSV 저장 경로")
-    parser.add_argument("--update-in-place", action="store_true", help="원고 파일에 태그 자동 갱신")
-    args = parser.parse_args()
-
-    process_file(args.file, args.output, args.update_in_place)
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--file", required=True)
+    ap.add_argument("--output")
+    ap.add_argument("--update-in-place", action="store_true")
+    a = ap.parse_args()
+    process(a.file, a.output, a.update_in_place)

@@ -1,0 +1,33 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1002/14651858.CD001507.pub3,23737086,True,,1.000,crossref+pubmed,Tyrosine supplementation for phenylketonuria
+2,10.1249/MSS.0000000000000243,24389518,True,,1.000,crossref+pubmed,Failure of oral tyrosine supplementation to improve exercise performance in the heat
+3,10.7205/MILMED-D-14-00594,26126245,True,,1.000,crossref+pubmed,"Tyrosine for Mitigating Stress and Enhancing Performance in Healthy Adult Humans, a Rapid Evidence Assessment of the Literature"
+4,10.1016/j.pbb.2015.03.008,25797188,True,,1.000,crossref+pubmed,Behavioral and cognitive effects of tyrosine intake in healthy human adults
+5,10.1016/j.jpsychires.2015.08.014,26424423,True,,1.000,crossref+pubmed,Effect of tyrosine supplementation on clinical and healthy populations under stress or cognitive demands—A review
+6,10.1249/MSS.0000000000000757,26285023,True,,1.000,crossref+pubmed,Tyrosine Ingestion and Its Effects on Cognitive and Physical Performance in the Heat
+7,10.1007/s00702-016-1596-4,27491309,True,,1.000,crossref+pubmed,"Tyrosine hydroxylase (TH), its cofactor tetrahydrobiopterin (BH4), other catecholamine-related enzymes, and their human genes in relation to the drug and gene therapies of Parkinson's disease (PD): historical overview and future prospects"
+8,10.1038/nature24661,29168502,True,,1.000,crossref+pubmed,A gut bacterial pathway metabolizes aromatic amino acids into nine circulating metabolites
+9,10.1016/j.neuroimage.2019.03.005,30853567,True,,1.000,crossref+pubmed,Influence of nutritional tyrosine on cognition and functional connectivity in healthy old humans
+10,10.1007/s00702-018-1903-3,29995172,True,,1.000,crossref+pubmed,Human tyrosine hydroxylase in Parkinson's disease and in related disorders
+11,10.1038/s41586-020-2395-5,32555456,True,,1.000,crossref+pubmed,A neurotransmitter produced by gut bacteria modulates host sensory behaviour
+12,10.1249/MSS.0000000000002245,31834099,True,,1.000,crossref+pubmed,"No Influence of Low-, Medium-, or High-Dose Tyrosine on Exercise in a Warm Environment"
+13,10.1002/14651858.CD001507.pub4,33427303,True,,1.000,crossref+pubmed,Tyrosine supplementation for phenylketonuria
+14,10.1016/j.neulet.2021.136089,34182056,True,,1.000,crossref+pubmed,Physical exercise increases the production of tyrosine hydroxylase and CDNF in the spinal cord of a Parkinson's disease mouse model
+15,10.1007/s00726-021-03064-x,34468872,True,,1.000,crossref+pubmed,Effects of the L-tyrosine-derived bacterial metabolite p-cresol on colonic and peripheral cells
+16,10.1007/s00702-022-02488-3,35460433,True,,1.000,crossref+pubmed,From the tyrosine hydroxylase hypothesis of Parkinson's disease to modern strategies: a short historical overview
+17,10.1016/j.physbeh.2021.113653,34800493,True,,1.000,crossref+pubmed,"Dietary tryptophan, tyrosine, and phenylalanine depletion induce reduced food intake and behavioral alterations in mice"
+18,10.1016/j.abb.2023.109518,36639008,True,,1.000,crossref+pubmed,"The aromatic amino acid hydroxylases: Structures, catalysis, and regulation of phenylalanine hydroxylase, tyrosine hydroxylase, and tryptophan hydroxylase"
+19,10.1093/eurheartj/ehad333,37342006,True,,1.000,crossref+pubmed,Atlas of gut microbe-derived products from aromatic amino acids and risk of cardiovascular morbidity and mortality
+20,10.1007/s12603-023-2005-y,38151868,True,,1.000,crossref+pubmed,"Dietary Tyrosine Intake (FFQ) Is Associated with Locus Coeruleus, Attention and Grey Matter Maintenance: An MRI Structural Study on 398 Healthy Individuals of the Berlin Aging Study-II"
+21,10.1080/02640414.2024.2309434,38290812,True,,1.000,crossref+pubmed,The effect of tyrosine supplementation on whole-body endurance performance in physically active population: A systematic review and meta-analysis including GRADE qualification
+22,10.3390/ijms241914626,37834072,True,,1.000,crossref+pubmed,Role of Tyrosine Nitrosylation in Stress-Induced Major Depressive Disorder: Mechanisms and Implications
+23,10.1080/10253890.2024.2375588,38975711,True,,1.000,crossref+pubmed,Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill
+24,10.3390/ijms26115282,40508089,True,,1.000,crossref+pubmed,Targeted Gut Microbiota Modulation Enhances Levodopa Bioavailability and Motor Recovery in MPTP Parkinson's Disease Models
+25,10.3390/ijms27010271,41516146,True,,1.000,crossref+pubmed,Dopamine and the Gut Microbiota: Interactions Within the Microbiota-Gut-Brain Axis and Therapeutic Perspectives
+26,10.1016/j.bbi.2025.03.025,40120833,True,,1.000,crossref+pubmed,L-tyrosine alleviates autism-like behavior in mice by remodeling the gut microbiota
+27,10.1016/j.parkreldis.2025.107947,40675846,True,,1.000,crossref+pubmed,Fecal tyrosine decarboxylase and motor response complications in Parkinson's disease
+28,10.1186/s40168-025-02197-5,41331498,True,,1.000,crossref+pubmed,L
+29,10.1016/j.gim.2025.101682,41518087,True,,1.000,crossref+pubmed,Tyrosine supplementation with high-protein diet as a therapeutic strategy for YARS1 deficiency
+30,10.1016/j.intimp.2026.116874,42161051,True,,1.000,crossref+pubmed,Lactobacillus rhamnosus modulates gut microbiota and tyrosine metabolism to potentiate PD-1-mediated anti-tumor immunity in triple-negative breast cancer
+31,10.1002/jimd.70169,41872043,True,,1.000,crossref+pubmed,"Tyrosine Hydroxylase Deficiency Impairs TH Axonal Transport, Brain Function, and Neuronal Plasticity"
+32,10.1002/ejsc.70150,41818465,True,,1.000,crossref+pubmed,Effects of L-Tyrosine Ingestion on Endurance Performance in Mentally Fatigued Cyclists
