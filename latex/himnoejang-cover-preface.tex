@@ -1,0 +1,180 @@
+% =====================================================================
+%  힘뇌장 모노그래프 · 표지(Cover) + 서문(Preface)
+%  판형: 신국판 152 x 225 mm
+%  엔진: XeLaTeX  (반드시 XeLaTeX 로 컴파일 · pdfLaTeX 아님)
+%        Overleaf: Menu > Compiler > XeLaTeX
+%  기획·감수 최성화 (서울대학교 생명과학부) / 작성 Claude (Anthropic)
+% =====================================================================
+\documentclass[11pt]{article}
+
+% ---- 판형: 신국판 152 x 225 mm ----
+\usepackage[paperwidth=152mm,paperheight=225mm,
+            top=22mm,bottom=20mm,inner=20mm,outer=18mm,
+            heightrounded]{geometry}
+
+\usepackage{kotex}          % 한글 조판 (XeLaTeX → xetexko)
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{eso-pic}        % 표지 전면 배경
+\usepackage{enumitem}
+\usepackage{microtype}
+
+% =====================================================================
+%  폰트 — 기본값은 Overleaf 에서 바로 컴파일되도록 설정(Nanum + TeX Gyre)
+%  · 윈도우 로컬에서 컴파일한다면 아래 "윈도우" 블록으로 교체하세요.
+% =====================================================================
+% (기본: Overleaf)
+\setmainfont{TeX Gyre Termes}          % 라틴 본문 세리프(Times 계열)
+\setsansfont{TeX Gyre Heros}           % 라틴 산세리프(Helvetica 계열)
+\setmainhangulfont{NanumMyeongjo}      % 한글 본문 — 명조
+\setsanshangulfont{NanumGothic}        % 한글 제목/표지 — 고딕
+
+% (윈도우 로컬용 — 위 4줄을 주석 처리하고 아래를 사용)
+% \setmainfont{Times New Roman}
+% \setsansfont{Arial}
+% \setmainhangulfont{Batang}           % 바탕(명조)
+% \setsanshangulfont{Malgun Gothic}    % 맑은 고딕
+
+% =====================================================================
+%  팔레트 — 청자(靑瓷) 정체성
+% =====================================================================
+\definecolor{ink}{HTML}{1B2320}
+\definecolor{celadon}{HTML}{2F6F5E}
+\definecolor{celadondk}{HTML}{22574A}
+\definecolor{seal}{HTML}{B23A2E}
+\definecolor{paper}{HTML}{EEF1EC}
+\definecolor{muted}{HTML}{586962}
+
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\pagestyle{empty}
+\linespread{1.28}
+
+\newcommand{\gothic}{\sffamily}
+\newcommand{\spaced}[2]{{\addfontfeature{LetterSpace=#1}#2}}
+
+% 서문 소제목
+\newcommand{\pfsec}[1]{%
+  \par\vspace{2.4mm}%
+  {\gothic\large\bfseries\color{celadondk}#1}\par\vspace{-0.4mm}}
+
+% 서문 상단 '원고 성격' 주석 박스 (colorbox + minipage · 컴파일 안정)
+\setlength{\fboxsep}{3.4mm}
+\newcommand{\prefnote}[1]{%
+  \par\vspace{1mm}\noindent
+  \colorbox{paper}{%
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}%
+      \small\color{ink}#1%
+    \end{minipage}}\par\vspace{1.6mm}}
+
+% =====================================================================
+%  표지 전면 배경 (좌측 청자 띠 + 하단 헤어라인)
+% =====================================================================
+\newcommand{\coverbackground}{%
+  \AddToShipoutPictureBG*{%
+    \AtPageLowerLeft{%
+      \begin{tikzpicture}
+        \fill[paper] (0,0) rectangle (\paperwidth,\paperheight);
+        \fill[celadon] (0,0) rectangle (12mm,\paperheight);
+        \draw[celadondk,line width=0.3pt] (12mm,0) -- (12mm,\paperheight);
+        \draw[celadon,line width=0.9pt]
+          (24mm,18mm) -- (\dimexpr\paperwidth-16mm\relax,18mm);
+      \end{tikzpicture}}}}
+
+\begin{document}
+
+% =====================================================================
+%  표지 (COVER)
+% =====================================================================
+\coverbackground
+\thispagestyle{empty}
+\null\vspace*{24mm}
+\begin{center}
+  {\gothic\small\color{celadondk}\spaced{6}{장-뇌축 설계 모노그래프}}\\[2.2mm]
+  {\gothic\footnotesize\color{muted}\spaced{16}{GUT–BRAIN AXIS MONOGRAPH}}\\[17mm]
+
+  {\gothic\bfseries\color{ink}\fontsize{60}{64}\selectfont 힘뇌장}\\[6mm]
+  {\gothic\Large\color{celadondk}\spaced{22}{HIMNOEJANG}}\\[13mm]
+
+  \begin{tikzpicture}
+    \node[fill=seal,rounded corners=1.6pt,inner sep=0pt,
+          minimum size=13mm,text=white]{\gothic\bfseries\large 序};
+  \end{tikzpicture}\\[11mm]
+
+  {\normalsize\color{ink} 전통과 현대를 잇는 장-뇌 설계 —}\\[1.5mm]
+  {\normalsize\color{ink} 열두 원료, 하나의 계(系)}
+\end{center}
+
+\vfill
+\begin{center}
+  \textcolor{celadon}{\rule{38mm}{1pt}}\\[4.5mm]
+  {\gothic\small 기획·감수 \textbf{최성화}}\\[1.2mm]
+  {\gothic\footnotesize\color{muted} 서울대학교 생명과학부}\\[4.5mm]
+  {\gothic\footnotesize\color{muted} 작성 Claude (Anthropic) · 4개 전용 스킬}\\[7mm]
+  {\gothic\scriptsize\color{celadondk}\spaced{4}{보(補) · 연결(連結) · 평정(平靜) · 기능성 보조}}
+\end{center}
+\vspace*{4mm}
+\clearpage
+
+% =====================================================================
+%  서문 (PREFACE)
+% =====================================================================
+\thispagestyle{empty}
+\null\vspace*{2mm}
+{\gothic\bfseries\color{celadondk}\fontsize{26}{30}\selectfont 서문}\\[1.5mm]
+{\gothic\large\color{muted} 힘뇌장이란 무엇인가 · Preface}
+
+\vspace{2.5mm}
+\textcolor{celadon}{\rule{\linewidth}{1.1pt}}
+\vspace{1.5mm}
+
+\prefnote{\textbf{원고 성격.} 이 서문은 본론(제1{–}15장)에 앞서 \textbf{힘뇌장이 무엇이며, 왜·누구를 위해 만들어졌는지}를 먼저 밝히는 글이다. 개별 원료의 학술 인용은 두지 않으며(전권의 근거와 4단계 검증 방법론은 제1장에서 상술한다), 이 책이 쓰인 방식 — 기획·감수와 AI 작성의 역할 분담 — 도 투명하게 적는다.}
+
+\pfsec{왜 이 책을 쓰는가}
+발표를 앞둔 강의실 복도에서, 시험지를 받아 든 고사장에서, 마감이 코앞인 사무실에서 — 우리는 종종 “머리가 안 돌아간다”고 말한다. 정작 집중이 가장 필요한 순간에 손끝이 차가워지고 생각이 하얘지는 이 경험은, 뇌만의 문제가 아니다. 스트레스는 장(腸)을 조이고, 장은 다시 뇌에 신호를 보낸다. 지난 십수 년의 신경과학이 밝혀낸 이 양방향의 대화, 곧 \textbf{장-뇌축(gut–brain axis)}이 이 책의 출발점이다.
+
+나는 오랫동안 이 장-뇌의 대화를 연구하고 가르쳐 오면서 한 가지 물음을 품게 되었다. 조선의 선조들이 스트레스로 속이 무너질 때 비위(脾胃)를 다스려 마음을 다스렸던 그 오랜 지혜를, 현대 과학의 규율로 다시 검증하고 계승할 수는 없을까. 힘뇌장은 그 물음에 대한 하나의 대답이다.
+
+\pfsec{힘뇌장이란 무엇인가}
+힘뇌장(HIMNOEJANG)은 \textbf{장에서부터 뇌를 돌보는 것}을 설계 원리로 삼은 \textbf{일반식품 포뮬러}다. 열두 가지 원료를 세 개의 축 위에 배치했다 — 소화·흡수의 토대를 세우는 \textbf{보(補)의 축}(사군자탕: 인삼·백출·복령·감초), 장과 뇌를 잇고 신경을 보호하는 \textbf{연결(連結)의 축}(노루궁뎅이버섯·원지), 각성과 이완의 균형을 회복하는 \textbf{평정(平靜)의 축}(L-테아닌·L-티로신·L-글루타민). 여기에 항염·프리바이오틱·완서방출 에너지를 맡는 기능성 보조 원료(커큐민·FOS·팔라티노스)가 더해져, 포뮬러 전체의 장-뇌 환경을 조성한다.
+
+이름 그대로다 — \textbf{‘힘’을 주어 ‘뇌’와 ‘장’을 함께 돌본다.} 힘뇌장은 의약품이 아니며, 어떤 질병을 치료하거나 예방한다고 말하지 않는다. 다만 하나의 강한 표적을 때리기보다, 장-뇌라는 하나의 계(系)를 여러 지점에서 부드럽게 조율하려는 식품이다.
+
+\pfsec{설계 철학}
+힘뇌장의 설계에는 세 가지 태도가 흐른다. \textbf{첫째, 계(系)의 관점.} 뇌 건강을 고립된 장기의 문제가 아니라 장·면역·대사·정신을 아우르는 네트워크의 문제로 본다. \textbf{둘째, 전통과 현대의 연속성.} 사군자탕·개심산 같은 전통 복합처방의 지혜를 버리지도, 맹신하지도 않고 원료마다 현대 문헌으로 검증하여 잇는다. \textbf{셋째, 겸손과 정직.} 근거가 확실한 것과 아직 유망한 수준인 것을 등급으로 구분하고, 효과가 없었던 연구(무효 결과)와 한계까지 그대로 적는다. 근거의 언어는 “관련성이 보고되었다”이지 “낫는다”가 아니다.
+
+\pfsec{누구를 위한 것인가}
+이 책과 힘뇌장은 특히 \textbf{시험과 마감, 발표와 경쟁 앞에서 최상의 집중을 요구받는 사람들}을 마음에 두고 만들어졌다 — 수험생과 학생, 고강도 인지 노동을 하는 직장인, 스트레스 속에서도 평정을 잃지 않아야 하는 이들. 나아가 나이 듦 속에서 또렷함을 지키고 싶은 분들, 장과 마음의 균형이 흔들려 회복이 필요한 분들에게도.
+
+이들이 힘뇌장이라는 식품으로 조금이나마 \textbf{도움을 받았으면 하는 바람}으로 이 자료를 설계했다. 다만 분명히 해 둔다. 힘뇌장은 일반식품이며, 여기 담긴 근거의 상당 부분은 인체 대규모 확증 이전의 연관성(association) 수준이다. 이 책은 무엇도 보장하지 않는다 — 다만 각 원료가 어떤 근거 위에 서 있는지를 투명하게 보여줄 뿐이다. 건강에 관한 결정은 늘 전문가와 상의하시기를 권한다.
+
+\pfsec{이 책은 어떻게 쓰였는가 — 기획·감수와 AI 작성}
+이 방대한 자료의 저자됨을 정직하게 밝히는 것이 이 서문의 중요한 목적이다. 이 책은 \textbf{최성화 교수가 기획·설계·감수}하고, \textbf{Claude(Anthropic의 대규모 언어모델)를 기반으로 구축한 네 개의 전용 스킬이 작성}하였다. 표현하자면, \textbf{기획·감수 최성화 / 작성 Claude}다. 작성은 다음 네 스킬의 협업으로 이루어졌다.
+
+\begin{enumerate}[leftmargin=6mm,itemsep=1mm,topsep=1mm]
+  \item \textbf{chapter-drafter} — 15섹션 표준 템플릿에 따라 각 장의 초고를 작성.
+  \item \textbf{reference-validator} — 모든 학술 인용을 CrossRef·PubMed로 4단계 검증(DOI 존재 → 제목 완전 일치 → 저자·연도 교차 → PMID 대조). 통과한 인용에만 검증 태그를 부여하고, 존재하지 않는 논문을 지어내는 ‘환각(hallucination)’을 원천 차단했다.
+  \item \textbf{historical-verifier} — 조선 사료 인용의 원전 정확성을 국가 DB와 대조하는 절차(소설·드라마는 배제). 다만 확정 인용은 최소화하고 배경 사실만 서술했다.
+  \item \textbf{chapter-editor} — 식품 표시광고 규제 준수·학술 용어 통일·저자 톤 유지·근거 수준 표현을 최종 점검.
+\end{enumerate}
+
+그 결과 이 책의 \textbf{826편에 이르는 인용은 예외 없이 실측·검증}을 거쳤다. 존재하지 않는 논문, 지어낸 저자, 맞지 않는 DOI는 이 책에 없다. 이것이 독자가 이 책을 신뢰해도 좋은 근거다.
+
+동시에 \textbf{한계}도 분명히 밝힌다. 본문은 AI가 작성한 초고이며, 저자(최성화 교수)의 최종 감수·승인이 전제되어야 완성된다. AI는 검증의 규율에도 불구하고 해석의 오류를 범할 수 있으므로, 이 책은 ‘확정된 결론’이 아니라 \textbf{‘검증된 근거 위에 선 설계 논증’}으로 읽혀야 한다. 또한 개별 원료 각각의 근거가 곧 포뮬러 전체의 근거는 아니며, 힘뇌장 자체에 대한 대규모 인체 시험은 앞으로의 과제다. \textbf{신뢰와 한계 — 이 둘을 함께 느끼며 읽어 주시기를} 부탁드린다.
+
+\pfsec{맺음}
+이 책은 하나의 제품 설명서가 아니라, 뇌 건강을 계로 바라보고 전통을 과학으로 잇는 하나의 태도에 관한 기록이다. 첫걸음은 사백 년 전, 전란의 한복판에서 심신을 다스려야 했던 한 장수의 이야기에서 시작한다. 이제, 그 여정을 함께 시작한다.
+
+\vspace{5mm}
+\hfill\begin{minipage}{62mm}\raggedleft
+  {\gothic\small \textbf{기획·감수} 최성화}\\[0.4mm]
+  {\gothic\footnotesize\color{muted} 서울대학교 생명과학부}\\[2.2mm]
+  {\gothic\footnotesize\color{muted} \textbf{작성} Claude (Anthropic)}\\[0.4mm]
+  {\gothic\scriptsize\color{muted} chapter-drafter · reference-validator}\\[0.2mm]
+  {\gothic\scriptsize\color{muted} historical-verifier · chapter-editor}\\[2.2mm]
+  {\gothic\footnotesize\color{celadondk} 2026년}
+\end{minipage}
+
+\end{document}
