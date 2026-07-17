@@ -102,6 +102,7 @@ git push origin main
 
 ## 진행 현황(2026-07-17 기준)
 
-- 완료(①~④): Ch1~3(서장), Ch4~14 (Ch11 32/32·Ch12 38/38·Ch13 39/39·Ch14 38/38 DOI-VERIFIED·편집 완료·저자 승인 대기)
-- **드래프트(①②만 · ③④ 대기): Ch15 · 종장** (종합 에세이·40편 큐레이션·본문↔목록 1:1·[저자 확인] 항목 표시) ← 다음은 여기서 ③(reference-validator)부터
-- 예정: 전권 저자 최종 승인 · 부록(A 사료·B 특허)
+- 완료(①~④): Ch1~15 전권 (검증 100%·편집 완료·저자 승인 대기)
+- 저자 승인 체크리스트: `references/AUTHOR-APPROVAL-CHECKLIST-2026-07-17.md` (40항목·필수 24)
+- 부록 착수: `appendices/appendix-A-historical-sources.md`(사료 검증 워크리스트)·`appendix-B-patent-claims.md`(특허 템플릿) — 원문/청구항은 저자·historical-verifier 확정 대상
+- 남은 작업: 저자 최종 승인 · 규제 URL 확정 · 부록 A/B 원문 채우기 · (선택)historical-verifier 패스
