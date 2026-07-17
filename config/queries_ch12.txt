@@ -1,0 +1,15 @@
+# Chapter 12 · L-Glutamine · PubMed 쿼리 (collect_pubmed.py --queries)
+# 한 줄에 쿼리 하나 · #주석/빈 줄 무시 · mindate 2013 maxdate 2026 로 수집
+# 서사 축: 장 상피의 연료 → 장벽 무결성 → 장-뇌축 · 평정 축의 GABA/글루타메이트 전구체
+("glutamine")[Title] AND (intestinal OR gut OR "intestinal barrier" OR "gut barrier" OR permeability OR epithelial OR enterocyte OR mucosal)
+("glutamine")[Title/Abstract] AND ("gut-brain" OR "microbiota-gut-brain" OR "gut microbiota" OR microbiome OR "intestinal microbiota")
+("glutamine")[Title] AND (glutamate OR GABA OR "glutamate-glutamine cycle" OR neurotransmitter OR glutamatergic)
+("glutamine")[Title] AND (cognition OR cognitive OR memory OR brain OR neuroprotection OR "central nervous system")
+("glutamine")[Title] AND (stress OR immune OR immunity OR "immune function" OR infection OR inflammation)
+("glutamine")[Title] AND (exercise OR athlete OR "physical performance" OR overtraining OR endurance OR muscle)
+("glutamine")[Title] AND (supplementation OR supplement OR "dietary glutamine" OR "oral glutamine" OR intake OR "conditionally essential")
+("glutamine")[Title] AND ("irritable bowel" OR IBS OR "inflammatory bowel" OR colitis OR "leaky gut" OR "intestinal permeability")
+("glutamine")[Title] AND (safety OR pharmacokinetic OR "plasma glutamine" OR tolerability OR "glutamine metabolism" OR adverse)
+("glutamine")[Title] AND ("critically ill" OR "critical illness" OR trauma OR "traumatic brain injury" OR burn OR surgery OR sepsis)
+("glutamine")[Title/Abstract] AND ("tight junction" OR "gut permeability" OR "mucosal integrity" OR "intestinal barrier" OR "epithelial fuel")
+("L-glutamine" OR "glutamine")[Title] AND (review OR randomized OR "clinical trial" OR "double-blind" OR meta-analysis OR "systematic review")

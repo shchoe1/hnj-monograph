@@ -1,0 +1,51 @@
+{
+  "target": 44,
+  "header_title": "Chapter 12 · L-글루타민 (L-Glutamine)",
+  "header_scope": "장 상피 연료·장벽 무결성·장뇌축·GABA/글루타메이트 전구체·면역·임상(중증·외상·IBS)·안전성 · 2013-2026",
+  "title_gate": ["glutamine"],
+  "note": "title_gate로 제목에 'glutamine' 필수. raw에서 암 대사(glutaminolysis/glutaminase 억제제/종양)·순수 효소학은 exclude_hard/soft로 감점. 최종은 curate 출력 뒤 off-topic을 수동 제거하여 확정(PIPELINE.md 단계 1-b). 서사 축은 '장 상피 연료→장벽→장-뇌축', Cryan 2019 p.1923 매핑.",
+  "tiers": {
+    "nature": 9, "science": 9, "cell": 9, "lancet": 9, "physiological reviews": 9, "new england": 9,
+    "gut": 9, "gastroenterology": 9, "pnas": 8, "proceedings of the national academy": 8,
+    "nature communications": 8, "nature metabolism": 8, "cell metabolism": 8, "gut microbes": 8,
+    "american journal of clinical nutrition": 8, "molecular psychiatry": 8, "brain behavior and immunity": 7,
+    "journal of nutrition": 7, "clinical nutrition": 7, "the journal of physiology": 7, "journal of neuroscience": 7,
+    "critical care medicine": 7, "intensive care medicine": 7, "critical care": 7, "american journal of physiology": 6,
+    "journal of parenteral and enteral nutrition": 7, "neurochemistry international": 6, "journal of neurochemistry": 6,
+    "nutrients": 6, "amino acids": 6, "european journal of nutrition": 6, "british journal of nutrition": 6,
+    "nutritional neuroscience": 6, "glia": 6, "neurogastroenterology": 7, "inflammatory bowel diseases": 6,
+    "world journal of gastroenterology": 5, "international journal of molecular sciences": 5, "scientific reports": 5,
+    "frontiers in": 5, "cochrane": 6, "physiology & behavior": 5, "clinical science": 6, "metabolites": 5,
+    "journal of the international society of sports nutrition": 5, "medicine and science in sports": 5, "stress": 5
+  },
+  "buckets": {
+    "gut": ["intestin", "gut", "barrier", "epitheli", "enterocyte", "mucosa", "permeability", "tight junction", "villous", "gut fuel"],
+    "gutbrain": ["gut-brain", "microbiota-gut-brain", "gut microbiota", "microbiome", "gut bacteria", "microbial metabol", "intestinal microbiota"],
+    "glutamate": ["glutamate", "gaba", "glutamatergic", "glutamate-glutamine cycle", "neurotransmitter", "excitatory", "glutamine synthetase", "astrocyte"],
+    "cognition": ["cognit", "memory", "brain", "neuroprotect", "learning", "hippocamp", "neural", "neurodegener", "encephalopathy"],
+    "immune": ["immune", "immunity", "infection", "lymphocyte", "cytokine", "inflammat", "sepsis", "immunonutrition"],
+    "exercise": ["exercise", "athlete", "muscle", "endurance", "overtraining", "sport", "physical performance", "recovery"],
+    "supp": ["supplementation", "supplement", "dietary glutamine", "oral glutamine", "intake", "conditionally essential", "enteral", "parenteral", "administration"],
+    "clinical": ["critically ill", "critical illness", "trauma", "traumatic brain injury", "burn", "surgery", "postoperative", "irritable bowel", "ibs", "colitis", "inflammatory bowel", "mucositis", "short bowel"],
+    "safety": ["safety", "pharmacokinetic", "plasma glutamine", "tolerability", "glutamine metabolism", "adverse", "ammonia", "metabolic fate"],
+    "review": ["review", "meta-analysis", "systematic"]
+  },
+  "quotas": [
+    ["gut", 12], ["clinical", 10], ["glutamate", 8], ["cognition", 8], ["supp", 8],
+    ["immune", 7], ["gutbrain", 7], ["exercise", 6], ["safety", 6], ["review", 8]
+  ],
+  "core_buckets": ["gut", "gutbrain", "glutamate", "cognition", "supp", "clinical", "immune", "safety"],
+  "exclude_hard": [
+    "glutaminolysis", "glutaminase inhibitor", "cb-839", "telaglenastat", "cancer metabolism",
+    "tumor metabolism", "tumour metabolism", "tumor cell", "tumour cell", "cancer cell",
+    "glutamine addiction", "glutamine deprivation", "warburg", "oncogen", "oncometabol",
+    "glioma cell", "breast cancer", "lung cancer", "prostate cancer", "pancreatic cancer",
+    "leukemia cell", "melanoma", "carcinoma cell"
+  ],
+  "exclude_soft": [
+    "crystal structure", "in silico", "docking", "genome", "transcriptome", "biosensor",
+    "electrochemical detection", "determination of glutamine", "fluorescent probe", "escherichia coli",
+    "fermentation", "cho cell", "cell culture medium", "bioreactor", "yeast", "recombinant production",
+    "structural basis", "enzyme kinetics of", "plant", "aquaculture", "poultry", "broiler", "piglet weaning"
+  ]
+}
