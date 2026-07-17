@@ -2,14 +2,16 @@
 
 저자: 최성화 (서울대학교 생명과학부)
 공저자: [해당 시 · 미정]
-참고문헌: 38편 · 검증 완료 0편 · [PENDING] 38편
-최종 검증 실행일: [reference-validator 실행 후 자동 갱신]
-사료 검증: 해당 없음(FOS·팔라티노스는 현대 식품과학 성분 · 조선 사료 최소화 방침 · 전통 식문화는 배경 사실만)
-AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0 (15섹션 표준 템플릿)
-편집: [chapter-editor 실행 전]
-저자 검토: [ ] 미완료
+참고문헌: 38편 · 검증 완료 38편 · [PENDING] 0편 (검증률 100%)
+최종 검증 실행일: 2026-07-17 · reference-validator Skill v1.0 (CrossRef + PubMed 4단계)
+검증 로그: references/validation-log-ch14-fos-palatinose-2026-07-17.csv
+사료 검증: 해당 없음(FOS·팔라티노스는 20세기 식품과학 성분 · 조선 사료 직접 인용 없음 · 전통 식문화는 배경 은유만)
+AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0
+편집: chapter-editor Skill v1.0 · 2026-07-17 (KFDA 준수 · 용어 통일 · 인용번호 정리 · 톤 점검)
+편집 로그: references/edit-log-ch14-2026-07-17.md
+저자 검토: [ ] 미완료 (편집 완료 · 최성화 교수 최종 승인 대기)
 
-> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 마지막 챕터이자 **두 원료를 함께 다루는 챕터** 다. 15섹션 표준 템플릿을 따르되, 각 절에서 두 원료를 나누어 서술한다. 두 원료의 관계는 제목 **"프리바이오틱과 뇌 연료"** 에 담긴다 — **FOS(프락토올리고당)는 장을 먹이고(장내미생물총의 먹이·프리바이오틱), 팔라티노스(이소말툴로스)는 뇌를 먹인다(완서방출·저혈당지수 포도당 공급).** 하나는 장-뇌축의 장(腸) 쪽 환경을, 다른 하나는 뇌(腦) 쪽 에너지를 겨냥하여, 힘뇌장의 장-뇌 환경을 양쪽에서 완성한다. 그러나 두 원료의 근거는 성격이 다르다 — FOS의 장-뇌 근거는 기전적으로 풍부하나 임상적으로 이질적이고, 팔라티노스의 저혈당지수 근거는 비교적 일관되나 인지·뇌 효과는 간접적이다. 본 장은 이 두 원료를 각각 정직하게 서술한다. 본문의 모든 학술 인용에는 `[PENDING-DOI-VERIFY]` 태그가 부착되어 있으며, reference-validator(단계 ③) 검증 후 `[DOI-VERIFIED ✓]`로 전환된다.
+> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 마지막 챕터이자 **두 원료를 함께 다루는 챕터** 다. 15섹션 표준 템플릿을 따르되, 각 절에서 두 원료를 나누어 서술한다. 두 원료의 관계는 제목 **"프리바이오틱과 뇌 연료"** 에 담긴다 — **FOS(프락토올리고당)는 장을 먹이고(장내미생물총의 먹이·프리바이오틱), 팔라티노스(이소말툴로스)는 뇌를 먹인다(완서방출·저혈당지수 포도당 공급).** 하나는 장-뇌축의 장(腸) 쪽 환경을, 다른 하나는 뇌(腦) 쪽 에너지를 겨냥하여, 힘뇌장의 장-뇌 환경을 양쪽에서 완성한다. 그러나 두 원료의 근거는 성격이 다르다 — FOS의 장-뇌 근거는 기전적으로 풍부하나 임상적으로 이질적이고, 팔라티노스의 저혈당지수 근거는 비교적 일관되나 인지·뇌 효과는 간접적이다. 본 장은 이 두 원료를 각각 정직하게 서술한다. 본문의 38개 학술 인용은 CrossRef·PubMed 4단계 검증을 통과해 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었으며(검증률 100%), KFDA 표시광고 준수 점검(치료·예방·완치·특효 등 의약품 효능 어사 배제 · 근거수준 표현 적용)을 완료하였다. 저자(최성화 교수)의 최종 검토·승인이 남아 있다.
 
 ---
 
@@ -41,7 +43,7 @@ FOS와 팔라티노스는 모두 조선의 본초서에 등장하지 않는다. 
 
 힘뇌장에서 두 원료의 자리는 **장-뇌 환경을 양쪽 끝에서 먹이는 지지 원료** 다. 그 논거는 세 가지다.
 
-**첫째, FOS는 장내미생물총이라는 장-뇌축의 근원을 먹인다.** 힘뇌장의 철학은 장-뇌축(제3장)에서 출발하며, 그 축의 근원은 장내미생물총이다. FOS는 그 미생물총의 선택적 먹이로서 유익균과 단쇄지방산 생성을 늘려[10][20], 우울·불안 등 정서 영역의 장-뇌 근거[24][25]와 이어진다. FOS는 "장-뇌축을 아래에서 먹이는" 원료다.
+**첫째, FOS는 장내미생물총이라는 장-뇌축의 근원을 먹인다.** 힘뇌장의 철학은 장-뇌축(gut-brain axis, 腸-腦軸, 제3장)에서 출발하며, 그 축의 근원은 장내미생물총이다. FOS는 그 미생물총의 선택적 먹이로서 유익균과 단쇄지방산 생성을 늘려[10][20], 우울·불안 등 정서 영역의 장-뇌 근거[24][25]와 이어진다. FOS는 "장-뇌축을 아래에서 먹이는" 원료다.
 
 **둘째, 팔라티노스는 뇌의 유일한 연료인 포도당을 안정적으로 공급한다.** 뇌는 포도당에 절대적으로 의존하는데, 급격한 혈당 등락은 집중과 기분을 흔든다. 팔라티노스는 저혈당지수·완서방출 특성으로 포도당을 완만히 공급하여[7][23], 안정적 뇌 에너지를 지향한다. 어린이에서 저혈당지수 아침식사(팔라티노스)가 인지 수행과 연관된다는 연구[4]는 이 방향을 시사한다. 팔라티노스는 "뇌를 안정적으로 먹이는" 원료다.
 
@@ -286,94 +288,95 @@ GRADE 방법론(<https://www.gradeworkinggroup.org/>)의 관점에서 두 원료
 ## 참고문헌 (References)
 
 > 형식: [순번] 저자. 제목. 저널. 연도;권(호):페이지. doi. PMID. URL. [검증태그]
-> 아래 모든 인용은 `references/ch14.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③) 4단계 검증 전까지 `[PENDING-DOI-VERIFY]` 상태다. 본 장은 두 원료를 다루므로, FOS계열(fructooligosaccharide·oligofructose·inulin-type fructan·prebiotic)과 팔라티노스(isomaltulose)의 실측 문헌만 인용하고, off-topic(c-Fos 유전자·축산/양식·식품가공 최적화)을 엄격히 배제하였다.
+> 아래 모든 인용은 `references/ch14.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③)의 CrossRef·PubMed 4단계 검증을 38편 전부 통과하여 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었다(검증률 100%, 로그: `references/validation-log-ch14-fos-palatinose-2026-07-17.csv`). 본 장은 두 원료를 다루므로, FOS계열(fructooligosaccharide·oligofructose·inulin-type fructan·prebiotic)과 팔라티노스(isomaltulose)의 실측 문헌만 인용하고, off-topic(c-Fos 유전자·축산/양식·식품가공 최적화)을 엄격히 배제하였다.
 
-[1] Sekartini R, Wiguna T, Bardosono S, et al. The effect of lactose-isomaltulose-containing growing-up milks on cognitive performance of Indonesian children: a cross-over study. The British Journal of Nutrition. 2013;110(6):1089-1097. doi:10.1017/S0007114513000135. PMID:23680182. URL: https://doi.org/10.1017/S0007114513000135. [PENDING-DOI-VERIFY]
+[1] Sekartini R, Wiguna T, Bardosono S, et al. The effect of lactose-isomaltulose-containing growing-up milks on cognitive performance of Indonesian children: a cross-over study. The British Journal of Nutrition. 2013;110(6):1089-1097. doi:10.1017/S0007114513000135. PMID:23680182. URL: https://doi.org/10.1017/S0007114513000135. [DOI-VERIFIED 2026-07-17 ✓]
 
-[2] Kamarul Zaman M, Chin KF, Rai V, et al. Fiber and prebiotic supplementation in enteral nutrition: A systematic review and meta-analysis. World Journal of Gastroenterology. 2015;21(17):5372-5381. doi:10.3748/wjg.v21.i17.5372. PMID:25954112. URL: https://doi.org/10.3748/wjg.v21.i17.5372. [PENDING-DOI-VERIFY]
+[2] Kamarul Zaman M, Chin KF, Rai V, et al. Fiber and prebiotic supplementation in enteral nutrition: A systematic review and meta-analysis. World Journal of Gastroenterology. 2015;21(17):5372-5381. doi:10.3748/wjg.v21.i17.5372. PMID:25954112. URL: https://doi.org/10.3748/wjg.v21.i17.5372. [DOI-VERIFIED 2026-07-17 ✓]
 
-[3] Oosthuyse T, Carstens M, Millen AM. Ingesting Isomaltulose Versus Fructose-Maltodextrin During Prolonged Moderate-Heavy Exercise Increases Fat Oxidation but Impairs Gastrointestinal Comfort and Cycling Performance. International Journal of Sport Nutrition and Exercise Metabolism. 2015;25(5):427-438. doi:10.1123/ijsnem.2014-0178. PMID:25811946. URL: https://doi.org/10.1123/ijsnem.2014-0178. [PENDING-DOI-VERIFY]
+[3] Oosthuyse T, Carstens M, Millen AM. Ingesting Isomaltulose Versus Fructose-Maltodextrin During Prolonged Moderate-Heavy Exercise Increases Fat Oxidation but Impairs Gastrointestinal Comfort and Cycling Performance. International Journal of Sport Nutrition and Exercise Metabolism. 2015;25(5):427-438. doi:10.1123/ijsnem.2014-0178. PMID:25811946. URL: https://doi.org/10.1123/ijsnem.2014-0178. [DOI-VERIFIED 2026-07-17 ✓]
 
-[4] Young H, Benton D. The effect of using isomaltulose (Palatinose™) to modulate the glycaemic properties of breakfast on the cognitive performance of children. European Journal of Nutrition. 2015;54(6):1013-1020. doi:10.1007/s00394-014-0779-8. PMID:25311061. URL: https://doi.org/10.1007/s00394-014-0779-8. [PENDING-DOI-VERIFY]
+[4] Young H, Benton D. The effect of using isomaltulose (Palatinose™) to modulate the glycaemic properties of breakfast on the cognitive performance of children. European Journal of Nutrition. 2015;54(6):1013-1020. doi:10.1007/s00394-014-0779-8. PMID:25311061. URL: https://doi.org/10.1007/s00394-014-0779-8. [DOI-VERIFIED 2026-07-17 ✓]
 
-[5] Fleddermann M, Rauh-Pfeiffer A, Demmelmair H, et al. Effects of a Follow-On Formula Containing Isomaltulose (Palatinose™) on Metabolic Response, Acceptance, Tolerance and Safety in Infants: A Randomized-Controlled Trial. PLoS One. 2016;11(3):e0151614. doi:10.1371/journal.pone.0151614. PMID:26987056. URL: https://doi.org/10.1371/journal.pone.0151614. [PENDING-DOI-VERIFY]
+[5] Fleddermann M, Rauh-Pfeiffer A, Demmelmair H, et al. Effects of a Follow-On Formula Containing Isomaltulose (Palatinose™) on Metabolic Response, Acceptance, Tolerance and Safety in Infants: A Randomized-Controlled Trial. PLoS One. 2016;11(3):e0151614. doi:10.1371/journal.pone.0151614. PMID:26987056. URL: https://doi.org/10.1371/journal.pone.0151614. [DOI-VERIFIED 2026-07-17 ✓]
 
-[6] Cerdó T, Ruíz A, Suárez A, et al. Probiotic, Prebiotic, and Brain Development. Nutrients. 2017;9(11):1247. doi:10.3390/nu9111247. PMID:29135961. URL: https://doi.org/10.3390/nu9111247. [PENDING-DOI-VERIFY]
+[6] Cerdó T, Ruíz A, Suárez A, et al. Probiotic, Prebiotic, and Brain Development. Nutrients. 2017;9(11):1247. doi:10.3390/nu9111247. PMID:29135961. URL: https://doi.org/10.3390/nu9111247. [DOI-VERIFIED 2026-07-17 ✓]
 
-[7] Henry CJ, Kaur B, Quek RYC, et al. A Low Glycaemic Index Diet Incorporating Isomaltulose Is Associated with Lower Glycaemic Response and Variability, and Promotes Fat Oxidation in Asians. Nutrients. 2017;9(5):473. doi:10.3390/nu9050473. PMID:28486426. URL: https://doi.org/10.3390/nu9050473. [PENDING-DOI-VERIFY]
+[7] Henry CJ, Kaur B, Quek RYC, et al. A Low Glycaemic Index Diet Incorporating Isomaltulose Is Associated with Lower Glycaemic Response and Variability, and Promotes Fat Oxidation in Asians. Nutrients. 2017;9(5):473. doi:10.3390/nu9050473. PMID:28486426. URL: https://doi.org/10.3390/nu9050473. [DOI-VERIFIED 2026-07-17 ✓]
 
-[8] Suraphad P, Suklaew PO, Ngamukote S, et al. The Effect of Isomaltulose Together with Green Tea on Glycemic Response and Antioxidant Capacity: A Single-Blind, Crossover Study in Healthy Subjects. Nutrients. 2017;9(5):464. doi:10.3390/nu9050464. PMID:28481230. URL: https://doi.org/10.3390/nu9050464. [PENDING-DOI-VERIFY]
+[8] Suraphad P, Suklaew PO, Ngamukote S, et al. The Effect of Isomaltulose Together with Green Tea on Glycemic Response and Antioxidant Capacity: A Single-Blind, Crossover Study in Healthy Subjects. Nutrients. 2017;9(5):464. doi:10.3390/nu9050464. PMID:28481230. URL: https://doi.org/10.3390/nu9050464. [DOI-VERIFIED 2026-07-17 ✓]
 
-[9] Tan WS, Tan SY, Henry CJ. Ethnic Variability in Glycemic Response to Sucrose and Isomaltulose. Nutrients. 2017;9(4):347. doi:10.3390/nu9040347. PMID:28368311. URL: https://doi.org/10.3390/nu9040347. [PENDING-DOI-VERIFY]
+[9] Tan WS, Tan SY, Henry CJ. Ethnic Variability in Glycemic Response to Sucrose and Isomaltulose. Nutrients. 2017;9(4):347. doi:10.3390/nu9040347. PMID:28368311. URL: https://doi.org/10.3390/nu9040347. [DOI-VERIFIED 2026-07-17 ✓]
 
-[10] Vandeputte D, Falony G, Vieira-Silva S, et al. Prebiotic inulin-type fructans induce specific changes in the human gut microbiota. Gut. 2017;66(11):1968-1974. doi:10.1136/gutjnl-2016-313271. PMID:28213610. URL: https://doi.org/10.1136/gutjnl-2016-313271. [PENDING-DOI-VERIFY]
+[10] Vandeputte D, Falony G, Vieira-Silva S, et al. Prebiotic inulin-type fructans induce specific changes in the human gut microbiota. Gut. 2017;66(11):1968-1974. doi:10.1136/gutjnl-2016-313271. PMID:28213610. URL: https://doi.org/10.1136/gutjnl-2016-313271. [DOI-VERIFIED 2026-07-17 ✓]
 
-[11] Wilson B, Whelan K. Prebiotic inulin-type fructans and galacto-oligosaccharides: definition, specificity, function, and application in gastrointestinal disorders. Journal of Gastroenterology and Hepatology. 2017;32 Suppl 1:64-68. doi:10.1111/jgh.13700. PMID:28244671. URL: https://doi.org/10.1111/jgh.13700. [PENDING-DOI-VERIFY]
+[11] Wilson B, Whelan K. Prebiotic inulin-type fructans and galacto-oligosaccharides: definition, specificity, function, and application in gastrointestinal disorders. Journal of Gastroenterology and Hepatology. 2017;32 Suppl 1:64-68. doi:10.1111/jgh.13700. PMID:28244671. URL: https://doi.org/10.1111/jgh.13700. [DOI-VERIFIED 2026-07-17 ✓]
 
-[12] Kendall FE, Marchand O, Haszard JJ, et al. The Comparative Effect on Satiety and Subsequent Energy Intake of Ingesting Sucrose or Isomaltulose Sweetened Trifle: A Randomized Crossover Trial. Nutrients. 2018;10(10):1504. doi:10.3390/nu10101504. PMID:30326587. URL: https://doi.org/10.3390/nu10101504. [PENDING-DOI-VERIFY]
+[12] Kendall FE, Marchand O, Haszard JJ, et al. The Comparative Effect on Satiety and Subsequent Energy Intake of Ingesting Sucrose or Isomaltulose Sweetened Trifle: A Randomized Crossover Trial. Nutrients. 2018;10(10):1504. doi:10.3390/nu10101504. PMID:30326587. URL: https://doi.org/10.3390/nu10101504. [DOI-VERIFIED 2026-07-17 ✓]
 
-[13] Angarita Dávila L, Bermúdez V, Aparicio D, et al. Effect of Oral Nutritional Supplements with Sucromalt and Isomaltulose versus Standard Formula on Glycaemic Index, Entero-Insular Axis Peptides and Subjective Appetite in Patients with Type 2 Diabetes: A Randomised Cross-Over Study. Nutrients. 2019;11(7):1477. doi:10.3390/nu11071477. PMID:31261732. URL: https://doi.org/10.3390/nu11071477. [PENDING-DOI-VERIFY]
+[13] Angarita Dávila L, Bermúdez V, Aparicio D, et al. Effect of Oral Nutritional Supplements with Sucromalt and Isomaltulose versus Standard Formula on Glycaemic Index, Entero-Insular Axis Peptides and Subjective Appetite in Patients with Type 2 Diabetes: A Randomised Cross-Over Study. Nutrients. 2019;11(7):1477. doi:10.3390/nu11071477. PMID:31261732. URL: https://doi.org/10.3390/nu11071477. [DOI-VERIFIED 2026-07-17 ✓]
 
-[14] Serra MC, Nocera JR, Kelleher JL, et al. Prebiotic Intake in Older Adults: Effects on Brain Function and Behavior. Current Nutrition Reports. 2019;8(2):66-73. doi:10.1007/s13668-019-0265-2. PMID:30888666. URL: https://doi.org/10.1007/s13668-019-0265-2. [PENDING-DOI-VERIFY]
+[14] Serra MC, Nocera JR, Kelleher JL, et al. Prebiotic Intake in Older Adults: Effects on Brain Function and Behavior. Current Nutrition Reports. 2019;8(2):66-73. doi:10.1007/s13668-019-0265-2. PMID:30888666. URL: https://doi.org/10.1007/s13668-019-0265-2. [DOI-VERIFIED 2026-07-17 ✓]
 
-[15] Birkeland E, Gharagozlian S, Birkeland KI, et al. Prebiotic effect of inulin-type fructans on faecal microbiota and short-chain fatty acids in type 2 diabetes: a randomised controlled trial. European Journal of Nutrition. 2020;59(7):3325-3338. doi:10.1007/s00394-020-02282-5. PMID:32440730. URL: https://doi.org/10.1007/s00394-020-02282-5. [PENDING-DOI-VERIFY]
+[15] Birkeland E, Gharagozlian S, Birkeland KI, et al. Prebiotic effect of inulin-type fructans on faecal microbiota and short-chain fatty acids in type 2 diabetes: a randomised controlled trial. European Journal of Nutrition. 2020;59(7):3325-3338. doi:10.1007/s00394-020-02282-5. PMID:32440730. URL: https://doi.org/10.1007/s00394-020-02282-5. [DOI-VERIFIED 2026-07-17 ✓]
 
-[16] Wang Y, Li N, Yang JJ, et al. Probiotics and fructo-oligosaccharide intervention modulate the microbiota-gut brain axis to improve autism spectrum reducing also the hyper-serotonergic state and the dopamine metabolism disorder. Pharmacological Research. 2020;157:104784. doi:10.1016/j.phrs.2020.104784. PMID:32305492. URL: https://doi.org/10.1016/j.phrs.2020.104784. [PENDING-DOI-VERIFY]
+[16] Wang Y, Li N, Yang JJ, et al. Probiotics and fructo-oligosaccharide intervention modulate the microbiota-gut brain axis to improve autism spectrum reducing also the hyper-serotonergic state and the dopamine metabolism disorder. Pharmacological Research. 2020;157:104784. doi:10.1016/j.phrs.2020.104784. PMID:32305492. URL: https://doi.org/10.1016/j.phrs.2020.104784. [DOI-VERIFIED 2026-07-17 ✓]
 
-[17] Mateo-Gallego R, Moreno-Indias I, Bea AM, et al. An alcohol-free beer enriched with isomaltulose and a resistant dextrin modulates gut microbiome in subjects with type 2 diabetes mellitus and overweight or obesity: a pilot study. Food & Function. 2021;12(8):3635-3646. doi:10.1039/d0fo03160g. PMID:33900319. URL: https://doi.org/10.1039/d0fo03160g. [PENDING-DOI-VERIFY]
+[17] Mateo-Gallego R, Moreno-Indias I, Bea AM, et al. An alcohol-free beer enriched with isomaltulose and a resistant dextrin modulates gut microbiome in subjects with type 2 diabetes mellitus and overweight or obesity: a pilot study. Food & Function. 2021;12(8):3635-3646. doi:10.1039/d0fo03160g. PMID:33900319. URL: https://doi.org/10.1039/d0fo03160g. [DOI-VERIFIED 2026-07-17 ✓]
 
-[18] Purton T, Staskova L, Lane MM, et al. Prebiotic and probiotic supplementation and the tryptophan-kynurenine pathway: A systematic review and meta analysis. Neuroscience and Biobehavioral Reviews. 2021;123:1-13. doi:10.1016/j.neubiorev.2020.12.026. PMID:33482244. URL: https://doi.org/10.1016/j.neubiorev.2020.12.026. [PENDING-DOI-VERIFY]
+[18] Purton T, Staskova L, Lane MM, et al. Prebiotic and probiotic supplementation and the tryptophan-kynurenine pathway: A systematic review and meta analysis. Neuroscience and Biobehavioral Reviews. 2021;123:1-13. doi:10.1016/j.neubiorev.2020.12.026. PMID:33482244. URL: https://doi.org/10.1016/j.neubiorev.2020.12.026. [DOI-VERIFIED 2026-07-17 ✓]
 
-[19] Tanno H, Fujii T, Hirano K, et al. Characterization of fructooligosaccharide metabolism and fructooligosaccharide-degrading enzymes in human commensal butyrate producers. Gut Microbes. 2021;13(1):1-20. doi:10.1080/19490976.2020.1869503. PMID:33439065. URL: https://doi.org/10.1080/19490976.2020.1869503. [PENDING-DOI-VERIFY]
+[19] Tanno H, Fujii T, Hirano K, et al. Characterization of fructooligosaccharide metabolism and fructooligosaccharide-degrading enzymes in human commensal butyrate producers. Gut Microbes. 2021;13(1):1-20. doi:10.1080/19490976.2020.1869503. PMID:33439065. URL: https://doi.org/10.1080/19490976.2020.1869503. [DOI-VERIFIED 2026-07-17 ✓]
 
-[20] Hughes RL, Alvarado DA, Swanson KS, et al. The Prebiotic Potential of Inulin-Type Fructans: A Systematic Review. Advances in Nutrition. 2022;13(2):492-529. doi:10.1093/advances/nmab119. PMID:34555168. URL: https://doi.org/10.1093/advances/nmab119. [PENDING-DOI-VERIFY]
+[20] Hughes RL, Alvarado DA, Swanson KS, et al. The Prebiotic Potential of Inulin-Type Fructans: A Systematic Review. Advances in Nutrition. 2022;13(2):492-529. doi:10.1093/advances/nmab119. PMID:34555168. URL: https://doi.org/10.1093/advances/nmab119. [DOI-VERIFIED 2026-07-17 ✓]
 
-[21] Kokubo E, Morita S, Nagashima H, et al. Blood Glucose Response of a Low-Carbohydrate Oral Nutritional Supplement with Isomaltulose and Soluble Dietary Fiber in Individuals with Prediabetes: A Randomized, Single-Blind Crossover Trial. Nutrients. 2022;14(12):2386. doi:10.3390/nu14122386. PMID:35745116. URL: https://doi.org/10.3390/nu14122386. [PENDING-DOI-VERIFY]
+[21] Kokubo E, Morita S, Nagashima H, et al. Blood Glucose Response of a Low-Carbohydrate Oral Nutritional Supplement with Isomaltulose and Soluble Dietary Fiber in Individuals with Prediabetes: A Randomized, Single-Blind Crossover Trial. Nutrients. 2022;14(12):2386. doi:10.3390/nu14122386. PMID:35745116. URL: https://doi.org/10.3390/nu14122386. [DOI-VERIFIED 2026-07-17 ✓]
 
-[22] Meyer RK, Lane AI, Weninger SN, et al. Oligofructose restores postprandial short-chain fatty acid levels during high-fat feeding. Obesity. 2022;30(7):1442-1452. doi:10.1002/oby.23456. PMID:35785478. URL: https://doi.org/10.1002/oby.23456. [PENDING-DOI-VERIFY]
+[22] Meyer RK, Lane AI, Weninger SN, et al. Oligofructose restores postprandial short-chain fatty acid levels during high-fat feeding. Obesity. 2022;30(7):1442-1452. doi:10.1002/oby.23456. PMID:35785478. URL: https://doi.org/10.1002/oby.23456. [DOI-VERIFIED 2026-07-17 ✓]
 
-[23] Xie J, Li J, Qin Q, et al. Effect of Isomaltulose on Glycemic and Insulinemic Responses: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Advances in Nutrition. 2022;13(5):1901-1913. doi:10.1093/advances/nmac057. PMID:35595510. URL: https://doi.org/10.1093/advances/nmac057. [PENDING-DOI-VERIFY]
+[23] Xie J, Li J, Qin Q, et al. Effect of Isomaltulose on Glycemic and Insulinemic Responses: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Advances in Nutrition. 2022;13(5):1901-1913. doi:10.1093/advances/nmac057. PMID:35595510. URL: https://doi.org/10.1093/advances/nmac057. [DOI-VERIFIED 2026-07-17 ✓]
 
-[24] Radford-Smith DE, Anthony DC. Prebiotic and Probiotic Modulation of the Microbiota-Gut-Brain Axis in Depression. Nutrients. 2023;15(8):1880. doi:10.3390/nu15081880. PMID:37111100. URL: https://doi.org/10.3390/nu15081880. [PENDING-DOI-VERIFY]
+[24] Radford-Smith DE, Anthony DC. Prebiotic and Probiotic Modulation of the Microbiota-Gut-Brain Axis in Depression. Nutrients. 2023;15(8):1880. doi:10.3390/nu15081880. PMID:37111100. URL: https://doi.org/10.3390/nu15081880. [DOI-VERIFIED 2026-07-17 ✓]
 
-[25] Zhao Z, Xiao G, Xia J, et al. Effectiveness of probiotic/prebiotic/synbiotic treatments on anxiety: A systematic review and meta-analysis of randomized controlled trials. Journal of Affective Disorders. 2023;343:9-21. doi:10.1016/j.jad.2023.09.018. PMID:37734624. URL: https://doi.org/10.1016/j.jad.2023.09.018. [PENDING-DOI-VERIFY]
+[25] Zhao Z, Xiao G, Xia J, et al. Effectiveness of probiotic/prebiotic/synbiotic treatments on anxiety: A systematic review and meta-analysis of randomized controlled trials. Journal of Affective Disorders. 2023;343:9-21. doi:10.1016/j.jad.2023.09.018. PMID:37734624. URL: https://doi.org/10.1016/j.jad.2023.09.018. [DOI-VERIFIED 2026-07-17 ✓]
 
-[26] Fortuna R, Wang W, Mayengbam S, et al. Effect of prebiotic fiber on physical function and gut microbiota in adults, mostly women, with knee osteoarthritis and obesity: a randomized controlled trial. European Journal of Nutrition. 2024;63(6):2149-2161. doi:10.1007/s00394-024-03415-w. PMID:38713231. URL: https://doi.org/10.1007/s00394-024-03415-w. [PENDING-DOI-VERIFY]
+[26] Fortuna R, Wang W, Mayengbam S, et al. Effect of prebiotic fiber on physical function and gut microbiota in adults, mostly women, with knee osteoarthritis and obesity: a randomized controlled trial. European Journal of Nutrition. 2024;63(6):2149-2161. doi:10.1007/s00394-024-03415-w. PMID:38713231. URL: https://doi.org/10.1007/s00394-024-03415-w. [DOI-VERIFIED 2026-07-17 ✓]
 
-[27] Hall CV, Hepsomali P, Dalile B, et al. Effects of a diverse prebiotic fibre blend on inflammation, the gut microbiota and affective symptoms in metabolic syndrome: a pilot open-label randomised controlled trial. The British Journal of Nutrition. 2024;132(8):1002-1013. doi:10.1017/S0007114524002186. PMID:39411833. URL: https://doi.org/10.1017/S0007114524002186. [PENDING-DOI-VERIFY]
+[27] Hall CV, Hepsomali P, Dalile B, et al. Effects of a diverse prebiotic fibre blend on inflammation, the gut microbiota and affective symptoms in metabolic syndrome: a pilot open-label randomised controlled trial. The British Journal of Nutrition. 2024;132(8):1002-1013. doi:10.1017/S0007114524002186. PMID:39411833. URL: https://doi.org/10.1017/S0007114524002186. [DOI-VERIFIED 2026-07-17 ✓]
 
-[28] Hu Q, Liu Y, Fei Y, et al. Efficacy of probiotic, prebiotic, and synbiotics supplements in individuals with anemia: a systematic review and meta-analysis of randomized controlled trials. BMC Gastroenterology. 2024;24(1):472. doi:10.1186/s12876-024-03562-8. PMID:39716076. URL: https://doi.org/10.1186/s12876-024-03562-8. [PENDING-DOI-VERIFY]
+[28] Hu Q, Liu Y, Fei Y, et al. Efficacy of probiotic, prebiotic, and synbiotics supplements in individuals with anemia: a systematic review and meta-analysis of randomized controlled trials. BMC Gastroenterology. 2024;24(1):472. doi:10.1186/s12876-024-03562-8. PMID:39716076. URL: https://doi.org/10.1186/s12876-024-03562-8. [DOI-VERIFIED 2026-07-17 ✓]
 
-[29] Jones JM, Reinke SN, Mousavi-Derazmahalleh M, et al. Maternal prebiotic supplementation during pregnancy and lactation modifies the microbiome and short chain fatty acid profile of both mother and infant. Clinical Nutrition. 2024;43(4):969-980. doi:10.1016/j.clnu.2024.02.030. PMID:38452522. URL: https://doi.org/10.1016/j.clnu.2024.02.030. [PENDING-DOI-VERIFY]
+[29] Jones JM, Reinke SN, Mousavi-Derazmahalleh M, et al. Maternal prebiotic supplementation during pregnancy and lactation modifies the microbiome and short chain fatty acid profile of both mother and infant. Clinical Nutrition. 2024;43(4):969-980. doi:10.1016/j.clnu.2024.02.030. PMID:38452522. URL: https://doi.org/10.1016/j.clnu.2024.02.030. [DOI-VERIFIED 2026-07-17 ✓]
 
-[30] Li N, Han X, Ruan M, et al. Prebiotic inulin controls Th17 cells mediated central nervous system autoimmunity through modulating the gut microbiota and short chain fatty acids. Gut Microbes. 2024;16(1):2402547. doi:10.1080/19490976.2024.2402547. PMID:39287045. URL: https://doi.org/10.1080/19490976.2024.2402547. [PENDING-DOI-VERIFY]
+[30] Li N, Han X, Ruan M, et al. Prebiotic inulin controls Th17 cells mediated central nervous system autoimmunity through modulating the gut microbiota and short chain fatty acids. Gut Microbes. 2024;16(1):2402547. doi:10.1080/19490976.2024.2402547. PMID:39287045. URL: https://doi.org/10.1080/19490976.2024.2402547. [DOI-VERIFIED 2026-07-17 ✓]
 
-[31] McCarthy OM, Christensen MB, Tawfik S, et al. Metabolic and Hormonal Responses to Isomaltulose Ingestion Before or During Sustained Submaximal Exercise in Adults with Type 1 Diabetes Using Automated Insulin Delivery Systems. Nutrients. 2024;16(23):4098. doi:10.3390/nu16234098. PMID:39683492. URL: https://doi.org/10.3390/nu16234098. [PENDING-DOI-VERIFY]
+[31] McCarthy OM, Christensen MB, Tawfik S, et al. Metabolic and Hormonal Responses to Isomaltulose Ingestion Before or During Sustained Submaximal Exercise in Adults with Type 1 Diabetes Using Automated Insulin Delivery Systems. Nutrients. 2024;16(23):4098. doi:10.3390/nu16234098. PMID:39683492. URL: https://doi.org/10.3390/nu16234098. [DOI-VERIFIED 2026-07-17 ✓]
 
-[32] Medawar E, Beyer F, Thieleking R, et al. Prebiotic diet changes neural correlates of food decision-making in overweight adults: a randomised controlled within-subject cross-over trial. Gut. 2024;73(2):298-310. doi:10.1136/gutjnl-2023-330365. PMID:37793780. URL: https://doi.org/10.1136/gutjnl-2023-330365. [PENDING-DOI-VERIFY]
+[32] Medawar E, Beyer F, Thieleking R, et al. Prebiotic diet changes neural correlates of food decision-making in overweight adults: a randomised controlled within-subject cross-over trial. Gut. 2024;73(2):298-310. doi:10.1136/gutjnl-2023-330365. PMID:37793780. URL: https://doi.org/10.1136/gutjnl-2023-330365. [DOI-VERIFIED 2026-07-17 ✓]
 
-[33] Moura F, Romeiro C, Petriz B, et al. Endurance exercise associated with a fructooligosaccharide diet modulates gut microbiota and increases colon absorptive area. Journal of Gastroenterology and Hepatology. 2024;39(6):1145-1154. doi:10.1111/jgh.16563. PMID:38642000. URL: https://doi.org/10.1111/jgh.16563. [PENDING-DOI-VERIFY]
+[33] Moura F, Romeiro C, Petriz B, et al. Endurance exercise associated with a fructooligosaccharide diet modulates gut microbiota and increases colon absorptive area. Journal of Gastroenterology and Hepatology. 2024;39(6):1145-1154. doi:10.1111/jgh.16563. PMID:38642000. URL: https://doi.org/10.1111/jgh.16563. [DOI-VERIFIED 2026-07-17 ✓]
 
-[34] Ribera C, Sánchez-Ortí JV, Clarke G, et al. Probiotic, prebiotic, synbiotic and fermented food supplementation in psychiatric disorders: A systematic review of clinical trials. Neuroscience and Biobehavioral Reviews. 2024;158:105561. doi:10.1016/j.neubiorev.2024.105561. PMID:38280441. URL: https://doi.org/10.1016/j.neubiorev.2024.105561. [PENDING-DOI-VERIFY]
+[34] Ribera C, Sánchez-Ortí JV, Clarke G, et al. Probiotic, prebiotic, synbiotic and fermented food supplementation in psychiatric disorders: A systematic review of clinical trials. Neuroscience and Biobehavioral Reviews. 2024;158:105561. doi:10.1016/j.neubiorev.2024.105561. PMID:38280441. URL: https://doi.org/10.1016/j.neubiorev.2024.105561. [DOI-VERIFIED 2026-07-17 ✓]
 
-[35] Chen Z, Gu F, Wu J. Impact of Isomaltulose on Glycemic Response in Diabetic and Healthy Populations: A Meta-Analysis. Nutrients. 2025;17(11):1940. doi:10.3390/nu17111940. PMID:40507211. URL: https://doi.org/10.3390/nu17111940. [PENDING-DOI-VERIFY]
+[35] Chen Z, Gu F, Wu J. Impact of Isomaltulose on Glycemic Response in Diabetic and Healthy Populations: A Meta-Analysis. Nutrients. 2025;17(11):1940. doi:10.3390/nu17111940. PMID:40507211. URL: https://doi.org/10.3390/nu17111940. [DOI-VERIFIED 2026-07-17 ✓]
 
-[36] Otsuka J, Okamoto Y, Enoki Y, et al. Hyperhydration with Glycerol, Sodium, and Isomaltulose or Sucrose on Fluid Balance, Thermoregulation, and Exercise Capacity in the Heat. Medicine and Science in Sports and Exercise. 2025;57(11):2550-2563. doi:10.1249/MSS.0000000000003776. PMID:40472198. URL: https://doi.org/10.1249/MSS.0000000000003776. [PENDING-DOI-VERIFY]
+[36] Otsuka J, Okamoto Y, Enoki Y, et al. Hyperhydration with Glycerol, Sodium, and Isomaltulose or Sucrose on Fluid Balance, Thermoregulation, and Exercise Capacity in the Heat. Medicine and Science in Sports and Exercise. 2025;57(11):2550-2563. doi:10.1249/MSS.0000000000003776. PMID:40472198. URL: https://doi.org/10.1249/MSS.0000000000003776. [DOI-VERIFIED 2026-07-17 ✓]
 
-[37] Bloomfield PM, Gant N. Isomaltulose-Based Stimulant Beverages Can Improve Postprandial Metabolic Responses Without Compromising Cognitive Benefits Associated with Caffeinated Energy Drinks. Nutrients. 2026;18(7):1163. doi:10.3390/nu18071163. PMID:41978213. URL: https://doi.org/10.3390/nu18071163. [PENDING-DOI-VERIFY]
+[37] Bloomfield PM, Gant N. Isomaltulose-Based Stimulant Beverages Can Improve Postprandial Metabolic Responses Without Compromising Cognitive Benefits Associated with Caffeinated Energy Drinks. Nutrients. 2026;18(7):1163. doi:10.3390/nu18071163. PMID:41978213. URL: https://doi.org/10.3390/nu18071163. [DOI-VERIFIED 2026-07-17 ✓]
 
-[38] Chaudhary R, Bansal N, Lal R, et al. Fructooligosaccharide ameliorates estrogen-gut-microbiome-brain axis dysfunction in estrogen-deficient rats. Food & Function. 2026;17(5):2410-2429. doi:10.1039/d5fo03823e. PMID:41711005. URL: https://doi.org/10.1039/d5fo03823e. [PENDING-DOI-VERIFY]
+[38] Chaudhary R, Bansal N, Lal R, et al. Fructooligosaccharide ameliorates estrogen-gut-microbiome-brain axis dysfunction in estrogen-deficient rats. Food & Function. 2026;17(5):2410-2429. doi:10.1039/d5fo03823e. PMID:41711005. URL: https://doi.org/10.1039/d5fo03823e. [DOI-VERIFIED 2026-07-17 ✓]
 
 ---
 
 ## 제작 메타 정보 (Production Metadata)
 
 - **구조:** 15섹션 표준 템플릿 (Part IV 기능성 보조 원료 · 마지막 챕터 · 2원료 동시 서술)
-- **인용 문헌 총계:** 38건 · 번호 [1]–[38] 연속 · 모두 `references/ch14.bib`(PubMed 실측 수집) 유래 · [PENDING-DOI-VERIFY]
+- **인용 문헌 총계:** 38건 · 번호 [1]–[38] 연속 · 모두 `references/ch14.bib`(PubMed 실측 수집) 유래 · [DOI-VERIFIED 2026-07-17 ✓] 38/38 (검증률 100%)
 - **핵심 서사:** 프리바이오틱과 뇌 연료 — FOS는 장내미생물총을 먹이고(장), 팔라티노스는 뇌 포도당을 완만히 공급한다(뇌). 장-뇌 환경을 양쪽 끝에서 완성.
 - **정직성 서사:** FOS 장-뇌 임상 근거의 이질성([24][34])·팔라티노스 저혈당지수의 상대적 확립([23][35])과 인지 효과의 간접성([4])을 §8·§13에 구분 명시.
 - **연결 특기:** FOS × L-글루타민[Ch12]·커큐민[Ch13] 장 환경 삼중지지 · 팔라티노스 × L-티로신[Ch11]·L-테아닌[Ch10] 안정 에너지 위 인지 · 팔라티노스 × 커큐민[Ch13] 대사-염증
 - **2원료 챕터 특성:** FOS(대장 발효·프리바이오틱)와 팔라티노스(소장 완서흡수·저혈당지수)를 각 절에서 구분 서술 · 조선 사료 없음(현대 식품과학 성분) · off-topic(c-Fos 유전자·축산/양식·가공최적화) 엄격 배제
-- **KFDA 준수 초벌:** 힘뇌장에 대한 효능 주장 0건 · "장-뇌 지지 가능성"·"저혈당지수 특성"으로 한정 서술 · chapter-editor(단계 ④) 최종 점검 대상
-- **다음 단계:** reference-validator(단계 ③) → chapter-editor(단계 ④)
+- **KFDA 준수:** 힘뇌장에 대한 효능 주장 0건 · "장-뇌 지지 가능성"·"저혈당지수 특성"으로 한정 서술 · declarative 금지어(치료·예방·완치·특효) 0건 · chapter-editor(단계 ④) 점검 완료
+- **워크플로우:** reference-validator(단계 ③, 38/38 DOI-VERIFIED) → chapter-editor(단계 ④, 용어·인용·톤 점검) 완료 · 저자(최성화 교수) 최종 승인 대기
+- **미결(저자 승인 필요):** §9.3 FDA·MFDS 규제 URL은 [PENDING-URL-VERIFY] 상태(임의 번호 생성 금지 방침으로 공란) · 1차 규제문서 대조 후 확정
 - **인용 정합성:** 본문 [n] ↔ 목록 [n] 1:1 대응 · dangling 0 · orphan 0 · 번호 [1]–[38] 연속(결번 없음)

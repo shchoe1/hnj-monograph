@@ -1,0 +1,39 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1017/S0007114513000135,23680182,True,,1.000,crossref+pubmed,The effect of lactose-isomaltulose-containing growing-up milks on cognitive performance of Indonesian children: a cross-over study
+2,10.3748/wjg.v21.i17.5372,25954112,True,,1.000,crossref+pubmed,Fiber and prebiotic supplementation in enteral nutrition: A systematic review and meta-analysis
+3,10.1123/ijsnem.2014-0178,25811946,True,,1.000,crossref+pubmed,Ingesting Isomaltulose Versus Fructose-Maltodextrin During Prolonged Moderate-Heavy Exercise Increases Fat Oxidation but Impairs Gastrointestinal Comfort and Cycling Performance
+4,10.1007/s00394-014-0779-8,25311061,True,,1.000,crossref+pubmed,The effect of using isomaltulose (Palatinose™) to modulate the glycaemic properties of breakfast on the cognitive performance of children
+5,10.1371/journal.pone.0151614,26987056,True,,1.000,crossref+pubmed,"Effects of a Follow-On Formula Containing Isomaltulose (Palatinose™) on Metabolic Response, Acceptance, Tolerance and Safety in Infants: A Randomized-Controlled Trial"
+6,10.3390/nu9111247,29135961,True,,1.000,crossref+pubmed,"Probiotic, Prebiotic, and Brain Development"
+7,10.3390/nu9050473,28486426,True,,1.000,crossref+pubmed,"A Low Glycaemic Index Diet Incorporating Isomaltulose Is Associated with Lower Glycaemic Response and Variability, and Promotes Fat Oxidation in Asians"
+8,10.3390/nu9050464,28481230,True,,1.000,crossref+pubmed,"The Effect of Isomaltulose Together with Green Tea on Glycemic Response and Antioxidant Capacity: A Single-Blind, Crossover Study in Healthy Subjects"
+9,10.3390/nu9040347,28368311,True,,1.000,crossref+pubmed,Ethnic Variability in Glycemic Response to Sucrose and Isomaltulose
+10,10.1136/gutjnl-2016-313271,28213610,True,,1.000,crossref+pubmed,Prebiotic inulin-type fructans induce specific changes in the human gut microbiota
+11,10.1111/jgh.13700,28244671,True,,1.000,crossref+pubmed,"Prebiotic inulin-type fructans and galacto-oligosaccharides: definition, specificity, function, and application in gastrointestinal disorders"
+12,10.3390/nu10101504,30326587,True,,1.000,crossref+pubmed,The Comparative Effect on Satiety and Subsequent Energy Intake of Ingesting Sucrose or Isomaltulose Sweetened Trifle: A Randomized Crossover Trial
+13,10.3390/nu11071477,31261732,True,,1.000,crossref+pubmed,"Effect of Oral Nutritional Supplements with Sucromalt and Isomaltulose versus Standard Formula on Glycaemic Index, Entero-Insular Axis Peptides and Subjective Appetite in Patients with Type 2 Diabetes: A Randomised Cross-Over Study"
+14,10.1007/s13668-019-0265-2,30888666,True,,1.000,crossref+pubmed,Prebiotic Intake in Older Adults: Effects on Brain Function and Behavior
+15,10.1007/s00394-020-02282-5,32440730,True,,1.000,crossref+pubmed,Prebiotic effect of inulin-type fructans on faecal microbiota and short-chain fatty acids in type 2 diabetes: a randomised controlled trial
+16,10.1016/j.phrs.2020.104784,32305492,True,,1.000,crossref+pubmed,Probiotics and fructo-oligosaccharide intervention modulate the microbiota-gut brain axis to improve autism spectrum reducing also the hyper-serotonergic state and the dopamine metabolism disorder
+17,10.1039/d0fo03160g,33900319,True,,1.000,crossref+pubmed,An alcohol-free beer enriched with isomaltulose and a resistant dextrin modulates gut microbiome in subjects with type 2 diabetes mellitus and overweight or obesity: a pilot study
+18,10.1016/j.neubiorev.2020.12.026,33482244,True,,1.000,crossref+pubmed,Prebiotic and probiotic supplementation and the tryptophan-kynurenine pathway: A systematic review and meta analysis
+19,10.1080/19490976.2020.1869503,33439065,True,,1.000,crossref+pubmed,Characterization of fructooligosaccharide metabolism and fructooligosaccharide-degrading enzymes in human commensal butyrate producers
+20,10.1093/advances/nmab119,34555168,True,,1.000,crossref+pubmed,The Prebiotic Potential of Inulin-Type Fructans: A Systematic Review
+21,10.3390/nu14122386,35745116,True,,1.000,crossref+pubmed,"Blood Glucose Response of a Low-Carbohydrate Oral Nutritional Supplement with Isomaltulose and Soluble Dietary Fiber in Individuals with Prediabetes: A Randomized, Single-Blind Crossover Trial"
+22,10.1002/oby.23456,35785478,True,,1.000,crossref+pubmed,Oligofructose restores postprandial short-chain fatty acid levels during high-fat feeding
+23,10.1093/advances/nmac057,35595510,True,,1.000,crossref+pubmed,Effect of Isomaltulose on Glycemic and Insulinemic Responses: A Systematic Review and Meta-analysis of Randomized Controlled Trials
+24,10.3390/nu15081880,37111100,True,,1.000,crossref+pubmed,Prebiotic and Probiotic Modulation of the Microbiota-Gut-Brain Axis in Depression
+25,10.1016/j.jad.2023.09.018,37734624,True,,1.000,crossref+pubmed,Effectiveness of probiotic/prebiotic/synbiotic treatments on anxiety: A systematic review and meta-analysis of randomized controlled trials
+26,10.1007/s00394-024-03415-w,38713231,True,,1.000,crossref+pubmed,"Effect of prebiotic fiber on physical function and gut microbiota in adults, mostly women, with knee osteoarthritis and obesity: a randomized controlled trial"
+27,10.1017/S0007114524002186,39411833,True,,1.000,crossref+pubmed,"Effects of a diverse prebiotic fibre blend on inflammation, the gut microbiota and affective symptoms in metabolic syndrome: a pilot open-label randomised controlled trial"
+28,10.1186/s12876-024-03562-8,39716076,True,,1.000,crossref+pubmed,"Efficacy of probiotic, prebiotic, and synbiotics supplements in individuals with anemia: a systematic review and meta-analysis of randomized controlled trials"
+29,10.1016/j.clnu.2024.02.030,38452522,True,,1.000,crossref+pubmed,Maternal prebiotic supplementation during pregnancy and lactation modifies the microbiome and short chain fatty acid profile of both mother and infant
+30,10.1080/19490976.2024.2402547,39287045,True,,1.000,crossref+pubmed,Prebiotic inulin controls Th17 cells mediated central nervous system autoimmunity through modulating the gut microbiota and short chain fatty acids
+31,10.3390/nu16234098,39683492,True,,1.000,crossref+pubmed,Metabolic and Hormonal Responses to Isomaltulose Ingestion Before or During Sustained Submaximal Exercise in Adults with Type 1 Diabetes Using Automated Insulin Delivery Systems
+32,10.1136/gutjnl-2023-330365,37793780,True,,1.000,crossref+pubmed,Prebiotic diet changes neural correlates of food decision-making in overweight adults: a randomised controlled within-subject cross-over trial
+33,10.1111/jgh.16563,38642000,True,,1.000,crossref+pubmed,Endurance exercise associated with a fructooligosaccharide diet modulates gut microbiota and increases colon absorptive area
+34,10.1016/j.neubiorev.2024.105561,38280441,True,,1.000,crossref+pubmed,"Probiotic, prebiotic, synbiotic and fermented food supplementation in psychiatric disorders: A systematic review of clinical trials"
+35,10.3390/nu17111940,40507211,True,,1.000,crossref+pubmed,Impact of Isomaltulose on Glycemic Response in Diabetic and Healthy Populations: A Meta-Analysis
+36,10.1249/MSS.0000000000003776,40472198,True,,1.000,crossref+pubmed,"Hyperhydration with Glycerol, Sodium, and Isomaltulose or Sucrose on Fluid Balance, Thermoregulation, and Exercise Capacity in the Heat"
+37,10.3390/nu18071163,41978213,True,,1.000,crossref+pubmed,Isomaltulose-Based Stimulant Beverages Can Improve Postprandial Metabolic Responses Without Compromising Cognitive Benefits Associated with Caffeinated Energy Drinks
+38,10.1039/d5fo03823e,41711005,True,,1.000,crossref+pubmed,Fructooligosaccharide ameliorates estrogen-gut-microbiome-brain axis dysfunction in estrogen-deficient rats
