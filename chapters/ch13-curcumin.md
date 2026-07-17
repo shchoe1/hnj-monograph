@@ -2,14 +2,16 @@
 
 저자: 최성화 (서울대학교 생명과학부)
 공저자: [해당 시 · 미정]
-참고문헌: 39편 · 검증 완료 0편 · [PENDING] 39편
-최종 검증 실행일: [reference-validator 실행 후 자동 갱신]
+참고문헌: 39편 · 검증 완료 39편 · [PENDING] 0편 (검증률 100%)
+최종 검증 실행일: 2026-07-17 · reference-validator Skill v1.0 (CrossRef + PubMed 4단계)
+검증 로그: references/validation-log-ch13-curcumin-2026-07-17.csv
 사료 검증: 부분 · 최소화 방침 — 전통 문헌(동의보감·본초강목 등)은 배경 사실만, 특정 편명·페이지 확정 인용은 historical-verifier 전용 패스로 이월
-AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0 (15섹션 표준 템플릿)
-편집: [chapter-editor 실행 전]
-저자 검토: [ ] 미완료
+AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0
+편집: chapter-editor Skill v1.0 · 2026-07-17 (KFDA 준수 · 용어 통일 · 인용번호 정리 · 톤 점검)
+편집 로그: references/edit-log-ch13-2026-07-17.md
+저자 검토: [ ] 미완료 (편집 완료 · 최성화 교수 최종 승인 대기)
 
-> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 세 번째 챕터로, 15섹션 표준 템플릿을 따른다. 커큐민은 강황·울금(*Curcuma longa*)의 노란 폴리페놀 색소로, 힘뇌장에서 **항염(抗炎)의 원료** 다. 이 장의 핵심 서사는 **"항염의 국제 시민"** 이다 — 커큐민은 인도 아유르베다, 한국의 울금·강황, 전 세계 카레와 보충제에 이르기까지 문화를 가로질러 쓰여 온 항염 원료이며, 그 작용의 초점은 **신경염증(neuroinflammation)** 과 **장-뇌축의 염증 신호** 에 있다. 그러나 커큐민에는 반드시 정직하게 다뤄야 할 두 가지가 있다 — 첫째, **생체이용률(bioavailability)이 매우 낮다**는 점, 둘째, 그로 인해 임상 근거가 **이질적이며 제형(製劑)에 크게 의존** 한다는 점이다. 본 장은 커큐민의 항염 잠재력과 이 생체이용률의 한계를 함께, 과장 없이 서술한다. 본문의 모든 학술 인용에는 `[PENDING-DOI-VERIFY]` 태그가 부착되어 있으며, reference-validator(단계 ③) 검증 후 `[DOI-VERIFIED ✓]`로 전환된다.
+> **원고 상태.** 본 장은 Part IV(기능성 보조 원료)의 세 번째 챕터로, 15섹션 표준 템플릿을 따른다. 커큐민은 강황·울금(*Curcuma longa*)의 노란 폴리페놀 색소로, 힘뇌장에서 **항염(抗炎)의 원료** 다. 이 장의 핵심 서사는 **"항염의 국제 시민"** 이다 — 커큐민은 인도 아유르베다, 한국의 울금·강황, 전 세계 카레와 보충제에 이르기까지 문화를 가로질러 쓰여 온 항염 원료이며, 그 작용의 초점은 **신경염증(neuroinflammation)** 과 **장-뇌축의 염증 신호** 에 있다. 그러나 커큐민에는 반드시 정직하게 다뤄야 할 두 가지가 있다 — 첫째, **생체이용률(bioavailability)이 매우 낮다**는 점, 둘째, 그로 인해 임상 근거가 **이질적이며 제형(製劑)에 크게 의존** 한다는 점이다. 본 장은 커큐민의 항염 잠재력과 이 생체이용률의 한계를 함께, 과장 없이 서술한다. 본문의 39개 학술 인용은 CrossRef·PubMed 4단계 검증을 통과해 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었으며(검증률 100%), KFDA 표시광고 준수 점검(치료·예방·완치·특효 등 의약품 효능 어사 배제 · 근거수준 표현 적용)을 완료하였다. 저자(최성화 교수)의 최종 검토·승인이 남아 있다.
 
 ---
 
@@ -39,7 +41,7 @@ AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0 (15섹션 표준
 
 힘뇌장에서 커큐민의 자리는 **계 전체에 항염 환경을 조성하는 보조 원료** 다. 그 논거는 세 가지다.
 
-**첫째, 커큐민은 신경염증과 장-뇌축 염증을 겨냥하는 항염 원료다.** 커큐민의 항염·항산화 특성이 신경퇴행성 질환과 우울의 병태와 관련된다는 개관[1], 성인에서 커큐민/강황 보충의 항산화·항염 효과를 GRADE로 평가한 용량-반응 메타분석[26]은, 커큐민이 염증 신호를 낮추는 방향으로 작용할 가능성을 보고한다. 특히 커큐민이 장-뇌축을 조절하여 신경염증과 대사 이상에 관여할 가능성을 정리한 최근 종설[34]은, 커큐민의 자리가 힘뇌장의 장-뇌축 철학(제3장)과 직접 이어짐을 보여준다.
+**첫째, 커큐민은 신경염증과 장-뇌축(gut-brain axis, 腸-腦軸) 염증을 겨냥하는 항염 원료다.** 커큐민의 항염·항산화 특성이 신경퇴행성 질환과 우울의 병태와 관련된다는 개관[1], 성인에서 커큐민/강황 보충의 항산화·항염 효과를 GRADE로 평가한 용량-반응 메타분석[26]은, 커큐민이 염증 신호를 낮추는 방향으로 작용할 가능성을 보고한다. 특히 커큐민이 장-뇌축을 조절하여 신경염증과 대사 이상에 관여할 가능성을 정리한 최근 종설[34]은, 커큐민의 자리가 힘뇌장의 장-뇌축 철학(제3장)과 직접 이어짐을 보여준다.
 
 **둘째, 커큐민은 "배경 환경"을 조성하는 원료이지 단독 주작용 원료가 아니다.** 힘뇌장의 다른 축들(보·연결·평정)이 각자의 표적을 겨냥한다면, 커큐민은 그 축들이 작동할 **장-뇌 환경의 염증 배경을 낮추는** 역할이다. 이는 커큐민을 "만능 치료제"가 아니라 "환경을 조성하는 보조 원료"로 정확히 자리매김한다.
 
@@ -221,7 +223,7 @@ AI 초안 도구: Claude Opus 4.8 · chapter-drafter Skill v1.0 (15섹션 표준
 
 ### 11.2 커큐민 × FOS·사군자탕 (장-뇌 환경)
 
-제14장의 FOS 등 프리바이오틱이 미생물총을 통해 장을 돌보고, 사군자탕(四君子湯, 제4~7장)이 비위를 보한다면, 커큐민은 장 염증과 미생물총을 매개로 그 환경을 함께 조성한다[10][34]. "미생물총(FOS) × 장 보(사군자탕) × 항염(커큐민)"은 장-뇌 환경을 다층으로 지지하는 조합이다.
+제14장의 FOS 등 프리바이오틱이 미생물총을 통해 장을 돌보고, 사군자탕(四君子湯, Sagunjatang, 제4~7장)이 비위를 보한다면, 커큐민은 장 염증과 미생물총을 매개로 그 환경을 함께 조성한다[10][34]. "미생물총(FOS) × 장 보(사군자탕) × 항염(커큐민)"은 장-뇌 환경을 다층으로 지지하는 조합이다.
 
 ### 11.3 커큐민 × 피페린 (흡수의 시너지 — 그리고 주의)
 
@@ -288,96 +290,97 @@ GRADE 방법론(<https://www.gradeworkinggroup.org/>)의 관점에서 커큐민 
 ## 참고문헌 (References)
 
 > 형식: [순번] 저자. 제목. 저널. 연도;권(호):페이지. doi. PMID. URL. [검증태그]
-> 아래 모든 인용은 `references/ch13.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③) 4단계 검증 전까지 `[PENDING-DOI-VERIFY]` 상태다. 커큐민은 문헌 규모가 방대하고 범분석간섭(PAINS)·생체이용률 이슈가 크므로, off-topic(암세포·종양·치의학·소재/센서/나노공학·축산)을 엄격히 배제하고 항염·신경염증·장-뇌축·기분·인지·생체이용률·안전성 문헌만 인용하였다. 조선 사료(강황·울금)는 사료 최소화 방침에 따라 배경 서술로만 다루었다.
+> 아래 모든 인용은 `references/ch13.bib`(PubMed 실측 수집)에서 인용한 실존 문헌이며, reference-validator(단계 ③)의 CrossRef·PubMed 4단계 검증을 39편 전부 통과하여 `[DOI-VERIFIED 2026-07-17 ✓]` 태그가 부착되었다(검증률 100%, 로그: `references/validation-log-ch13-curcumin-2026-07-17.csv`). 커큐민은 문헌 규모가 방대하고 범분석간섭(PAINS)·생체이용률 이슈가 크므로, off-topic(암세포·종양·치의학·소재/센서/나노공학·축산)을 엄격히 배제하고 항염·신경염증·장-뇌축·기분·인지·생체이용률·안전성 문헌만 인용하였다. 조선 사료(강황·울금)는 사료 최소화 방침에 따라 배경 서술로만 다루었다.
 
-[1] Tizabi Y, Hurley LL, Qualls Z, et al. Relevance of the anti-inflammatory properties of curcumin in neurodegenerative diseases and depression. Molecules. 2014;19(12):20864-20879. doi:10.3390/molecules191220864. PMID:25514226. URL: https://doi.org/10.3390/molecules191220864. [PENDING-DOI-VERIFY]
+[1] Tizabi Y, Hurley LL, Qualls Z, et al. Relevance of the anti-inflammatory properties of curcumin in neurodegenerative diseases and depression. Molecules. 2014;19(12):20864-20879. doi:10.3390/molecules191220864. PMID:25514226. URL: https://doi.org/10.3390/molecules191220864. [DOI-VERIFIED 2026-07-17 ✓]
 
-[2] Seo HJ, Wang SM, Han C, et al. Curcumin as a putative antidepressant. Expert Review of Neurotherapeutics. 2015;15(3):269-280. doi:10.1586/14737175.2015.1008457. PMID:25644944. URL: https://doi.org/10.1586/14737175.2015.1008457. [PENDING-DOI-VERIFY]
+[2] Seo HJ, Wang SM, Han C, et al. Curcumin as a putative antidepressant. Expert Review of Neurotherapeutics. 2015;15(3):269-280. doi:10.1586/14737175.2015.1008457. PMID:25644944. URL: https://doi.org/10.1586/14737175.2015.1008457. [DOI-VERIFIED 2026-07-17 ✓]
 
-[3] Storka A, Vcelar B, Klickovic U, et al. Safety, tolerability and pharmacokinetics of liposomal curcumin in healthy humans. International Journal of Clinical Pharmacology and Therapeutics. 2015;53(1):54-65. doi:10.5414/CP202076. PMID:25500488. URL: https://doi.org/10.5414/CP202076. [PENDING-DOI-VERIFY]
+[3] Storka A, Vcelar B, Klickovic U, et al. Safety, tolerability and pharmacokinetics of liposomal curcumin in healthy humans. International Journal of Clinical Pharmacology and Therapeutics. 2015;53(1):54-65. doi:10.5414/CP202076. PMID:25500488. URL: https://doi.org/10.5414/CP202076. [DOI-VERIFIED 2026-07-17 ✓]
 
-[4] Derosa G, Maffioli P, Simental-Mendía LE, et al. Effect of curcumin on circulating interleukin-6 concentrations: A systematic review and meta-analysis of randomized controlled trials. Pharmacological Research. 2016;111:394-404. doi:10.1016/j.phrs.2016.07.004. PMID:27392742. URL: https://doi.org/10.1016/j.phrs.2016.07.004. [PENDING-DOI-VERIFY]
+[4] Derosa G, Maffioli P, Simental-Mendía LE, et al. Effect of curcumin on circulating interleukin-6 concentrations: A systematic review and meta-analysis of randomized controlled trials. Pharmacological Research. 2016;111:394-404. doi:10.1016/j.phrs.2016.07.004. PMID:27392742. URL: https://doi.org/10.1016/j.phrs.2016.07.004. [DOI-VERIFIED 2026-07-17 ✓]
 
-[5] Ng QX, Koh SSH, Chan HW, et al. Clinical Use of Curcumin in Depression: A Meta-Analysis. Journal of the American Medical Directors Association. 2017;18(6):503-508. doi:10.1016/j.jamda.2016.12.071. PMID:28236605. URL: https://doi.org/10.1016/j.jamda.2016.12.071. [PENDING-DOI-VERIFY]
+[5] Ng QX, Koh SSH, Chan HW, et al. Clinical Use of Curcumin in Depression: A Meta-Analysis. Journal of the American Medical Directors Association. 2017;18(6):503-508. doi:10.1016/j.jamda.2016.12.071. PMID:28236605. URL: https://doi.org/10.1016/j.jamda.2016.12.071. [DOI-VERIFIED 2026-07-17 ✓]
 
-[6] Lopresti AL. The Problem of Curcumin and Its Bioavailability: Could Its Gastrointestinal Influence Contribute to Its Overall Health-Enhancing Effects? Advances in Nutrition. 2018;9(1):41-50. doi:10.1093/advances/nmx011. PMID:29438458. URL: https://doi.org/10.1093/advances/nmx011. [PENDING-DOI-VERIFY]
+[6] Lopresti AL. The Problem of Curcumin and Its Bioavailability: Could Its Gastrointestinal Influence Contribute to Its Overall Health-Enhancing Effects? Advances in Nutrition. 2018;9(1):41-50. doi:10.1093/advances/nmx011. PMID:29438458. URL: https://doi.org/10.1093/advances/nmx011. [DOI-VERIFIED 2026-07-17 ✓]
 
-[7] Abrahams S, Haylett WL, Johnson G, et al. Antioxidant effects of curcumin in models of neurodegeneration, aging, oxidative and nitrosative stress: A review. Neuroscience. 2019;406:1-21. doi:10.1016/j.neuroscience.2019.02.020. PMID:30825584. URL: https://doi.org/10.1016/j.neuroscience.2019.02.020. [PENDING-DOI-VERIFY]
+[7] Abrahams S, Haylett WL, Johnson G, et al. Antioxidant effects of curcumin in models of neurodegeneration, aging, oxidative and nitrosative stress: A review. Neuroscience. 2019;406:1-21. doi:10.1016/j.neuroscience.2019.02.020. PMID:30825584. URL: https://doi.org/10.1016/j.neuroscience.2019.02.020. [DOI-VERIFIED 2026-07-17 ✓]
 
-[8] Burge K, Gunasekaran A, Eckert J, et al. Curcumin and Intestinal Inflammatory Diseases: Molecular Mechanisms of Protection. International Journal of Molecular Sciences. 2019;20(8):1912. doi:10.3390/ijms20081912. PMID:31003422. URL: https://doi.org/10.3390/ijms20081912. [PENDING-DOI-VERIFY]
+[8] Burge K, Gunasekaran A, Eckert J, et al. Curcumin and Intestinal Inflammatory Diseases: Molecular Mechanisms of Protection. International Journal of Molecular Sciences. 2019;20(8):1912. doi:10.3390/ijms20081912. PMID:31003422. URL: https://doi.org/10.3390/ijms20081912. [DOI-VERIFIED 2026-07-17 ✓]
 
-[9] Farkhondeh T, Samarghandian S, Pourbagher-Shahri AM, et al. The impact of curcumin and its modified formulations on Alzheimer's disease. Journal of Cellular Physiology. 2019;234(10):16953-16965. doi:10.1002/jcp.28411. PMID:30847942. URL: https://doi.org/10.1002/jcp.28411. [PENDING-DOI-VERIFY]
+[9] Farkhondeh T, Samarghandian S, Pourbagher-Shahri AM, et al. The impact of curcumin and its modified formulations on Alzheimer's disease. Journal of Cellular Physiology. 2019;234(10):16953-16965. doi:10.1002/jcp.28411. PMID:30847942. URL: https://doi.org/10.1002/jcp.28411. [DOI-VERIFIED 2026-07-17 ✓]
 
-[10] Shen L, Ji HF. Bidirectional interactions between dietary curcumin and gut microbiota. Critical Reviews in Food Science and Nutrition. 2019;59(18):2896-2902. doi:10.1080/10408398.2018.1478388. PMID:29781709. URL: https://doi.org/10.1080/10408398.2018.1478388. [PENDING-DOI-VERIFY]
+[10] Shen L, Ji HF. Bidirectional interactions between dietary curcumin and gut microbiota. Critical Reviews in Food Science and Nutrition. 2019;59(18):2896-2902. doi:10.1080/10408398.2018.1478388. PMID:29781709. URL: https://doi.org/10.1080/10408398.2018.1478388. [DOI-VERIFIED 2026-07-17 ✓]
 
-[11] Zhu LN, Mei X, Zhang ZG, et al. Curcumin intervention for cognitive function in different types of people: A systematic review and meta-analysis. Phytotherapy Research. 2019;33(3):524-533. doi:10.1002/ptr.6257. PMID:30575152. URL: https://doi.org/10.1002/ptr.6257. [PENDING-DOI-VERIFY]
+[11] Zhu LN, Mei X, Zhang ZG, et al. Curcumin intervention for cognitive function in different types of people: A systematic review and meta-analysis. Phytotherapy Research. 2019;33(3):524-533. doi:10.1002/ptr.6257. PMID:30575152. URL: https://doi.org/10.1002/ptr.6257. [DOI-VERIFIED 2026-07-17 ✓]
 
-[12] Fusar-Poli L, Vozza L, Gabbiadini A, et al. Curcumin for depression: a meta-analysis. Critical Reviews in Food Science and Nutrition. 2020;60(15):2643-2653. doi:10.1080/10408398.2019.1653260. PMID:31423805. URL: https://doi.org/10.1080/10408398.2019.1653260. [PENDING-DOI-VERIFY]
+[12] Fusar-Poli L, Vozza L, Gabbiadini A, et al. Curcumin for depression: a meta-analysis. Critical Reviews in Food Science and Nutrition. 2020;60(15):2643-2653. doi:10.1080/10408398.2019.1653260. PMID:31423805. URL: https://doi.org/10.1080/10408398.2019.1653260. [DOI-VERIFIED 2026-07-17 ✓]
 
-[13] Pluta R, Januszewski S, Ułamek-Kozioł M. Mutual Two-Way Interactions of Curcumin and Gut Microbiota. International Journal of Molecular Sciences. 2020;21(3):1055. doi:10.3390/ijms21031055. PMID:32033441. URL: https://doi.org/10.3390/ijms21031055. [PENDING-DOI-VERIFY]
+[13] Pluta R, Januszewski S, Ułamek-Kozioł M. Mutual Two-Way Interactions of Curcumin and Gut Microbiota. International Journal of Molecular Sciences. 2020;21(3):1055. doi:10.3390/ijms21031055. PMID:32033441. URL: https://doi.org/10.3390/ijms21031055. [DOI-VERIFIED 2026-07-17 ✓]
 
-[14] Ramaholimihaso T, Bouazzaoui F, Kaladjian A. Curcumin in Depression: Potential Mechanisms of Action and Current Evidence-A Narrative Review. Frontiers in Psychiatry. 2020;11:572533. doi:10.3389/fpsyt.2020.572533. PMID:33329109. URL: https://doi.org/10.3389/fpsyt.2020.572533. [PENDING-DOI-VERIFY]
+[14] Ramaholimihaso T, Bouazzaoui F, Kaladjian A. Curcumin in Depression: Potential Mechanisms of Action and Current Evidence-A Narrative Review. Frontiers in Psychiatry. 2020;11:572533. doi:10.3389/fpsyt.2020.572533. PMID:33329109. URL: https://doi.org/10.3389/fpsyt.2020.572533. [DOI-VERIFIED 2026-07-17 ✓]
 
-[15] Zhang Y, Li L, Zhang J. Curcumin in antidepressant treatments: An overview of potential mechanisms, pre-clinical/clinical trials and ongoing challenges. Basic & Clinical Pharmacology & Toxicology. 2020;127(4):243-253. doi:10.1111/bcpt.13455. PMID:32544307. URL: https://doi.org/10.1111/bcpt.13455. [PENDING-DOI-VERIFY]
+[15] Zhang Y, Li L, Zhang J. Curcumin in antidepressant treatments: An overview of potential mechanisms, pre-clinical/clinical trials and ongoing challenges. Basic & Clinical Pharmacology & Toxicology. 2020;127(4):243-253. doi:10.1111/bcpt.13455. PMID:32544307. URL: https://doi.org/10.1111/bcpt.13455. [DOI-VERIFIED 2026-07-17 ✓]
 
-[16] Abd El-Hack ME, El-Saadony MT, Swelum AA, et al. Curcumin, the active substance of turmeric: its effects on health and ways to improve its bioavailability. Journal of the Science of Food and Agriculture. 2021;101(14):5747-5762. doi:10.1002/jsfa.11372. PMID:34143894. URL: https://doi.org/10.1002/jsfa.11372. [PENDING-DOI-VERIFY]
+[16] Abd El-Hack ME, El-Saadony MT, Swelum AA, et al. Curcumin, the active substance of turmeric: its effects on health and ways to improve its bioavailability. Journal of the Science of Food and Agriculture. 2021;101(14):5747-5762. doi:10.1002/jsfa.11372. PMID:34143894. URL: https://doi.org/10.1002/jsfa.11372. [DOI-VERIFIED 2026-07-17 ✓]
 
-[17] Cui C, Han Y, Li H, et al. Curcumin-driven reprogramming of the gut microbiota and metabolome ameliorates motor deficits and neuroinflammation in a mouse model of Parkinson's disease. Frontiers in Cellular and Infection Microbiology. 2022;12:887407. doi:10.3389/fcimb.2022.887407. PMID:36034698. URL: https://doi.org/10.3389/fcimb.2022.887407. [PENDING-DOI-VERIFY]
+[17] Cui C, Han Y, Li H, et al. Curcumin-driven reprogramming of the gut microbiota and metabolome ameliorates motor deficits and neuroinflammation in a mouse model of Parkinson's disease. Frontiers in Cellular and Infection Microbiology. 2022;12:887407. doi:10.3389/fcimb.2022.887407. PMID:36034698. URL: https://doi.org/10.3389/fcimb.2022.887407. [DOI-VERIFIED 2026-07-17 ✓]
 
-[18] Pourhabibi-Zarandi F, Rafraf M, Zayeni H, et al. Effects of curcumin supplementation on metabolic parameters, inflammatory factors and obesity values in women with rheumatoid arthritis: A randomized, double-blind, placebo-controlled clinical trial. Phytotherapy Research. 2022;36(4):1797-1806. doi:10.1002/ptr.7422. PMID:35178811. URL: https://doi.org/10.1002/ptr.7422. [PENDING-DOI-VERIFY]
+[18] Pourhabibi-Zarandi F, Rafraf M, Zayeni H, et al. Effects of curcumin supplementation on metabolic parameters, inflammatory factors and obesity values in women with rheumatoid arthritis: A randomized, double-blind, placebo-controlled clinical trial. Phytotherapy Research. 2022;36(4):1797-1806. doi:10.1002/ptr.7422. PMID:35178811. URL: https://doi.org/10.1002/ptr.7422. [DOI-VERIFIED 2026-07-17 ✓]
 
-[19] Ullah F, Gamage R, Sen MK, et al. The Effects of Modified Curcumin Preparations on Glial Morphology in Aging and Neuroinflammation. Neurochemical Research. 2022;47(4):813-824. doi:10.1007/s11064-021-03499-4. PMID:34988899. URL: https://doi.org/10.1007/s11064-021-03499-4. [PENDING-DOI-VERIFY]
+[19] Ullah F, Gamage R, Sen MK, et al. The Effects of Modified Curcumin Preparations on Glial Morphology in Aging and Neuroinflammation. Neurochemical Research. 2022;47(4):813-824. doi:10.1007/s11064-021-03499-4. PMID:34988899. URL: https://doi.org/10.1007/s11064-021-03499-4. [DOI-VERIFIED 2026-07-17 ✓]
 
-[20] Yin J, Wei L, Wang N, et al. Efficacy and safety of adjuvant curcumin therapy in ulcerative colitis: A systematic review and meta-analysis. Journal of Ethnopharmacology. 2022;289:115041. doi:10.1016/j.jep.2022.115041. PMID:35091013. URL: https://doi.org/10.1016/j.jep.2022.115041. [PENDING-DOI-VERIFY]
+[20] Yin J, Wei L, Wang N, et al. Efficacy and safety of adjuvant curcumin therapy in ulcerative colitis: A systematic review and meta-analysis. Journal of Ethnopharmacology. 2022;289:115041. doi:10.1016/j.jep.2022.115041. PMID:35091013. URL: https://doi.org/10.1016/j.jep.2022.115041. [DOI-VERIFIED 2026-07-17 ✓]
 
-[21] Zeng L, Yang T, Yang K, et al. Efficacy and Safety of Curcumin and Curcuma longa Extract in the Treatment of Arthritis: A Systematic Review and Meta-Analysis of Randomized Controlled Trial. Frontiers in Immunology. 2022;13:891822. doi:10.3389/fimmu.2022.891822. PMID:35935936. URL: https://doi.org/10.3389/fimmu.2022.891822. [PENDING-DOI-VERIFY]
+[21] Zeng L, Yang T, Yang K, et al. Efficacy and Safety of Curcumin and Curcuma longa Extract in the Treatment of Arthritis: A Systematic Review and Meta-Analysis of Randomized Controlled Trial. Frontiers in Immunology. 2022;13:891822. doi:10.3389/fimmu.2022.891822. PMID:35935936. URL: https://doi.org/10.3389/fimmu.2022.891822. [DOI-VERIFIED 2026-07-17 ✓]
 
-[22] Zeng L, Yang T, Yang K, et al. Curcumin and Curcuma longa Extract in the Treatment of 10 Types of Autoimmune Diseases: A Systematic Review and Meta-Analysis of 31 Randomized Controlled Trials. Frontiers in Immunology. 2022;13:896476. doi:10.3389/fimmu.2022.896476. PMID:35979355. URL: https://doi.org/10.3389/fimmu.2022.896476. [PENDING-DOI-VERIFY]
+[22] Zeng L, Yang T, Yang K, et al. Curcumin and Curcuma longa Extract in the Treatment of 10 Types of Autoimmune Diseases: A Systematic Review and Meta-Analysis of 31 Randomized Controlled Trials. Frontiers in Immunology. 2022;13:896476. doi:10.3389/fimmu.2022.896476. PMID:35979355. URL: https://doi.org/10.3389/fimmu.2022.896476. [DOI-VERIFIED 2026-07-17 ✓]
 
-[23] Zhou X, Venigalla M, Raju R, et al. Pharmacological considerations for treating neuroinflammation with curcumin in Alzheimer's disease. Journal of Neural Transmission. 2022;129(5-6):755-771. doi:10.1007/s00702-022-02480-x. PMID:35294663. URL: https://doi.org/10.1007/s00702-022-02480-x. [PENDING-DOI-VERIFY]
+[23] Zhou X, Venigalla M, Raju R, et al. Pharmacological considerations for treating neuroinflammation with curcumin in Alzheimer's disease. Journal of Neural Transmission. 2022;129(5-6):755-771. doi:10.1007/s00702-022-02480-x. PMID:35294663. URL: https://doi.org/10.1007/s00702-022-02480-x. [DOI-VERIFIED 2026-07-17 ✓]
 
-[24] Alameri AA, Ghanni MU, Ali A, et al. The Effects of Curcumin on Astrocytes in Common Neurodegenerative Conditions. Mini Reviews in Medicinal Chemistry. 2023;23(22):2117-2129. doi:10.2174/1389557523666230502143131. PMID:37132107. URL: https://doi.org/10.2174/1389557523666230502143131. [PENDING-DOI-VERIFY]
+[24] Alameri AA, Ghanni MU, Ali A, et al. The Effects of Curcumin on Astrocytes in Common Neurodegenerative Conditions. Mini Reviews in Medicinal Chemistry. 2023;23(22):2117-2129. doi:10.2174/1389557523666230502143131. PMID:37132107. URL: https://doi.org/10.2174/1389557523666230502143131. [DOI-VERIFIED 2026-07-17 ✓]
 
-[25] Chang R, Chen L, Qamar M, et al. The bioavailability, metabolism and microbial modulation of curcumin-loaded nanodelivery systems. Advances in Colloid and Interface Science. 2023;318:102933. doi:10.1016/j.cis.2023.102933. PMID:37301064. URL: https://doi.org/10.1016/j.cis.2023.102933. [PENDING-DOI-VERIFY]
+[25] Chang R, Chen L, Qamar M, et al. The bioavailability, metabolism and microbial modulation of curcumin-loaded nanodelivery systems. Advances in Colloid and Interface Science. 2023;318:102933. doi:10.1016/j.cis.2023.102933. PMID:37301064. URL: https://doi.org/10.1016/j.cis.2023.102933. [DOI-VERIFIED 2026-07-17 ✓]
 
-[26] Dehzad MJ, Ghalandari H, Nouri M, et al. Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Cytokine. 2023;164:156144. doi:10.1016/j.cyto.2023.156144. PMID:36804260. URL: https://doi.org/10.1016/j.cyto.2023.156144. [PENDING-DOI-VERIFY]
+[26] Dehzad MJ, Ghalandari H, Nouri M, et al. Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Cytokine. 2023;164:156144. doi:10.1016/j.cyto.2023.156144. PMID:36804260. URL: https://doi.org/10.1016/j.cyto.2023.156144. [DOI-VERIFIED 2026-07-17 ✓]
 
-[27] Lv H, Wang Y, Yang X, et al. Application of curcumin nanoformulations in Alzheimer's disease: prevention, diagnosis and treatment. Nutritional Neuroscience. 2023;26(8):727-742. doi:10.1080/1028415X.2022.2084550. PMID:35694842. URL: https://doi.org/10.1080/1028415X.2022.2084550. [PENDING-DOI-VERIFY]
+[27] Lv H, Wang Y, Yang X, et al. Application of curcumin nanoformulations in Alzheimer's disease: prevention, diagnosis and treatment. Nutritional Neuroscience. 2023;26(8):727-742. doi:10.1080/1028415X.2022.2084550. PMID:35694842. URL: https://doi.org/10.1080/1028415X.2022.2084550. [DOI-VERIFIED 2026-07-17 ✓]
 
-[28] Sharifi S, Bagherniya M, Khoram Z, et al. Efficacy of curcumin plus piperine co-supplementation in moderate-to-high hepatic steatosis: A double-blind, randomized, placebo-controlled clinical trial. Phytotherapy Research. 2023;37(6):2217-2229. doi:10.1002/ptr.7764. PMID:36799355. URL: https://doi.org/10.1002/ptr.7764. [PENDING-DOI-VERIFY]
+[28] Sharifi S, Bagherniya M, Khoram Z, et al. Efficacy of curcumin plus piperine co-supplementation in moderate-to-high hepatic steatosis: A double-blind, randomized, placebo-controlled clinical trial. Phytotherapy Research. 2023;37(6):2217-2229. doi:10.1002/ptr.7764. PMID:36799355. URL: https://doi.org/10.1002/ptr.7764. [DOI-VERIFIED 2026-07-17 ✓]
 
-[29] Azzini E, Peña-Corona SI, Hernández-Parra H, et al. Neuroprotective and anti-inflammatory effects of curcumin in Alzheimer's disease: Targeting neuroinflammation strategies. Phytotherapy Research. 2024;38(6):3169-3189. doi:10.1002/ptr.8200. PMID:38616356. URL: https://doi.org/10.1002/ptr.8200. [PENDING-DOI-VERIFY]
+[29] Azzini E, Peña-Corona SI, Hernández-Parra H, et al. Neuroprotective and anti-inflammatory effects of curcumin in Alzheimer's disease: Targeting neuroinflammation strategies. Phytotherapy Research. 2024;38(6):3169-3189. doi:10.1002/ptr.8200. PMID:38616356. URL: https://doi.org/10.1002/ptr.8200. [DOI-VERIFIED 2026-07-17 ✓]
 
-[30] Jafari A, Abbastabar M, Alaghi A, et al. Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials. Phytotherapy Research. 2024;38(12):6048-6061. doi:10.1002/ptr.8340. PMID:39478418. URL: https://doi.org/10.1002/ptr.8340. [PENDING-DOI-VERIFY]
+[30] Jafari A, Abbastabar M, Alaghi A, et al. Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials. Phytotherapy Research. 2024;38(12):6048-6061. doi:10.1002/ptr.8340. PMID:39478418. URL: https://doi.org/10.1002/ptr.8340. [DOI-VERIFIED 2026-07-17 ✓]
 
-[31] Mokgalaboni K, Mashaba RG, Phoswa WN, et al. Curcumin Attenuates Hyperglycemia and Inflammation in Type 2 Diabetes Mellitus: Quantitative Analysis of Randomized Controlled Trial. Nutrients. 2024;16(23):4177. doi:10.3390/nu16234177. PMID:39683570. URL: https://doi.org/10.3390/nu16234177. [PENDING-DOI-VERIFY]
+[31] Mokgalaboni K, Mashaba RG, Phoswa WN, et al. Curcumin Attenuates Hyperglycemia and Inflammation in Type 2 Diabetes Mellitus: Quantitative Analysis of Randomized Controlled Trial. Nutrients. 2024;16(23):4177. doi:10.3390/nu16234177. PMID:39683570. URL: https://doi.org/10.3390/nu16234177. [DOI-VERIFIED 2026-07-17 ✓]
 
-[32] Servida S, Piontini A, Gori F, et al. Curcumin and Gut Microbiota: A Narrative Overview with Focus on Glycemic Control. International Journal of Molecular Sciences. 2024;25(14):7710. doi:10.3390/ijms25147710. PMID:39062953. URL: https://doi.org/10.3390/ijms25147710. [PENDING-DOI-VERIFY]
+[32] Servida S, Piontini A, Gori F, et al. Curcumin and Gut Microbiota: A Narrative Overview with Focus on Glycemic Control. International Journal of Molecular Sciences. 2024;25(14):7710. doi:10.3390/ijms25147710. PMID:39062953. URL: https://doi.org/10.3390/ijms25147710. [DOI-VERIFIED 2026-07-17 ✓]
 
-[33] Thavorn K, Wolfe D, Faust L, et al. A systematic review of the efficacy and safety of turmeric in the treatment of digestive disorders. Phytotherapy Research. 2024;38(6):2687-2706. doi:10.1002/ptr.8189. PMID:38503513. URL: https://doi.org/10.1002/ptr.8189. [PENDING-DOI-VERIFY]
+[33] Thavorn K, Wolfe D, Faust L, et al. A systematic review of the efficacy and safety of turmeric in the treatment of digestive disorders. Phytotherapy Research. 2024;38(6):2687-2706. doi:10.1002/ptr.8189. PMID:38503513. URL: https://doi.org/10.1002/ptr.8189. [DOI-VERIFIED 2026-07-17 ✓]
 
-[34] Cerullo M, Armeli F, Mengoni B, et al. Curcumin Modulation of the Gut-Brain Axis for Neuroinflammation and Metabolic Disorders Prevention and Treatment. Nutrients. 2025;17(9):1430. doi:10.3390/nu17091430. PMID:40362738. URL: https://doi.org/10.3390/nu17091430. [PENDING-DOI-VERIFY]
+[34] Cerullo M, Armeli F, Mengoni B, et al. Curcumin Modulation of the Gut-Brain Axis for Neuroinflammation and Metabolic Disorders Prevention and Treatment. Nutrients. 2025;17(9):1430. doi:10.3390/nu17091430. PMID:40362738. URL: https://doi.org/10.3390/nu17091430. [DOI-VERIFIED 2026-07-17 ✓]
 
-[35] Hamlbar EP, Mirghafourvand M, Shaseb E, et al. The effect of curcumin on postpartum depression and anxiety in primiparous women: a double-blind randomized placebo-controlled clinical trial. BMC Complementary Medicine and Therapies. 2025;25(1):157. doi:10.1186/s12906-025-04798-x. PMID:40281561. URL: https://doi.org/10.1186/s12906-025-04798-x. [PENDING-DOI-VERIFY]
+[35] Hamlbar EP, Mirghafourvand M, Shaseb E, et al. The effect of curcumin on postpartum depression and anxiety in primiparous women: a double-blind randomized placebo-controlled clinical trial. BMC Complementary Medicine and Therapies. 2025;25(1):157. doi:10.1186/s12906-025-04798-x. PMID:40281561. URL: https://doi.org/10.1186/s12906-025-04798-x. [DOI-VERIFIED 2026-07-17 ✓]
 
-[36] Kehinde SA, Lin WP, Lay BB, et al. Curcumin and Dementia: A Systematic Review of Its Effects on Oxidative Stress and Cognitive Outcomes in Animal Models. International Journal of Molecular Sciences. 2025;26(14):7026. doi:10.3390/ijms26147026. PMID:40725274. URL: https://doi.org/10.3390/ijms26147026. [PENDING-DOI-VERIFY]
+[36] Kehinde SA, Lin WP, Lay BB, et al. Curcumin and Dementia: A Systematic Review of Its Effects on Oxidative Stress and Cognitive Outcomes in Animal Models. International Journal of Molecular Sciences. 2025;26(14):7026. doi:10.3390/ijms26147026. PMID:40725274. URL: https://doi.org/10.3390/ijms26147026. [DOI-VERIFIED 2026-07-17 ✓]
 
-[37] Zhang N, Lin R, Gao W, et al. Curcumin Modulates PTPRZ1 Activity and RNA m6A Modifications in Neuroinflammation-Associated Microglial Response. Advanced Science. 2025;12(15):e2405263. doi:10.1002/advs.202405263. PMID:39921492. URL: https://doi.org/10.1002/advs.202405263. [PENDING-DOI-VERIFY]
+[37] Zhang N, Lin R, Gao W, et al. Curcumin Modulates PTPRZ1 Activity and RNA m6A Modifications in Neuroinflammation-Associated Microglial Response. Advanced Science. 2025;12(15):e2405263. doi:10.1002/advs.202405263. PMID:39921492. URL: https://doi.org/10.1002/advs.202405263. [DOI-VERIFIED 2026-07-17 ✓]
 
-[38] da Paz Martins AS, de Araújo ORP, da Silva Gomes A, et al. Curcumin plus piperine improve body composition in patients with inflammatory bowel disease: a randomized, double-blind, placebo-controlled clinical trial. European Journal of Nutrition. 2025;64(2):90. doi:10.1007/s00394-025-03608-x. PMID:39934549. URL: https://doi.org/10.1007/s00394-025-03608-x. [PENDING-DOI-VERIFY]
+[38] da Paz Martins AS, de Araújo ORP, da Silva Gomes A, et al. Curcumin plus piperine improve body composition in patients with inflammatory bowel disease: a randomized, double-blind, placebo-controlled clinical trial. European Journal of Nutrition. 2025;64(2):90. doi:10.1007/s00394-025-03608-x. PMID:39934549. URL: https://doi.org/10.1007/s00394-025-03608-x. [DOI-VERIFIED 2026-07-17 ✓]
 
-[39] Yaikwawong M, Kamdee K, Chuengsamarn S. Curcumin Supplementation Reduces Inflammation, Neutrophil-to-Lymphocyte Ratio (NLR), and Antioxidant Status in Obese Patients with Type 2 Diabetes: A Randomized Controlled Trial. International Journal of Molecular Sciences. 2026;27(9):3854. doi:10.3390/ijms27093854. PMID:42123439. URL: https://doi.org/10.3390/ijms27093854. [PENDING-DOI-VERIFY]
+[39] Yaikwawong M, Kamdee K, Chuengsamarn S. Curcumin Supplementation Reduces Inflammation, Neutrophil-to-Lymphocyte Ratio (NLR), and Antioxidant Status in Obese Patients with Type 2 Diabetes: A Randomized Controlled Trial. International Journal of Molecular Sciences. 2026;27(9):3854. doi:10.3390/ijms27093854. PMID:42123439. URL: https://doi.org/10.3390/ijms27093854. [DOI-VERIFIED 2026-07-17 ✓]
 
 ---
 
 ## 제작 메타 정보 (Production Metadata)
 
 - **구조:** 15섹션 표준 템플릿 (Part IV 기능성 보조 원료 · 세 번째 챕터)
-- **인용 문헌 총계:** 39건 · 번호 [1]–[39] 연속 · 모두 `references/ch13.bib`(PubMed 실측 수집) 유래 · [PENDING-DOI-VERIFY]
+- **인용 문헌 총계:** 39건 · 번호 [1]–[39] 연속 · 모두 `references/ch13.bib`(PubMed 실측 수집) 유래 · [DOI-VERIFIED 2026-07-17 ✓] 39/39 (검증률 100%)
 - **핵심 서사:** 항염의 국제 시민 — 커큐민은 신경염증과 장-뇌축 염증의 배경을 낮추는 항염 보조 원료이나, 그 효과는 생체이용률·제형에 크게 의존한다.
 - **정직성 서사:** 생체이용률의 역설([6][16])·PAINS 주석·103 RCT 종합의 제한적 근거([30])를 §5·§8·§13에 명시. 항염 지표는 비교적 반복([4][26]), 기분·인지는 보조적/예비적.
 - **연결 특기:** 팔라티노스[Ch14] 대사-염증 조합([31][32][39]) · FOS[Ch14]·사군자탕[Ch4~7] 장-뇌 환경([10][34]) · 피페린 흡수 시너지·주의([28][38])
 - **약재 챕터 특성:** 강황·울금 조선 사료는 사료 최소화 방침(배경 서술·확정 편명/페이지 없음) · off-topic(암·치의학·소재/센서/나노공학·축산) 엄격 배제
-- **KFDA 준수 초벌:** 힘뇌장에 대한 효능 주장 0건 · "생체이용률 의존적 항염 지지 가능성"으로 한정 서술 · chapter-editor(단계 ④) 최종 점검 대상
-- **다음 단계:** reference-validator(단계 ③) → chapter-editor(단계 ④)
+- **KFDA 준수:** 힘뇌장에 대한 효능 주장 0건 · "생체이용률 의존적 항염 지지 가능성"으로 한정 서술 · declarative 금지어(치료·예방·완치·특효) 0건 · chapter-editor(단계 ④) 점검 완료
+- **워크플로우:** reference-validator(단계 ③, 39/39 DOI-VERIFIED) → chapter-editor(단계 ④, 용어·인용·톤 점검) 완료 · 저자(최성화 교수) 최종 승인 대기
+- **미결(저자 승인 필요):** §2 강황·울금 조선 사료는 사료 최소화 방침(확정 편명/페이지 없음, 필요 시 historical-verifier) · §9.3 FDA·MFDS 규제 URL은 [PENDING-URL-VERIFY] 상태
 - **인용 정합성:** 본문 [n] ↔ 목록 [n] 1:1 대응 · dangling 0 · orphan 0 · 번호 [1]–[39] 연속(결번 없음)

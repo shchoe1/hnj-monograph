@@ -1,0 +1,40 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.3390/molecules191220864,25514226,True,,1.000,crossref+pubmed,Relevance of the anti-inflammatory properties of curcumin in neurodegenerative diseases and depression
+2,10.1586/14737175.2015.1008457,25644944,True,,1.000,crossref+pubmed,Curcumin as a putative antidepressant
+3,10.5414/CP202076,25500488,True,,1.000,crossref+pubmed,"Safety, tolerability and pharmacokinetics of liposomal curcumin in healthy humans"
+4,10.1016/j.phrs.2016.07.004,27392742,True,,1.000,crossref+pubmed,Effect of curcumin on circulating interleukin-6 concentrations: A systematic review and meta-analysis of randomized controlled trials
+5,10.1016/j.jamda.2016.12.071,28236605,True,,1.000,crossref+pubmed,Clinical Use of Curcumin in Depression: A Meta-Analysis
+6,10.1093/advances/nmx011,29438458,True,,1.000,crossref+pubmed,The Problem of Curcumin and Its Bioavailability: Could Its Gastrointestinal Influence Contribute to Its Overall Health-Enhancing Effects? Advances in Nutrition
+7,10.1016/j.neuroscience.2019.02.020,30825584,True,,1.000,crossref+pubmed,"Antioxidant effects of curcumin in models of neurodegeneration, aging, oxidative and nitrosative stress: A review"
+8,10.3390/ijms20081912,31003422,True,,1.000,crossref+pubmed,Curcumin and Intestinal Inflammatory Diseases: Molecular Mechanisms of Protection
+9,10.1002/jcp.28411,30847942,True,,1.000,crossref+pubmed,The impact of curcumin and its modified formulations on Alzheimer's disease
+10,10.1080/10408398.2018.1478388,29781709,True,,1.000,crossref+pubmed,Bidirectional interactions between dietary curcumin and gut microbiota
+11,10.1002/ptr.6257,30575152,True,,1.000,crossref+pubmed,Curcumin intervention for cognitive function in different types of people: A systematic review and meta-analysis
+12,10.1080/10408398.2019.1653260,31423805,True,,1.000,crossref+pubmed,Curcumin for depression: a meta-analysis
+13,10.3390/ijms21031055,32033441,True,,1.000,crossref+pubmed,Mutual Two-Way Interactions of Curcumin and Gut Microbiota
+14,10.3389/fpsyt.2020.572533,33329109,True,,1.000,crossref+pubmed,Curcumin in Depression: Potential Mechanisms of Action and Current Evidence-A Narrative Review
+15,10.1111/bcpt.13455,32544307,True,,1.000,crossref+pubmed,"Curcumin in antidepressant treatments: An overview of potential mechanisms, pre-clinical/clinical trials and ongoing challenges"
+16,10.1002/jsfa.11372,34143894,True,,1.000,crossref+pubmed,"Curcumin, the active substance of turmeric: its effects on health and ways to improve its bioavailability"
+17,10.3389/fcimb.2022.887407,36034698,True,,1.000,crossref+pubmed,Curcumin-driven reprogramming of the gut microbiota and metabolome ameliorates motor deficits and neuroinflammation in a mouse model of Parkinson's disease
+18,10.1002/ptr.7422,35178811,True,,1.000,crossref+pubmed,"Effects of curcumin supplementation on metabolic parameters, inflammatory factors and obesity values in women with rheumatoid arthritis: A randomized, double-blind, placebo-controlled clinical trial"
+19,10.1007/s11064-021-03499-4,34988899,True,,1.000,crossref+pubmed,The Effects of Modified Curcumin Preparations on Glial Morphology in Aging and Neuroinflammation
+20,10.1016/j.jep.2022.115041,35091013,True,,1.000,crossref+pubmed,Efficacy and safety of adjuvant curcumin therapy in ulcerative colitis: A systematic review and meta-analysis
+21,10.3389/fimmu.2022.891822,35935936,True,,1.000,crossref+pubmed,Efficacy and Safety of Curcumin and Curcuma longa Extract in the Treatment of Arthritis: A Systematic Review and Meta-Analysis of Randomized Controlled Trial
+22,10.3389/fimmu.2022.896476,35979355,True,,1.000,crossref+pubmed,Curcumin and Curcuma longa Extract in the Treatment of 10 Types of Autoimmune Diseases: A Systematic Review and Meta-Analysis of 31 Randomized Controlled Trials
+23,10.1007/s00702-022-02480-x,35294663,True,,1.000,crossref+pubmed,Pharmacological considerations for treating neuroinflammation with curcumin in Alzheimer's disease
+24,10.2174/1389557523666230502143131,37132107,True,,1.000,crossref+pubmed,The Effects of Curcumin on Astrocytes in Common Neurodegenerative Conditions
+25,10.1016/j.cis.2023.102933,37301064,True,,1.000,crossref+pubmed,"The bioavailability, metabolism and microbial modulation of curcumin-loaded nanodelivery systems"
+26,10.1016/j.cyto.2023.156144,36804260,True,,1.000,crossref+pubmed,Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials
+27,10.1080/1028415X.2022.2084550,35694842,True,,1.000,crossref+pubmed,"Application of curcumin nanoformulations in Alzheimer's disease: prevention, diagnosis and treatment"
+28,10.1002/ptr.7764,36799355,True,,1.000,crossref+pubmed,"Efficacy of curcumin plus piperine co-supplementation in moderate-to-high hepatic steatosis: A double-blind, randomized, placebo-controlled clinical trial"
+29,10.1002/ptr.8200,38616356,True,,1.000,crossref+pubmed,Neuroprotective and anti-inflammatory effects of curcumin in Alzheimer's disease: Targeting neuroinflammation strategies
+30,10.1002/ptr.8340,39478418,True,,1.000,crossref+pubmed,Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials
+31,10.3390/nu16234177,39683570,True,,1.000,crossref+pubmed,Curcumin Attenuates Hyperglycemia and Inflammation in Type 2 Diabetes Mellitus: Quantitative Analysis of Randomized Controlled Trial
+32,10.3390/ijms25147710,39062953,True,,1.000,crossref+pubmed,Curcumin and Gut Microbiota: A Narrative Overview with Focus on Glycemic Control
+33,10.1002/ptr.8189,38503513,True,,1.000,crossref+pubmed,A systematic review of the efficacy and safety of turmeric in the treatment of digestive disorders
+34,10.3390/nu17091430,40362738,True,,1.000,crossref+pubmed,Curcumin Modulation of the Gut-Brain Axis for Neuroinflammation and Metabolic Disorders Prevention and Treatment
+35,10.1186/s12906-025-04798-x,40281561,True,,1.000,crossref+pubmed,The effect of curcumin on postpartum depression and anxiety in primiparous women: a double-blind randomized placebo-controlled clinical trial
+36,10.3390/ijms26147026,40725274,True,,1.000,crossref+pubmed,Curcumin and Dementia: A Systematic Review of Its Effects on Oxidative Stress and Cognitive Outcomes in Animal Models
+37,10.1002/advs.202405263,39921492,True,,1.000,crossref+pubmed,Curcumin Modulates PTPRZ1 Activity and RNA m6A Modifications in Neuroinflammation-Associated Microglial Response
+38,10.1007/s00394-025-03608-x,39934549,True,,1.000,crossref+pubmed,"Curcumin plus piperine improve body composition in patients with inflammatory bowel disease: a randomized, double-blind, placebo-controlled clinical trial"
+39,10.3390/ijms27093854,42123439,True,,1.000,crossref+pubmed,"Curcumin Supplementation Reduces Inflammation, Neutrophil-to-Lymphocyte Ratio (NLR), and Antioxidant Status in Obese Patients with Type 2 Diabetes: A Randomized Controlled Trial"
