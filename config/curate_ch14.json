@@ -1,0 +1,49 @@
+{
+  "target": 44,
+  "header_title": "Chapter 14 · FOS · 팔라티노스 (Fructo-oligosaccharides · Palatinose)",
+  "header_scope": "프리바이오틱(FOS)·장내미생물총·SCFA·장뇌축 + 완서방출 뇌연료(팔라티노스/이소말툴로스)·저혈당지수·인지·에너지·안전성 · 2013-2026",
+  "title_gate": ["fructooligosaccharide", "fructo-oligosaccharide", "oligofructose", "isomaltulose", "palatinose", "prebiotic", "fructan"],
+  "note": "title_gate로 FOS계열/팔라티노스/프리바이오틱 용어 필수(c-Fos 유전자 혼동 차단). 프리바이오틱 문헌 특유의 축산(broiler/piglet)·양식(fish/shrimp)·식품가공최적화는 exclude_hard/soft로 감점. 두 원료(FOS·팔라티노스) 균형 위해 quotas로 palatinose/glycemic 슬롯 확보. 최종 수동 정리(PIPELINE.md 1-b).",
+  "tiers": {
+    "nature": 9, "science": 9, "cell": 9, "lancet": 9, "physiological reviews": 9, "new england": 9,
+    "gut": 9, "gastroenterology": 9, "molecular psychiatry": 9, "brain behavior and immunity": 8,
+    "cell metabolism": 8, "gut microbes": 8, "nature communications": 8, "microbiome": 8,
+    "american journal of clinical nutrition": 8, "advances in nutrition": 8, "the journal of nutrition": 7,
+    "nutrition reviews": 7, "clinical nutrition": 7, "gut microbiome": 7, "neurogastroenterology": 7,
+    "nutrients": 6, "european journal of nutrition": 6, "british journal of nutrition": 6,
+    "molecular nutrition & food research": 7, "food & function": 6, "beneficial microbes": 6,
+    "journal of functional foods": 5, "nutritional neuroscience": 6, "psychoneuroendocrinology": 7,
+    "frontiers in nutrition": 5, "frontiers in": 5, "international journal of molecular sciences": 5,
+    "scientific reports": 5, "metabolites": 5, "nutrition & metabolism": 6, "appetite": 6,
+    "european journal of clinical nutrition": 6, "critical reviews in food science": 7, "cochrane": 6,
+    "journal of the international society of sports nutrition": 5, "the british journal of nutrition": 6
+  },
+  "buckets": {
+    "fos": ["fructooligosaccharide", "fructo-oligosaccharide", "oligofructose", "prebiotic", "fructan", "inulin"],
+    "microbiota": ["gut microbiota", "microbiome", "bifidobacter", "lactobacill", "gut bacteria", "fermentation", "intestinal microbiota", "colonic"],
+    "scfa": ["short-chain fatty acid", "scfa", "butyrate", "propionate", "acetate"],
+    "gutbrain": ["gut-brain", "microbiota-gut-brain", "mood", "anxiety", "depression", "stress", "hpa", "behavior", "mental health", "cognit", "brain"],
+    "palatinose": ["isomaltulose", "palatinose"],
+    "glycemic": ["glycemic", "glycaemic", "blood glucose", "insulin", "glucose response", "low glycemic", "low glycaemic", "glucose"],
+    "energy": ["cognitive", "mental performance", "sustained energy", "fat oxidation", "satiety", "appetite", "endurance", "exercise", "memory", "concentration"],
+    "clinical": ["randomized", "randomised", "clinical trial", "irritable bowel", "constipation", "ibs", "double-blind", "placebo"],
+    "safety": ["safety", "tolerance", "tolerability", "adverse", "gastrointestinal", "bloating"],
+    "review": ["review", "meta-analysis", "systematic"]
+  },
+  "quotas": [
+    ["fos", 12], ["microbiota", 8], ["gutbrain", 9], ["palatinose", 12], ["glycemic", 8],
+    ["scfa", 5], ["energy", 7], ["clinical", 8], ["safety", 5], ["review", 9]
+  ],
+  "core_buckets": ["fos", "microbiota", "scfa", "gutbrain", "palatinose", "glycemic", "energy", "safety"],
+  "exclude_hard": [
+    "broiler", "poultry", "chicken", "piglet", "weaning pig", "weaned pig", "sow", "nursery pig",
+    "aquaculture", "shrimp", "fish", "tilapia", "salmon", "ruminant", "dairy cow", "calf", "calves",
+    "laying hen", "cancer cell", "tumor", "tumour", "carcinoma", "soil", "wastewater", "c-fos",
+    "fos protein", "fos expression", "fosb", "immediate early gene"
+  ],
+  "exclude_soft": [
+    "in silico", "docking", "extraction optimization", "production optimization", "encapsulation",
+    "food packaging", "structural characterization", "enzymatic synthesis", "response surface",
+    "spray drying", "yield", "purification", "green synthesis", "bioreactor", "fermentation optimization"
+  ]
+}

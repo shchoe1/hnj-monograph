@@ -1,0 +1,16 @@
+# Chapter 14 · FOS · 팔라티노스 · PubMed 쿼리 (collect_pubmed.py --queries)
+# 한 줄에 쿼리 하나 · #주석/빈 줄 무시 · mindate 2013 maxdate 2026
+# 서사 축: 프리바이오틱(FOS, 장을 먹인다) + 완서방출 뇌 연료(팔라티노스, 뇌를 먹인다) → 장-뇌 환경
+# 주의: 'FOS' 단독어(c-Fos 유전자 혼동) 금지 · 정확 용어만 사용
+("fructooligosaccharide" OR "fructo-oligosaccharide" OR "oligofructose")[Title] AND (gut OR microbiota OR microbiome OR prebiotic OR bifidobacteria OR intestinal)
+("fructooligosaccharide" OR "oligofructose" OR "prebiotic")[Title/Abstract] AND ("gut-brain" OR "microbiota-gut-brain" OR cognition OR mood OR anxiety OR depression OR stress)
+("fructooligosaccharide" OR "oligofructose")[Title] AND ("short-chain fatty acid" OR SCFA OR butyrate OR fermentation OR "colonic fermentation")
+("fructooligosaccharide" OR "oligofructose" OR "prebiotic")[Title] AND (randomized OR "clinical trial" OR "irritable bowel" OR constipation OR immune)
+("prebiotic" OR "prebiotics")[Title] AND ("gut-brain" OR "microbiota-gut-brain" OR "mental health" OR cognition OR depression OR anxiety OR behavior)
+("fructooligosaccharide" OR "oligofructose" OR "prebiotic")[Title] AND (safety OR tolerance OR review OR "meta-analysis" OR "systematic review")
+("isomaltulose" OR "palatinose")[Title] AND (glycemic OR glycaemic OR "blood glucose" OR insulin OR "glucose response")
+("isomaltulose" OR "palatinose")[Title/Abstract] AND (cognitive OR cognition OR "mental performance" OR mood OR brain OR memory OR concentration)
+("isomaltulose" OR "palatinose")[Title] AND (exercise OR endurance OR "physical performance" OR "fat oxidation" OR "sustained energy")
+("isomaltulose" OR "palatinose")[Title] AND (satiety OR appetite OR metabolic OR "low glycemic" OR "low glycaemic")
+("isomaltulose" OR "palatinose")[Title/Abstract] AND (randomized OR "clinical trial" OR safety OR review OR tolerance)
+("inulin-type fructans" OR "oligofructose" OR "fructooligosaccharide")[Title] AND (review OR "meta-analysis" OR "gut-brain" OR SCFA OR cognition)
