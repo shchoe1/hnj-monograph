@@ -15,6 +15,7 @@ md_to_docx.py · 챕터 Markdown -> Word(.docx) 변환 (검토용)
   python scripts/md_to_docx.py chapters/ch12-glutamine.md            # -> output/ch12-glutamine.docx
   python scripts/md_to_docx.py chapters/ch12-glutamine.md out.docx   # 명시 경로
   python scripts/md_to_docx.py --all                                 # chapters/ch*.md 전부 -> output/
+  python scripts/md_to_docx.py --merge output/HIMNOEJANG_Ch1-12.docx # chapters/ch*.md 전부 -> 통합본 1개
 """
 import sys, os, re, glob
 from docx import Document
@@ -115,12 +116,7 @@ def split_cells(line):
     return [c.strip() for c in s.split("|")]
 
 
-def convert(md_path, out_path):
-    with open(md_path, encoding="utf-8") as f:
-        lines = f.read().split("\n")
-    doc = Document()
-    set_korean_font(doc)
-
+def render(doc, lines):
     i, n = 0, len(lines)
     while i < n:
         line = lines[i]
@@ -185,6 +181,27 @@ def convert(md_path, out_path):
         add_runs(p, s)
         i += 1
 
+
+def convert(md_path, out_path):
+    with open(md_path, encoding="utf-8") as f:
+        lines = f.read().split("\n")
+    doc = Document()
+    set_korean_font(doc)
+    render(doc, lines)
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    doc.save(out_path)
+    return out_path
+
+
+def merge(md_files, out_path):
+    from docx.enum.text import WD_BREAK
+    doc = Document()
+    set_korean_font(doc)
+    for idx, md in enumerate(md_files):
+        if idx > 0:
+            doc.add_page_break()
+        with open(md, encoding="utf-8") as f:
+            render(doc, f.read().split("\n"))
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     doc.save(out_path)
     return out_path
@@ -202,6 +219,12 @@ def main():
             convert(f, out)
             print(f"  {f}  ->  {out}")
         print(f"\n변환 완료: {len(files)}개")
+    elif args[0] == "--merge":
+        out = args[1] if len(args) > 1 else os.path.join("output", "HIMNOEJANG_Ch1-12.docx")
+        files = sorted(glob.glob("chapters/ch*.md"))
+        files = [f for f in files if os.path.basename(f) != "test.md"]
+        merge(files, out)
+        print(f"통합본 {len(files)}개 챕터  ->  {out}")
     else:
         md = args[0]
         out = args[1] if len(args) > 1 else os.path.join(
