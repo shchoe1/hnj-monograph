@@ -1,0 +1,55 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.1016/j.jep.2019.112439,31811935,True,,1.000,crossref+pubmed,"An ""essential herbal medicine""-licorice: A review of phytochemicals and its effects in combination preparations"
+2,10.1002/jssc.70165,40344483,True,,1.000,crossref+pubmed,Isolating and Purification Technologies for Glycyrrhizic Acid
+3,10.1080/17425255.2019.1563595,30582378,True,,1.000,crossref+pubmed,"Pharmacokinetic mechanisms underlying the detoxification effect of Glycyrrhizae Radix et Rhizoma (Gancao): drug metabolizing enzymes, transporters, and beyond"
+4,10.1016/j.jep.2019.112153,31408679,True,,1.000,crossref+pubmed,The role of gut microbiota for the activity of medicinal plants traditionally used in the European Union for gastrointestinal disorders
+5,10.3389/fnagi.2018.00348,30443212,True,,1.000,crossref+pubmed,Phytochemical and Pharmacological Role of Liquiritigenin and Isoliquiritigenin From Radix Glycyrrhizae in Human Health and Disease Models
+6,10.1016/j.jep.2022.115257,35395381,True,,1.000,crossref+pubmed,Pharmacological activities and pharmacokinetics of liquiritin: A review
+7,10.1016/j.freeradbiomed.2020.03.016,32220625,True,,1.000,crossref+pubmed,The antioxidant activity and neuroprotective mechanism of isoliquiritigenin
+8,10.1016/j.heliyon.2023.e22251,38074876,True,,1.000,crossref+pubmed,Antidepressant effect of licorice total flavonoids and liquiritin: A review
+9,10.3390/ijms231910988,36232291,True,,1.000,crossref+pubmed,Glycyrrhizic Acid and Its Derivatives: Promising Candidates for the Management of Type 2 Diabetes Mellitus and Its Complications
+10,10.1142/S0192415X24500149,38553799,True,,1.000,crossref+pubmed,Glycyrrhizin and the Related Preparations: An Inspiring Resource for the Treatment of Liver Diseases
+11,10.3390/ijms241814177,37762479,True,,1.000,crossref+pubmed,Licochalcone A: A Potential Multitarget Drug for Alzheimer's Disease Treatment
+12,10.3389/fmolb.2024.1440132,39021879,True,,1.000,crossref+pubmed,Therapeutic potential and action mechanisms of licochalcone B: a mini review
+13,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+14,10.1007/s00204-019-02588-2,31605160,True,,1.000,crossref+pubmed,Identification of glycyrrhizin metabolites in humans and of a potential biomarker of liquorice-induced pseudoaldosteronism: a multi-centre cross-sectional study
+15,10.3389/fnut.2021.719197,34604277,True,,1.000,crossref+pubmed,Clinical Risk Factors of Licorice-Induced Pseudoaldosteronism Based on Glycyrrhizin-Metabolite Concentrations: A Narrative Review
+16,10.1038/s41440-021-00804-0,34887530,True,,1.000,crossref+pubmed,Role of the microbiota in hypertension and antihypertensive drug metabolism
+17,10.3390/ijms23084121,35456938,True,,1.000,crossref+pubmed,The Anti-Inflammatory Properties of Licorice (Glycyrrhiza glabra)-Derived Compounds in Intestinal Disorders
+18,10.1016/j.biopha.2023.115868,37952360,True,,1.000,crossref+pubmed,Licorice flavonoid alleviates gastric ulcers by producing changes in gut microbiota and promoting mucus cell regeneration
+19,10.1016/j.phymed.2025.156745,40305972,True,,1.000,crossref+pubmed,Glycyrrhetinic acid ameliorates gastric mucosal injury by modulating gut microbiota and its metabolites via Thbs1/PI3K-Akt/p53 pathway
+20,10.1016/j.phymed.2023.155039,37672855,True,,1.000,crossref+pubmed,Liquiritin apioside alleviates colonic inflammation and accompanying depression-like symptoms in colitis by gut metabolites and the balance of Th17/Treg
+21,10.1080/19490976.2023.2276814,37948152,True,,1.000,crossref+pubmed,Modulating the gut microbiota is involved in the effect of low-molecular-weight Glycyrrhiza polysaccharide on immune function
+22,10.1016/j.jep.2024.119025,39489360,True,,1.000,crossref+pubmed,Glycyrrhizic acid and patchouli alcohol in Huoxiang Zhengqi attenuate intestinal inflammation and barrier injury via regulating endogenous corticosterone metabolism mediated by 11β-HSD1
+23,10.1155/2020/9692321,32256666,True,,1.000,crossref+pubmed,Isoliquiritigenin Attenuates Anxiety-Like Behavior and Locomotor Sensitization in Rats after Repeated Exposure to Nicotine
+24,10.1016/j.phrs.2026.108111,41581535,True,,1.000,crossref+pubmed,Xiaoyaosan and isoliquiritigenin remodel depression-associated chromatin 3D structure and phase separation of NF-κB p65
+25,10.1186/s10020-025-01106-8,39930360,True,,1.000,crossref+pubmed,Licochalcone A prevents cognitive decline in a lipopolysaccharide-induced neuroinflammation mice model
+26,10.1016/j.intimp.2025.114294,39970710,True,,1.000,crossref+pubmed,Glycyrrhizin alleviates brain injury in necrotizing enterocolitis model mice by suppressing HMGB1/TLR4 pathway
+27,10.1080/19768354.2024.2389823,39139398,True,,1.000,crossref+pubmed,Licochalcone A attenuates NMDA-induced neurotoxicity
+28,10.1016/j.cbpc.2023.109555,36717046,True,,1.000,crossref+pubmed,Isoliquiritigenin induces neurodevelopmental-toxicity and anxiety-like behavior in zebrafish larvae
+29,10.1002/ptr.8288,39079711,True,,1.000,crossref+pubmed,Licorice and liver function in patients with primary liver disease: A systematic review and meta-analysis of RCTs
+30,10.1142/S0192415X23500209,36655685,True,,1.000,crossref+pubmed,Efficacy and Safety of Glycyrrhizic Acid in Treatment of Autoimmune Hepatitis
+31,10.3389/fphar.2022.1003697,36408213,True,,1.000,crossref+pubmed,Efficacy and safety of glycyrrhizic acid preparation treating comorbid liver injury in COVID-19: A systematic review
+32,10.1080/17512433.2023.2213887,37218470,True,,1.000,crossref+pubmed,Efficacy and safety of compound glycyrrhizin in the patients with vitiligo: a systematic review and meta-analysis
+33,10.1080/09546634.2024.2381766,39230160,True,,1.000,crossref+pubmed,Efficacy and safety of compound glycyrrhizin combined with topical minoxidil for alopecia areata: a systematic review and meta-analysis of randomized controlled trials
+34,10.1016/j.phymed.2017.12.010,29433679,True,,1.000,crossref+pubmed,Metabolic changes after licorice consumption: A systematic review with meta-analysis and trial sequential analysis of clinical trials
+35,10.30476/IJMS.2022.94467.2576,37786470,True,,1.000,pubmed,Topical Licorice for Aphthous: A Systematic Review of Clinical Trials
+36,10.1136/bmjopen-2022-062932,36604137,True,,1.000,crossref+pubmed,Effect of polyphenol compounds on Helicobacter pylori eradication: a systematic review with meta-analysis
+37,10.1007/s40292-016-0160-5,27251484,True,,1.000,crossref+pubmed,Syndromes that Mimic an Excess of Mineralocorticoids
+38,10.1038/jhh.2017.45,28660884,True,,1.000,crossref+pubmed,"The association between consistent licorice ingestion, hypertension and hypokalaemia: a systematic review and meta-analysis"
+39,10.3390/nu16213768,39519602,True,,1.000,crossref+pubmed,Effects of Licorice Functional Components Intakes on Blood Pressure: A Systematic Review with Meta-Analysis and NETWORK Toxicology
+40,10.3390/nu15183866,37764649,True,,1.000,crossref+pubmed,Liquorice Toxicity: A Comprehensive Narrative Review
+41,10.3109/03602532.2015.1029634,25825801,True,,1.000,crossref+pubmed,Potential drug interactions associated with glycyrrhizin and glycyrrhetinic acid
+42,10.1136/lupus-2025-001803,41475897,True,,1.000,crossref+pubmed,Identifying immunostimulatory herbal supplements that may flare autoimmune skin diseases: a systematic scoping review
+43,10.19540/j.cnki.cjcmm.20181214.002,31602916,True,,1.000,pubmed,Toxicity-reducing effect of compatibility of Tripterygium and licorice in animals: systematic review
+44,10.2174/1389200224666230116113240,36650621,True,,1.000,crossref+pubmed,Herb-Drug Interactions and Their Impact on Pharmacokinetics: An Update
+45,10.2174/0113892002289753240305062601,38482621,True,,1.000,crossref+pubmed,Safety Aspects of Herb Interactions: Current Understanding and Future Prospects
+46,10.1021/acs.jafc.5c05382,40600841,True,,1.000,crossref+pubmed,Licorice Total Flavonoids and Its Gut-Enriched Lactobacillus plantarum Synergistically Activate the Nrf2 Pathway to Alleviate Liver Injury
+47,10.1002/ptr.8233,38729776,True,,1.000,crossref+pubmed,The combination of berberine and isoliquiritigenin synergistically improved adipose inflammation and obesity-induced insulin resistance
+48,10.1016/j.phymed.2024.156059,39550918,True,,1.000,crossref+pubmed,Glycyrrhizin alleviates the toxicity of hydroxychloroquine in treating oral lichen planus by occupying heat shock protein 90 alpha
+49,10.1016/j.phrs.2019.04.025,31022523,True,,1.000,crossref+pubmed,Natural products in licorice for the therapy of liver diseases: Progress and future opportunities
+50,10.3389/fphar.2023.1074506,36755942,True,,1.000,crossref+pubmed,Anticancer effects of licochalcones: A review of the mechanisms
+51,10.1515/revneuro-2014-0058,25719303,True,,1.000,crossref+pubmed,Plant-derived natural medicines for the management of depression: an overview of mechanisms of action
+52,10.1016/j.phrs.2019.104520,31706012,True,,1.000,crossref+pubmed,Antidepressant active ingredients from herbs and nutraceuticals used in TCM: pharmacological mechanisms and prospects for drug discovery
+53,10.1007/s11938-017-0154-y,28918484,True,,1.000,crossref+pubmed,Drug-Herb Interactions in the Elderly Patient with IBD: a Growing Concern
+54,10.1186/s13287-025-04626-6,40999534,True,,1.000,crossref+pubmed,Glycyrrhizic acid combined with human adipose-derived MSCs synergistically alleviates the MPP+/MPTP-induced parkinson's disease by inducing autophagy through PI3K/AKT/HIF-1α pathway
