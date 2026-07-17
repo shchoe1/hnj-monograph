@@ -1,0 +1,67 @@
+﻿id,doi,pmid,verified,reason,title_sim,src,cited_title
+1,10.3390/ijms25115949,38892137,True,,1.000,crossref+pubmed,Unveiling the Chemical Composition and Biofunctionality of Hericium spp
+2,10.1093/bbb/zbaa072,33577664,True,,1.000,crossref+pubmed,Chemical studies on bioactive compounds related to higher fungi
+3,10.1111/1750-3841.71026,41906431,True,,1.000,crossref+pubmed,"Lion's Mane Mushroom: Nutritional Profile, Bioactive Compounds, Functional Properties, and Applications in Functional Food Systems"
+4,10.3390/ijms242115960,37958943,True,,1.000,crossref+pubmed,Neurotrophic and Neuroprotective Effects of Hericium erinaceus
+5,10.3390/ijms27083607,42074246,True,,1.000,crossref+pubmed,"Phytochemical and Fungal Bioactive Compounds in the ""Brain Health Triad"": A Narrative Review on Neurostimulating, Neurotrophic, and Neuroprotective Synergy"
+6,10.3390/nu17081307,40284172,True,,1.000,crossref+pubmed,"Lion's Mane Mushroom (Hericium erinaceus): A Neuroprotective Fungus with Antioxidant, Anti-Inflammatory, and Antimicrobial Potential-A Narrative Review"
+7,10.3390/ijms18081659,28758954,True,,1.000,crossref+pubmed,Chemical Constituents from Hericium erinaceus Promote Neuronal Survival and Potentiate Neurite Outgrowth via the TrkA/Erk1/2 Pathway
+8,10.1016/j.phrs.2020.104953,32485283,True,,1.000,crossref+pubmed,Erinacine A and related cyathane diterpenoids: Molecular diversity and mechanisms underlying their neuroprotection and anticancer activities
+9,10.1007/s11418-026-02005-w,41801298,True,,1.000,crossref+pubmed,Chemistry and bioactivities of erinacines from Hericium fungi
+10,10.3390/molecules31020219,41599268,True,,1.000,crossref+pubmed,"Recent Advances in Erinacine A: Preparation, Biological Activities, and Biosynthetic Pathway"
+11,10.3389/fphar.2025.1582081,40626304,True,,1.000,crossref+pubmed,Unveiling the role of erinacines in the neuroprotective effects of Hericium erinaceus: a systematic review in preclinical models
+12,10.3390/ijms27031269,41683696,True,,1.000,crossref+pubmed,Beyond Neurotrophins: A Proposed Neurotrophic-Epigenetic Axis Mediated by Non-Coding RNA Networks for Hericium erinaceus Bioactives-A Hypothesis-Driven Review
+13,10.1016/j.ijbiomac.2017.01.040,28087447,True,,1.000,crossref+pubmed,"Structures, biological activities, and industrial applications of the polysaccharides from Hericium erinaceus (Lion's Mane) mushroom: A review"
+14,10.1080/10408398.2018.1521370,30421988,True,,1.000,crossref+pubmed,"Recent developments in Hericium erinaceus polysaccharides: extraction, purification, structural characteristics and biological activities"
+15,10.1002/fsn3.71275,41306342,True,,1.000,crossref+pubmed,"Extraction, Structural Characterization and Biological Activities of Polysaccharides Derived From Hericium erinaceus"
+16,10.1152/physrev.00018.2018,31460832,True,,1.000,crossref+pubmed,The Microbiota-Gut-Brain Axis
+17,10.3390/molecules23123158,30513668,True,,1.000,crossref+pubmed,The Prebiotic Activity of Simulated Gastric and Intestinal Digesta of Polysaccharides from the Hericium erinaceus
+18,10.1016/j.carbpol.2021.117668,33838836,True,,1.000,crossref+pubmed,Value added immunoregulatory polysaccharides of Hericium erinaceus and their effect on the gut microbiota
+19,10.1016/j.ijbiomac.2025.144013,40339863,True,,1.000,crossref+pubmed,"Recent insights into Hericium erinaceus polysaccharides: Gastrointestinal, gut microbiota, microbial metabolites, overall health and structure-function correlation"
+20,10.1039/c7fo00071e,28266682,True,,1.000,crossref+pubmed,Immunomodulatory effects of Hericium erinaceus derived polysaccharides are mediated by intestinal immunology
+21,10.3390/molecules25122806,32570735,True,,1.000,crossref+pubmed,Effects of Rich in Β-Glucans Edible Mushrooms on Aging Gut Microbiota Characteristics: An In Vitro Study
+22,10.1021/acs.jafc.5c11565,41247222,True,,1.000,crossref+pubmed,Structural Characterization and Gastrointestinal Fate of a High-Molecular-Weight Hericium erinaceus Polysaccharide during Digestion and Fermentation
+23,10.1111/1750-3841.71071,42050921,True,,1.000,crossref+pubmed,Exploring the Prebiotic Effects of Composite Fungal Polysaccharides From Hericium erinaceus and Lyophyllum decastes on Gut Microbiota and Metabolism
+24,10.1016/j.jep.2025.119393,39848413,True,,1.000,crossref+pubmed,Biotransformation of Ganoderma lucidum and Hericium erinaceus for ex vivo gut-brain axis modulation and mood-related outcomes in humans: CREB/BDNF signaling and microbiota-driven synergies
+25,10.3390/nu17243867,41470813,True,,1.000,crossref+pubmed,Neuroprotective Effects of Mushroom Biomass Digestive Fractions and Gut Microbiota Metabolites in Microglial and Caenorhabditis elegans Models of Neurodegeneration
+26,10.1186/s12929-016-0266-z,27350344,True,,1.000,crossref+pubmed,Erinacine A-enriched Hericium erinaceus mycelium ameliorates Alzheimer's disease-related pathologies in APPswe/PS1dE9 transgenic mice
+27,10.3390/ijms19020598,29463001,True,,1.000,crossref+pubmed,The Cyanthin Diterpenoid and Sesterterpene Constituents of Hericium erinaceus Mycelium Ameliorate Alzheimer's Disease-Related Pathologies in APP/PS1 Transgenic Mice
+28,10.3390/nu13103659,34684662,True,,1.000,crossref+pubmed,Erinacine A-Enriched Hericium erinaceus Mycelium Delays Progression of Age-Related Cognitive Decline in Senescence Accelerated Mouse Prone 8 (SAMP8) Mice
+29,10.3390/nu11040715,30934760,True,,1.000,crossref+pubmed,Hericium erinaceus Improves Recognition Memory and Induces Hippocampal and Cerebellar Neurogenesis in Frail Mice during Aging
+30,10.1007/s12013-024-01400-y,38990419,True,,1.000,crossref+pubmed,Neuroprotective Effects of Dehydroepiandrosterone and Hericium erinaceus in Scopolamine-induced Alzheimer's Diseases-like Symptoms in Male Rats
+31,10.1111/cns.70137,39690860,True,,1.000,crossref+pubmed,Exploring the Synergistic Effects of Erinacines on Microglial Regulation and Alzheimer's Pathology Under Metabolic Stress
+32,10.3390/ijms19020341,29364170,True,,1.000,crossref+pubmed,Erinacine A-Enriched Hericium erinaceus Mycelium Produces Antidepressant-Like Effects through Modulating BDNF/PI3K/Akt/GSK-3β Signaling in Mice
+33,10.1089/jmf.2017.4006,29091526,True,,1.000,crossref+pubmed,Hericium erinaceus Extract Reduces Anxiety and Depressive Behaviors by Promoting Hippocampal Neurogenesis in the Adult Mouse Brain
+34,10.1016/j.biopha.2024.116297,38394854,True,,1.000,crossref+pubmed,"Erinacine S, a small active component derived from Hericium erinaceus, protects oligodendrocytes and alleviates mood abnormalities in cuprizone-exposed rodents"
+35,10.3390/antiox9020137,32033220,True,,1.000,crossref+pubmed,"Post-Treatment with Erinacine A, a Derived Diterpenoid of H"
+36,10.3390/biomedicines10102505,36289766,True,,1.000,crossref+pubmed,"Natural Compounds Such as Hericium erinaceus and Coriolus versicolor Modulate Neuroinflammation, Oxidative Stress and Lipoxin A4 Expression in Rotenone-Induced Parkinson's Disease in Mice"
+37,10.1016/j.lfs.2022.120833,35882273,True,,1.000,crossref+pubmed,Erinacine A attenuates glutamate transporter 1 downregulation and protects against ischemic brain injury
+38,10.3390/ijms23020810,35054997,True,,1.000,crossref+pubmed,Erinacine A Prevents Lipopolysaccharide-Mediated Glial Cell Activation to Protect Dopaminergic Neurons against Inflammatory Factor-Induced Cell Death In Vitro and In Vivo
+39,10.3390/molecules24183317,31547327,True,,1.000,crossref+pubmed,Anti-Inflammatory Effect of Erinacine C on NO Production Through Down-Regulation of NF-κB and Activation of Nrf2-Mediated HO-1 in BV2 Microglial Cells Treated with LPS
+40,10.2220/biomedres.40.125,31413233,True,,1.000,crossref+pubmed,Improvement of cognitive functions by oral intake of Hericium erinaceus
+41,10.3389/fnagi.2020.00155,32581767,True,,1.000,crossref+pubmed,Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study
+42,10.3389/fnut.2025.1405796,40276537,True,,1.000,crossref+pubmed,Acute effects of a standardised extract of Hericium erinaceus (Lion's Mane mushroom) on cognition and mood in healthy younger adults: a double-blind randomised placebo-controlled study
+43,10.3390/nu15245018,38140277,True,,1.000,crossref+pubmed,Acute Effects of Naturally Occurring Guayusa Tea and Nordic Lion's Mane Extracts on Cognitive Performance
+44,10.70252/XZKO8571,36582308,True,,1.000,crossref+pubmed,Four Weeks of Hericium erinaceus Supplementation Does Not Impact Markers of Metabolic Flexibility or Cognition
+45,10.1080/00207454.2022.2079506,35686376,True,,1.000,crossref+pubmed,"Effect of nutritional supports on malnutrition, cognition, function and biomarkers of Alzheimer's disease: a systematic review"
+46,10.3390/biology12020196,36829475,True,,1.000,crossref+pubmed,Cognitive Healthy Aging in Mice: Boosting Memory by an Ergothioneine-Rich Hericium erinaceus Primordium Extract
+47,10.1155/2019/7861297,31118969,True,,1.000,crossref+pubmed,Hericium erinaceus Improves Mood and Sleep Disorders in Patients Affected by Overweight or Obesity: Could Circulating Pro-BDNF and BDNF Be Potential Biomarkers? Evidence-Based Complementary and Alternative Medicine
+48,10.3390/nu15224842,38004235,True,,1.000,crossref+pubmed,"The Acute and Chronic Effects of Lion's Mane Mushroom Supplementation on Cognitive Function, Stress and Mood in Young Adults: A Double-Blind, Parallel Groups, Pilot Study"
+49,10.3390/ijms22126379,34203691,True,,1.000,crossref+pubmed,Neuroprotective Metabolites of Hericium erinaceus Promote Neuro-Healthy Aging
+50,10.3389/fnut.2025.1641246,40959699,True,,1.000,crossref+pubmed,"Benefits, side effects, and uses of Hericium erinaceus as a supplement: a systematic review"
+51,10.1016/j.neubiorev.2024.105548,38246232,True,,1.000,crossref+pubmed,A review of the effects of mushrooms on mood and neurocognitive health across the lifespan
+52,10.1080/27697061.2023.2244031,37561965,True,,1.000,crossref+pubmed,The Role of Dietary Ingredients in Mental Energy - A Scoping Review of Randomized Controlled Trials
+53,10.3390/ijms27104343,42196321,True,,1.000,crossref+pubmed,Natural Molecules for Brain Health and Resilience
+54,10.1155/2022/9973678,35126824,True,,1.000,crossref+pubmed,A Mixture of Ginkgo biloba L
+55,10.3389/fnint.2025.1745274,41695889,True,,1.000,crossref+pubmed,Kiperin Mind Focus supplement mitigates chronic stress-induced neuroinflammation and molecular dysregulation and improves stress-related affective and exploratory behaviors in rats
+56,10.3390/ijms21010163,31881712,True,,1.000,crossref+pubmed,Therapeutic Potential of Hericium erinaceus for Depressive Disorder
+57,10.3390/antiox9030234,32178272,True,,1.000,crossref+pubmed,"Potential Antidepressant Effects of Scutellaria baicalensis, Hericium erinaceus and Rhodiola rosea"
+58,10.3390/foods11101489,35627059,True,,1.000,crossref+pubmed,Edible Mushrooms as a Potential Component of Dietary Interventions for Major Depressive Disorder
+59,10.1002/mnfr.70080,40289452,True,,1.000,crossref+pubmed,Edible and Medicinal Fungi as Candidate Natural Antidepressants: Mechanisms and Nutritional Implications
+60,10.3390/biom11040543,33917843,True,,1.000,crossref+pubmed,Neuroprotective Herbs for the Management of Alzheimer's Disease
+61,10.3390/cells11152284,35892581,True,,1.000,crossref+pubmed,The Monkey Head Mushroom and Memory Enhancement in Alzheimer's Disease
+62,10.1016/j.jnutbio.2018.03.005,29677563,True,,1.000,crossref+pubmed,"Polysaccharide of Hericium erinaceus attenuates colitis in C57BL/6 mice via regulation of oxidative stress, inflammation-related signaling pathways and modulating the composition of the gut microbiota"
+63,10.3390/nu15030739,36771444,True,,1.000,crossref+pubmed,Low Weight Polysaccharide of Hericium erinaceus Ameliorates Colitis via Inhibiting the NLRP3 Inflammasome Activation in Association with Gut Microbiota Modulation
+64,10.3390/nu17040724,40005052,True,,1.000,crossref+pubmed,Alteration of Gastrointestinal Function and the Ameliorative Effects of Hericium erinaceus Polysaccharides in Tail Suspension Rats
+65,10.1021/acs.jafc.5c10515,41159373,True,,1.000,crossref+pubmed,Restoring Mitochondrial Function and Remodeling Gut Microbiota by Low-Molecular-Weight β-Glucan of Hericium erinaceus in Alcohol-Induced Gastrointestinal Injury
+66,10.1002/fsn3.71851,42125535,True,,1.000,crossref+pubmed,Hericium erinaceus Extracts Exert Gastroprotective Effects Through Modulation of the Gut Microbiota and Metabolites
