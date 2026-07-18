@@ -25,27 +25,22 @@
 %  폰트 — 기본값은 Overleaf 에서 바로 컴파일되도록 설정(Nanum + TeX Gyre)
 %  · 윈도우 로컬에서 컴파일한다면 아래 "윈도우" 블록으로 교체하세요.
 % =====================================================================
-% (기본: Overleaf)
+% 라틴만 지정. 한글/한자는 지정하지 않음 → kotex 기본 글꼴(un 계열)이
+% 자동 사용되며, 한자(漢字)·기호를 완전히 포함하므로 어떤 Overleaf/TeX Live
+% 에서도 한자가 확실히 표시된다.
 \setmainfont{TeX Gyre Termes}          % 라틴 본문 세리프(Times 계열)
 \setsansfont{TeX Gyre Heros}           % 라틴 산세리프(Helvetica 계열)
-\setmainhangulfont{NanumMyeongjo}      % 한글 본문 — 명조
-\setsanshangulfont{NanumGothic}        % 한글 제목/표지 — 고딕
-\setmainhanjafont{NanumMyeongjo}       % ★ 한자(漢字) 본문 — 없으면 한자가 안 보임
-\setsanshanjafont{NanumGothic}         % ★ 한자 제목/표지
 
-% (윈도우 로컬용 — 위 6줄을 주석 처리하고 아래를 사용)
-% \setmainfont{Times New Roman}
-% \setsansfont{Arial}
-% \setmainhangulfont{Batang}           % 바탕(명조)
-% \setsanshangulfont{Malgun Gothic}    % 맑은 고딕
-% \setmainhanjafont{Batang}            % 한자 — 바탕
-% \setsanshanjafont{Malgun Gothic}     % 한자 — 맑은 고딕
-
-% (만약 위 Nanum 설정으로도 한자가 안 보이면 → 아래 Noto 로 교체: 한자 완전 지원)
-% \setmainhangulfont{Noto Serif CJK KR}
-% \setsanshangulfont{Noto Sans CJK KR}
-% \setmainhanjafont{Noto Serif CJK KR}
-% \setsanshanjafont{Noto Sans CJK KR}
+% (원하는 한글 글꼴이 설치돼 있으면 아래 중 하나만 주석 해제)
+%   Noto(품질 최상·한자완전):
+% \setmainhangulfont{Noto Serif CJK KR}\setsanshangulfont{Noto Sans CJK KR}
+% \setmainhanjafont{Noto Serif CJK KR}\setsanshanjafont{Noto Sans CJK KR}
+%   나눔(한자 포함본일 때):
+% \setmainhangulfont{NanumMyeongjo}\setsanshangulfont{NanumGothic}
+% \setmainhanjafont{NanumMyeongjo}\setsanshanjafont{NanumGothic}
+%   윈도우 로컬:
+% \setmainhangulfont{Batang}\setsanshangulfont{Malgun Gothic}
+% \setmainhanjafont{Batang}\setsanshanjafont{Malgun Gothic}
 
 % =====================================================================
 %  팔레트 — 청자(靑瓷) 정체성

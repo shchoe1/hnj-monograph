@@ -20,19 +20,22 @@
 \usepackage{fancyhdr}
 \usepackage[unicode,hidelinks]{hyperref}
 
-% ---- 폰트 (Overleaf 기본: Nanum + 한자). 다른 환경은 주석 참고 ----
-\setmainfont{TeX Gyre Termes}
-\setsansfont{TeX Gyre Heros}
-\setmainhangulfont{NanumMyeongjo}
-\setsanshangulfont{NanumGothic}
-\setmainhanjafont{NanumMyeongjo}
-\setsanshanjafont{NanumGothic}
-% 윈도우 로컬: 위를 주석하고
-% \setmainhangulfont{Batang}\setsanshangulfont{Malgun Gothic}
-% \setmainhanjafont{Batang}\setsanshanjafont{Malgun Gothic}
-% 한자/기호가 비면 Noto 로 교체(완전지원):
+% ---- 폰트 ----
+% 라틴만 지정. 한글/한자는 지정하지 않음 → kotex 기본 글꼴(un 계열)이
+% 자동 사용되며, 이 글꼴은 한자(漢字)·기호를 완전히 포함하므로 어떤
+% Overleaf/TeX Live 에서도 한자가 확실히 표시된다.
+\setmainfont{TeX Gyre Termes}   % 라틴 본문
+\setsansfont{TeX Gyre Heros}    % 라틴 제목/표지
+% (원하는 한글 글꼴이 설치돼 있으면 아래 중 하나만 주석 해제)
+%   Noto(품질 최상·한자완전):
 % \setmainhangulfont{Noto Serif CJK KR}\setsanshangulfont{Noto Sans CJK KR}
 % \setmainhanjafont{Noto Serif CJK KR}\setsanshanjafont{Noto Sans CJK KR}
+%   나눔(한자 포함본일 때):
+% \setmainhangulfont{NanumMyeongjo}\setsanshangulfont{NanumGothic}
+% \setmainhanjafont{NanumMyeongjo}\setsanshanjafont{NanumGothic}
+%   윈도우 로컬:
+% \setmainhangulfont{Batang}\setsanshangulfont{Malgun Gothic}
+% \setmainhanjafont{Batang}\setsanshanjafont{Malgun Gothic}
 
 \definecolor{ink}{HTML}{1B2320}
 \definecolor{celadon}{HTML}{2F6F5E}
