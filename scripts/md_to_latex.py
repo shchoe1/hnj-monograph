@@ -111,6 +111,33 @@ def table(rows):
     return '\n'.join(out)
 
 
+def render_list(entries):
+    # entries: [(indent, 'ol'|'ul', inline_text)] -> 중첩 enumerate/itemize
+    out, stack = [], []
+
+    def _open(kind):
+        out.append(r'\begin{%s}[leftmargin=6mm,itemsep=1pt,topsep=2pt]'
+                   % ('enumerate' if kind == 'ol' else 'itemize'))
+
+    def _close(kind):
+        out.append(r'\end{%s}' % ('enumerate' if kind == 'ol' else 'itemize'))
+
+    for indent, kind, text in entries:
+        while stack and indent < stack[-1][0]:
+            _close(stack.pop()[1])
+        if not stack or indent > stack[-1][0]:
+            _open(kind)
+            stack.append((indent, kind))
+        elif kind != stack[-1][1]:
+            _close(stack.pop()[1])
+            _open(kind)
+            stack.append((indent, kind))
+        out.append(r'  \item %s' % text)
+    while stack:
+        _close(stack.pop()[1])
+    return '\n'.join(out)
+
+
 def chapter_head(title, kind):
     ti = inline(title)
     if kind == 'chapter':
@@ -212,28 +239,15 @@ def render(path, kind):
             blocks.append(r'\begin{authnote}%s\end{authnote}' % txt)
             continue
 
-        # 번호 목록
-        if re.match(r'^\d+\.\s+', s):
-            items = []
-            while i < n and re.match(r'^\s*\d+\.\s+', body[i]):
-                items.append(re.sub(r'^\s*\d+\.\s+', '', body[i]).strip())
+        # 목록(번호·불릿, 들여쓰기 중첩 지원)
+        if re.match(r'^\s*(?:[-*]|\d+\.)\s+', line) and not is_trow(line):
+            entries = []
+            while i < n and re.match(r'^\s*(?:[-*]|\d+\.)\s+', body[i]) and not is_trow(body[i]):
+                m = re.match(r'^(\s*)([-*]|\d+\.)\s+(.*)$', body[i])
+                kind = 'ol' if m.group(2).endswith('.') else 'ul'
+                entries.append((len(m.group(1)), kind, inline(m.group(3).strip())))
                 i += 1
-            out = [r'\begin{enumerate}[leftmargin=6mm,itemsep=1pt,topsep=2pt]']
-            out += [r'  \item %s' % inline(x) for x in items]
-            out.append(r'\end{enumerate}')
-            blocks.append('\n'.join(out))
-            continue
-
-        # 불릿 목록
-        if re.match(r'^[-*]\s+', s):
-            items = []
-            while i < n and re.match(r'^\s*[-*]\s+', body[i]) and not is_trow(body[i]):
-                items.append(re.sub(r'^\s*[-*]\s+', '', body[i]).strip())
-                i += 1
-            out = [r'\begin{itemize}[leftmargin=6mm,itemsep=1pt,topsep=2pt]']
-            out += [r'  \item %s' % inline(x) for x in items]
-            out.append(r'\end{itemize}')
-            blocks.append('\n'.join(out))
+            blocks.append(render_list(entries))
             continue
 
         # 일반 문단
