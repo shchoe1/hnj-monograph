@@ -50,3 +50,25 @@
 ## 참고
 - 폰트 기본값은 Nanum(+한자). 한자·기호(→ ★ ① 등)가 비면 `.tex` 상단 폰트 블록을 **Noto CJK**(주석 제공)로 교체.
 - 양면 인쇄용 판짜기를 원하면 `\documentclass[11pt,oneside]{book}` 의 `oneside`를 `twoside`로 변경.
+
+---
+
+# 단행본 전체 · 윤문본 v1 (신국판 152 × 225 mm)
+
+`himnoejang-book-v1.tex` — 최성화 스타일(sunghwa-scistyle)로 윤문한 **v1 원고** 전체(서문 + 15장 + 부록 A·B)를 담은 단행본 조판. `scripts/md_to_latex.py`가 v1 마크다운에서 자동 생성한다.
+
+- **판형:** 신국판 **152 × 225 mm** (46배판 대비 소형 단행본)
+- **엔진:** **XeLaTeX 필수** (book class · kotex)
+- **구성:** 표지 → 서문 → 목차 → 제1~15장(각 참고문헌 826편) → 부록 A·B
+- **오버플로 점검 완료:** tectonic(XeTeX) 컴파일 결과 Overfull \hbox **0건** — 좁은 판폭에 맞춰 여백 재계산, 긴 URL·맨눈 도메인 `\url` 줄바꿈, 표지 글자 크기 축소, `emergencystretch` 여유 적용.
+
+## Overleaf 업로드용 zip
+`himnoejang-book-v1-overleaf.zip` (himnoejang-book-v1.tex + latexmkrc)
+1. Overleaf → **New Project → Upload Project** → 이 zip 선택
+2. **Menu → Compiler → XeLaTeX** (반드시 변경)
+3. **Recompile** — 목차 쪽번호 자동 확정
+
+## 재생성
+```
+python scripts/md_to_latex.py     # chapters/ch*-v1.md + appendices → latex/himnoejang-book-v1.tex
+```

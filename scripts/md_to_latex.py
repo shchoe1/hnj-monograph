@@ -65,13 +65,28 @@ def esc(t):
     return t.replace('~', r'\textasciitilde{}').replace('^', r'\textasciicircum{}')
 
 
+# 맨눈 호스트명(http 없이 쓴 도메인): 좁은 판폭·표 칸에서 줄바꿈되도록 \url 처리
+BAREHOST = re.compile(
+    r'(?<![\w./@-])((?:[A-Za-z0-9-]+\.)+(?:kr|com|org|net|gov|edu|int))(/[^\s)>\]]*)?')
+
+
 def inline(t):
     t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)              # [text](url)->text
-    t = re.sub(r'<((?:https?://|mailto:)[^>]+)>', r'\1', t)     # <url>->url
+    # URL·코드·도메인을 먼저 치환·보관(escape/강조 처리에서 보호), 마지막에 복원
+    stash = []
+
+    def put(s):
+        stash.append(s)
+        return '\x00%d\x00' % (len(stash) - 1)
+
+    t = re.sub(r'`([^`]+?)`', lambda m: put(r'\texttt{%s}' % esc(m.group(1))), t)   # `코드`
+    t = re.sub(r'<((?:https?://|mailto:)[^>]+)>', lambda m: put(r'\url{%s}' % m.group(1)), t)
+    t = re.sub(r'(?<![\w])(https?://[^\s<>()\[\]]+)', lambda m: put(r'\url{%s}' % m.group(1)), t)
+    t = BAREHOST.sub(lambda m: put(r'\url{%s}' % m.group(0)), t)                    # 맨눈 도메인
     t = esc(t)
     t = re.sub(r'\*\*(.+?)\*\*', r'\\textbf{\1}', t)
     t = re.sub(r'(?<!\*)\*([^*]+?)\*(?!\*)', r'\\textit{\1}', t)
-    t = re.sub(r'`([^`]+?)`', r'\\texttt{\1}', t)
+    t = re.sub(r'\x00(\d+)\x00', lambda m: stash[int(m.group(1))], t)
     return t
 
 
@@ -257,9 +272,42 @@ def render(path, kind):
     return '\n\n'.join(blocks)
 
 
+def transform_head(head):
+    """기존 preamble/표지를 신국판(152×225mm)으로 바꾸고 오버플로 방지 설정을 주입."""
+    # 1) 판형: 46배판(188×257) -> 신국판(152×225) + 여백 재계산
+    head = re.sub(
+        r'\\usepackage\[paperwidth=188mm,paperheight=257mm,.*?heightrounded\]\{geometry\}',
+        (r'\\usepackage[paperwidth=152mm,paperheight=225mm,' + '\n'
+         r'  top=20mm,bottom=20mm,inner=19mm,outer=15mm,headsep=6mm,footskip=11mm,' + '\n'
+         r'  heightrounded]{geometry}'),
+        head, flags=re.S)
+
+    # 2) 오버플로 방지: URL 줄바꿈(xurl) + 라인브레이크 여유
+    head = head.replace(
+        r'\usepackage[unicode,hidelinks]{hyperref}',
+        r'\usepackage[unicode,hidelinks]{hyperref}' + '\n'
+        r'\usepackage{xurl}                 % 긴 URL 을 어디서든 줄바꿈(신국판 좁은 판폭)' + '\n'
+        r'\tolerance=3000 \emergencystretch=4em \hbadness=10000  % 줄 넘침 방지 여유')
+
+    # 2b) 주석(authnote) 우여백 축소 — 좁은 판폭에서 붙은 토큰 오버플로 방지
+    head = head.replace(r'\leftskip=7mm\rightskip=5mm\small\color{muted}',
+                        r'\leftskip=6mm\rightskip=3mm\small\color{muted}')
+
+    # 3) 표지 글자 크기 축소(좁아진 판폭에 맞춤)
+    head = head.replace(r'\fontsize{86}{92}\selectfont 힘뇌장',
+                        r'\fontsize{60}{66}\selectfont 힘뇌장')
+    head = head.replace(r'{\sffamily\LARGE\color{celadondk}\addfontfeature{LetterSpace=26} HIMNOEJANG}',
+                        r'{\sffamily\Large\color{celadondk}\addfontfeature{LetterSpace=14} HIMNOEJANG}')
+    head = head.replace(r'{\large\color{ink} 전통과 현대를 잇는 장-뇌 설계 — 열두 원료, 하나의 계(系)}',
+                        r'{\normalsize\color{ink} 전통과 현대를 잇는 장-뇌 설계 — 열두 원료, 하나의 계(系)}')
+    head = head.replace(r'\addfontfeature{LetterSpace=18} GUT–BRAIN AXIS MONOGRAPH',
+                        r'\addfontfeature{LetterSpace=10} GUT–BRAIN AXIS MONOGRAPH')
+    return head
+
+
 def main():
     tex = open(BASE_TEX, encoding='utf-8').read()
-    head = tex[:tex.index('%% ===== 서문 =====')]
+    head = transform_head(tex[:tex.index('%% ===== 서문 =====')])
     tail = tex[tex.index('\\backmatter'):]
 
     parts = [head.rstrip() + '\n\n', '%% ===== 서문 =====\n\n']
