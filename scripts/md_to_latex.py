@@ -112,7 +112,7 @@ def cells(line):
 def table(rows):
     ncol = max(len(r) for r in rows)
     spec = r'@{}*{%d}{>{\raggedright\arraybackslash}X}@{}' % ncol
-    out = [r'\vspace{2pt}\noindent{\footnotesize\begin{tabularx}{\linewidth}{%s}' % spec, r'\toprule']
+    out = [r'\vspace{2pt}\noindent{\scriptsize\begin{tabularx}{\linewidth}{%s}' % spec, r'\toprule']
     for i, r in enumerate(rows):
         r = r + [''] * (ncol - len(r))
         conv = [inline(c) for c in r]
@@ -292,6 +292,17 @@ def transform_head(head):
     # 2b) 주석(authnote) 우여백 축소 — 좁은 판폭에서 붙은 토큰 오버플로 방지
     head = head.replace(r'\leftskip=7mm\rightskip=5mm\small\color{muted}',
                         r'\leftskip=6mm\rightskip=3mm\small\color{muted}')
+
+    # 3b) 가독성: 본문 폰트 확대(11→12pt) + 줄간격 확대(1.22→1.38)
+    head = head.replace(r'\documentclass[11pt,oneside]{book}',
+                        r'\documentclass[12pt,oneside]{book}')
+    head = head.replace(r'\linespread{1.22}', r'\linespread{1.38}')
+
+    # 3c) 참고문헌: 본문보다 더 작은 폰트 + 촘촘한 줄간격(footnotesize→8.5pt, 줄간격 tight)
+    head = head.replace(
+        r'\newcommand{\refstart}{\par\begingroup\footnotesize\setlength{\parskip}{2.5pt}\raggedright}',
+        r'\newcommand{\refstart}{\par\begingroup\fontsize{8.5pt}{10.2pt}\selectfont'
+        r'\setlength{\parskip}{1.4pt}\raggedright}')
 
     # 3) 표지 글자 크기 축소(좁아진 판폭에 맞춤)
     head = head.replace(r'\fontsize{86}{92}\selectfont 힘뇌장',
