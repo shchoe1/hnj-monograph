@@ -29,3 +29,24 @@
 
 ## 산출물
 `himnoejang-cover-preface.pdf` — 표지 1면 + 서문 2~3면 (신국판)
+
+---
+
+# 단행본 전체 (46배판 188 × 257 mm)
+
+`himnoejang-book.tex` — **표지 + 서문 + 목차 + 15장 전체**를 담은 단행본 조판.
+
+- **판형:** 46배판 **188 × 257 mm**
+- **엔진:** **XeLaTeX 필수** (book class · kotex)
+- **구성:** 표지 → 서문 → **목차(자동 · 장·절 시작 쪽번호 포함)** → 제1~15장(각 참고문헌 포함)
+- **목차 쪽번호:** `\tableofcontents`로 자동 생성 — latexmk가 여러 번 컴파일하며 쪽번호를 확정(Overleaf는 자동)
+
+## Overleaf 업로드용 zip
+`himnoejang-book-overleaf.zip` (himnoejang-book.tex + latexmkrc)
+1. Overleaf → **New Project → Upload Project** → 이 zip 선택
+2. **Menu → Compiler → XeLaTeX** (새 프로젝트는 기본 pdfLaTeX이므로 반드시 변경)
+3. **Recompile** — 목차 쪽번호가 자동으로 채워짐(2~3회 자동 재실행)
+
+## 참고
+- 폰트 기본값은 Nanum(+한자). 한자·기호(→ ★ ① 등)가 비면 `.tex` 상단 폰트 블록을 **Noto CJK**(주석 제공)로 교체.
+- 양면 인쇄용 판짜기를 원하면 `\documentclass[11pt,oneside]{book}` 의 `oneside`를 `twoside`로 변경.
